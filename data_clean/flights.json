@@ -1,0 +1,3942 @@
+var flights_data = `{
+    "38OI": {
+        "EDDF": 1
+    },
+    "AL72": {
+        "ETAR": 1
+    },
+    "BIKF": {
+        "CYUL": 1,
+        "CYYZ": 1,
+        "EBLG": 11,
+        "EDDK": 1,
+        "EDDM": 6,
+        "EDDN": 5,
+        "EDDP": 1,
+        "EGBB": 3,
+        "EGFF": 1,
+        "EGLL": 5,
+        "EGNX": 9,
+        "EGSS": 1,
+        "EIDW": 9,
+        "EKYT": 2,
+        "ESSA": 2,
+        "KBOS": 8,
+        "KIAD": 1,
+        "KORD": 1,
+        "KSCH": 1,
+        "LEBL": 1,
+        "LFPG": 1,
+        "LOWW": 1,
+        "UUWW": 1
+    },
+    "BIMS": {
+        "BIRK": 1
+    },
+    "BIRK": {
+        "BIRK": 5,
+        "BISS": 1,
+        "EGPD": 2,
+        "LSZH": 2
+    },
+    "CYHM": {
+        "EDDK": 1
+    },
+    "CYMX": {
+        "EBBR": 1
+    },
+    "CYUL": {
+        "EDDF": 5,
+        "EGLL": 2,
+        "LFPG": 9
+    },
+    "CYVR": {
+        "EGLL": 3
+    },
+    "CYYC": {
+        "EIDW": 2,
+        "ELLX": 2
+    },
+    "CYYZ": {
+        "EDDF": 14,
+        "EGLL": 14,
+        "EHAM": 4,
+        "EKCH": 1,
+        "LPAZ": 1,
+        "LPPT": 1,
+        "LSZH": 1
+    },
+    "DAAG": {
+        "LFML": 1,
+        "LFPG": 3,
+        "LGIR": 1,
+        "LIMC": 1
+    },
+    "EBAW": {
+        "EBAW": 1,
+        "EBCI": 1,
+        "EDDV": 1,
+        "EDGS": 1,
+        "EGBB": 1,
+        "EHRD": 2,
+        "ESSB": 1,
+        "LKPR": 2,
+        "LOWW": 2,
+        "LSGG": 1
+    },
+    "EBBR": {
+        "EBBR": 5,
+        "EBKT": 2,
+        "EBLG": 1,
+        "EDDF": 26,
+        "EDDK": 3,
+        "EDDP": 41,
+        "EDLN": 1,
+        "EFHK": 4,
+        "EGBB": 1,
+        "EGGW": 3,
+        "EGKB": 1,
+        "EGLF": 1,
+        "EGLL": 4,
+        "EGNX": 15,
+        "EGPH": 1,
+        "EGSS": 1,
+        "EHAM": 9,
+        "EHRD": 2,
+        "EIDW": 4,
+        "EKCH": 7,
+        "ENGM": 2,
+        "GMMN": 1,
+        "KCVG": 11,
+        "KDFW": 2,
+        "KIAD": 5,
+        "KIAH": 1,
+        "KJFK": 3,
+        "KLAX": 2,
+        "KMIA": 3,
+        "KORD": 4,
+        "LEBL": 4,
+        "LEMD": 7,
+        "LEVC": 1,
+        "LFBD": 3,
+        "LFBO": 5,
+        "LFML": 2,
+        "LFPB": 1,
+        "LFPG": 5,
+        "LGAV": 2,
+        "LGIR": 1,
+        "LHBP": 2,
+        "LIMC": 6,
+        "LIME": 1,
+        "LIRF": 13,
+        "LLBG": 1,
+        "LOWL": 3,
+        "LOWW": 2,
+        "LPPR": 3,
+        "LROP": 1,
+        "LSGG": 1,
+        "LSZM": 4,
+        "LTBA": 3,
+        "LZIB": 1,
+        "OBBI": 1,
+        "OMDB": 7,
+        "OMDW": 1,
+        "OTHH": 12,
+        "RJBB": 1,
+        "RKSI": 2,
+        "SBGR": 1,
+        "VHHH": 1,
+        "VIDP": 2,
+        "ZGSZ": 1
+    },
+    "EBCI": {
+        "EBCI": 12,
+        "EHAM": 1,
+        "LEMG": 2
+    },
+    "EBKT": {
+        "EBKT": 7,
+        "LEMG": 2,
+        "LRBS": 2,
+        "LSZH": 2
+    },
+    "EBLG": {
+        "EBLG": 1,
+        "EBOS": 1,
+        "EDDB": 8,
+        "EDDK": 4,
+        "EDDM": 9,
+        "EDDN": 8,
+        "EDDV": 10,
+        "EDEG": 1,
+        "EETN": 1,
+        "EFHK": 3,
+        "EFTU": 1,
+        "EGCN": 1,
+        "EGGP": 1,
+        "EGNH": 1,
+        "EGNX": 19,
+        "EGPH": 1,
+        "EGSS": 8,
+        "EHAM": 3,
+        "EIDW": 9,
+        "EKBI": 1,
+        "ENGM": 5,
+        "EPKT": 2,
+        "EPWA": 9,
+        "ESGG": 7,
+        "ESMS": 8,
+        "ESSA": 9,
+        "FABA": 1,
+        "FAOR": 2,
+        "KATL": 2,
+        "KDOV": 2,
+        "KIAH": 3,
+        "KJFK": 11,
+        "KLAX": 3,
+        "KMIA": 3,
+        "KORD": 1,
+        "LEBL": 10,
+        "LEMD": 9,
+        "LETO": 1,
+        "LFBO": 3,
+        "LFML": 1,
+        "LFNR": 5,
+        "LFPG": 8,
+        "LHBP": 3,
+        "LIMC": 11,
+        "LIPE": 1,
+        "LIRA": 3,
+        "LKPR": 7,
+        "LKTB": 1,
+        "LLBG": 10,
+        "LMML": 1,
+        "LOWW": 9,
+        "LPPR": 9,
+        "LROP": 9,
+        "LSGG": 1,
+        "LSZM": 5,
+        "LTBA": 1,
+        "OEDF": 1,
+        "OERK": 3,
+        "OMDW": 1,
+        "OTHH": 10,
+        "RKSI": 1,
+        "SBGR": 2,
+        "SKBO": 2,
+        "UNNT": 4,
+        "UUEE": 2,
+        "VABB": 2,
+        "VHHH": 8,
+        "WSSS": 1,
+        "ZGGG": 1
+    },
+    "EBMB": {
+        "EDDP": 3,
+        "EDDT": 1,
+        "EDDV": 1,
+        "EGNX": 2,
+        "EHAM": 4,
+        "EIDW": 2,
+        "LEBL": 1,
+        "LHBP": 1,
+        "LIRF": 1,
+        "LPPT": 1
+    },
+    "EBOS": {
+        "EBOS": 3,
+        "EDFH": 1,
+        "EGMC": 1,
+        "EGSH": 1,
+        "EHBK": 1,
+        "EHMZ": 5,
+        "KDFW": 3,
+        "KDOV": 3,
+        "KIAH": 1,
+        "KLAX": 1,
+        "LFQQ": 2,
+        "LIMC": 2,
+        "LOWW": 2,
+        "LPPR": 1,
+        "LRBS": 1,
+        "OTHH": 1,
+        "UKBB": 1,
+        "VABB": 1,
+        "VHHH": 1,
+        "VTBS": 1
+    },
+    "EDAC": {
+        "EDAC": 4,
+        "EDBM": 2,
+        "EDDV": 2,
+        "EDOB": 1,
+        "EDVY": 1
+    },
+    "EDAK": {
+        "EDBM": 1
+    },
+    "EDAQ": {
+        "EDBM": 1,
+        "EDDV": 1,
+        "EDVK": 1
+    },
+    "EDAR": {
+        "EDDC": 2
+    },
+    "EDAS": {
+        "EDDC": 2
+    },
+    "EDAU": {
+        "EDDC": 2
+    },
+    "EDAV": {
+        "EDDG": 1,
+        "EDDN": 1
+    },
+    "EDAZ": {
+        "EDDT": 1,
+        "EDDV": 1,
+        "EDDW": 1,
+        "EDMO": 1,
+        "EDVK": 1,
+        "EGKB": 1
+    },
+    "EDBE": {
+        "EDBM": 1
+    },
+    "EDBF": {
+        "EDBN": 1
+    },
+    "EDBJ": {
+        "EDVK": 1
+    },
+    "EDBL": {
+        "EDBM": 1
+    },
+    "EDBM": {
+        "EDBM": 6,
+        "EDCK": 1,
+        "EDDN": 2,
+        "EDOI": 1,
+        "EDOV": 1,
+        "EDUZ": 1,
+        "EDVU": 1,
+        "EGNT": 1
+    },
+    "EDBN": {
+        "ETHC": 1
+    },
+    "EDBS": {
+        "EDDE": 1
+    },
+    "EDBW": {
+        "EDCD": 1
+    },
+    "EDBZ": {
+        "EDDC": 1
+    },
+    "EDCD": {
+        "EDDC": 1
+    },
+    "EDCM": {
+        "EDLW": 1
+    },
+    "EDDB": {
+        "EDDB": 12,
+        "EDDF": 1,
+        "EDDG": 3,
+        "EDDH": 1,
+        "EDDK": 20,
+        "EDDL": 1,
+        "EDDM": 4,
+        "EDDN": 4,
+        "EDFH": 2,
+        "EDFM": 1,
+        "EDGB": 1,
+        "EDMO": 1,
+        "EDRY": 1,
+        "EDVE": 2,
+        "EDXF": 1,
+        "EETN": 5,
+        "EGGD": 1,
+        "EGGW": 1,
+        "EGKB": 2,
+        "EGSS": 11,
+        "EHAM": 2,
+        "EIDW": 6,
+        "EKCH": 1,
+        "EVRA": 1,
+        "LFBD": 5,
+        "LFPG": 4,
+        "LFPO": 4,
+        "LIME": 4,
+        "LKPR": 1,
+        "LSZH": 3,
+        "LZIB": 1,
+        "OMDW": 1,
+        "UDYZ": 1,
+        "UMMS": 6,
+        "UUEE": 1,
+        "UUWW": 3
+    },
+    "EDDC": {
+        "EDDC": 1,
+        "EDDN": 1,
+        "EDDR": 1,
+        "EDDS": 1,
+        "EDFE": 3,
+        "EDLN": 1,
+        "EDMV": 1,
+        "EDNY": 1,
+        "EDOH": 1,
+        "EDSB": 1,
+        "EDTD": 1,
+        "EDWF": 1,
+        "LEMG": 1,
+        "LIPE": 1,
+        "LKPR": 2
+    },
+    "EDDE": {
+        "EDDK": 2,
+        "EYVI": 1,
+        "UUEE": 1
+    },
+    "EDDF": {
+        "EDDF": 9,
+        "EDDH": 41,
+        "EDDL": 3,
+        "EDDM": 46,
+        "EDDN": 1,
+        "EDDP": 24,
+        "EDDS": 1,
+        "EDDT": 40,
+        "EDDV": 1,
+        "EDDW": 2,
+        "EDFE": 1,
+        "EDFH": 2,
+        "EETN": 6,
+        "EFHK": 22,
+        "EGCN": 2,
+        "EGGW": 1,
+        "EGLF": 1,
+        "EGLL": 43,
+        "EGNX": 1,
+        "EGPK": 1,
+        "EGSS": 7,
+        "EHAM": 39,
+        "EHBK": 2,
+        "EIDW": 2,
+        "EIME": 1,
+        "EKCH": 26,
+        "ELLX": 1,
+        "ENGM": 14,
+        "ENZV": 1,
+        "EPWA": 1,
+        "ESSA": 26,
+        "EVRA": 1,
+        "GOBD": 5,
+        "KATL": 8,
+        "KDFW": 6,
+        "KEWR": 12,
+        "KIAD": 2,
+        "KIAH": 6,
+        "KLAX": 11,
+        "KMTN": 1,
+        "KORD": 30,
+        "KSFO": 3,
+        "LDZA": 19,
+        "LEBL": 14,
+        "LEMD": 12,
+        "LEMG": 1,
+        "LEPA": 2,
+        "LETO": 2,
+        "LFBD": 1,
+        "LFLY": 1,
+        "LFPB": 2,
+        "LFPG": 31,
+        "LFRS": 2,
+        "LHBP": 2,
+        "LHKE": 1,
+        "LIMC": 33,
+        "LIPZ": 1,
+        "LIRF": 27,
+        "LKPR": 1,
+        "LLBG": 3,
+        "LMML": 9,
+        "LOWW": 37,
+        "LPPT": 14,
+        "LSGG": 14,
+        "LSZH": 27,
+        "LTAC": 1,
+        "LTBA": 10,
+        "OBBI": 1,
+        "OERK": 3,
+        "OMAA": 3,
+        "OMDB": 16,
+        "OMDW": 1,
+        "OTHH": 24,
+        "RCTP": 11,
+        "RJGG": 1,
+        "RJTT": 1,
+        "RKSI": 36,
+        "SBGR": 3,
+        "UAAA": 18,
+        "UKBB": 2,
+        "ULLI": 1,
+        "UMMS": 5,
+        "UNNT": 2,
+        "UUDD": 2,
+        "UUEE": 29,
+        "UUWW": 6,
+        "VHHH": 14,
+        "VIDP": 2,
+        "VTBS": 5,
+        "WSSS": 5,
+        "ZGGG": 2,
+        "ZUCK": 1
+    },
+    "EDDG": {
+        "EDDG": 9,
+        "EDDL": 2,
+        "EDDM": 1,
+        "EDDN": 1,
+        "EDDR": 2,
+        "EDDS": 2,
+        "EDFM": 1,
+        "EDFZ": 1,
+        "EDGS": 2,
+        "EDHD": 2,
+        "EDLB": 3,
+        "EDLM": 3,
+        "EDLW": 2,
+        "EDMA": 4,
+        "EDME": 1,
+        "EDXQ": 1,
+        "EGGP": 2,
+        "EGNX": 1,
+        "EHAM": 1,
+        "EHGG": 3,
+        "LEPA": 1,
+        "LHPR": 1
+    },
+    "EDDH": {
+        "EDDH": 2,
+        "EDDK": 12,
+        "EDDL": 11,
+        "EDDM": 26,
+        "EDDN": 2,
+        "EDDP": 2,
+        "EDDS": 8,
+        "EDDV": 3,
+        "EDFE": 4,
+        "EDLE": 1,
+        "EDLN": 4,
+        "EDSN": 1,
+        "EDTD": 1,
+        "EDVE": 4,
+        "EDVM": 1,
+        "EDVY": 1,
+        "EDWQ": 1,
+        "EDXJ": 1,
+        "EDXW": 2,
+        "EGKB": 1,
+        "EGPH": 1,
+        "EGTK": 1,
+        "EHAM": 4,
+        "EHRD": 2,
+        "EKCH": 1,
+        "ENBR": 3,
+        "EPKT": 1,
+        "ESSA": 1,
+        "ESSB": 2,
+        "ETND": 1,
+        "LFPB": 1,
+        "LJLJ": 2,
+        "LPPD": 1,
+        "LROP": 1,
+        "LSGG": 1,
+        "LSZH": 4,
+        "UUWW": 1
+    },
+    "EDDK": {
+        "EDDK": 8,
+        "EDDL": 1,
+        "EDDM": 29,
+        "EDDN": 2,
+        "EDDP": 26,
+        "EDDT": 12,
+        "EDDV": 1,
+        "EDDW": 1,
+        "EDFH": 1,
+        "EDJA": 1,
+        "EDKB": 1,
+        "EDLN": 1,
+        "EDMO": 1,
+        "EDSB": 1,
+        "EGFF": 1,
+        "EGGW": 2,
+        "EGLL": 1,
+        "EGMC": 1,
+        "EGNH": 1,
+        "EGNX": 48,
+        "EGSS": 9,
+        "EHBK": 1,
+        "EIDW": 13,
+        "EKCH": 7,
+        "EPKT": 9,
+        "EPPO": 1,
+        "EPWA": 9,
+        "ESMS": 9,
+        "ESSA": 9,
+        "ESSB": 1,
+        "ETHB": 1,
+        "ETHL": 1,
+        "ETNL": 1,
+        "FABA": 1,
+        "FACT": 1,
+        "KPHL": 6,
+        "KSDF": 6,
+        "LDZA": 5,
+        "LEBL": 9,
+        "LEMD": 14,
+        "LETO": 3,
+        "LFBD": 1,
+        "LFBO": 2,
+        "LFHC": 1,
+        "LFML": 2,
+        "LFPG": 45,
+        "LFST": 1,
+        "LIMC": 11,
+        "LIME": 13,
+        "LIML": 2,
+        "LIPZ": 13,
+        "LJLJ": 6,
+        "LKPD": 1,
+        "LKPR": 9,
+        "LLBG": 4,
+        "LMML": 4,
+        "LOWW": 9,
+        "LPPR": 9,
+        "LRBS": 1,
+        "LSZM": 5,
+        "LSZR": 1,
+        "LTBA": 2,
+        "OMDB": 12,
+        "OMSJ": 1,
+        "PANC": 4,
+        "RJBB": 6,
+        "RKSI": 3,
+        "UUWW": 8,
+        "VHHH": 7,
+        "VIDP": 5
+    },
+    "EDDL": {
+        "EDDL": 19,
+        "EDDM": 33,
+        "EDDN": 2,
+        "EDDP": 1,
+        "EDDS": 2,
+        "EDDT": 4,
+        "EDDV": 2,
+        "EDFM": 1,
+        "EDLA": 1,
+        "EDLG": 1,
+        "EDLI": 1,
+        "EDLK": 1,
+        "EDLP": 1,
+        "EDLW": 3,
+        "EDLX": 2,
+        "EDLY": 1,
+        "EDNY": 4,
+        "EDSB": 9,
+        "EGLL": 10,
+        "EHAM": 10,
+        "EIKY": 1,
+        "EKRK": 1,
+        "EPGD": 2,
+        "LEBL": 4,
+        "LEPA": 4,
+        "LETO": 1,
+        "LIMC": 2,
+        "LIMP": 1,
+        "LIRF": 4,
+        "LOWS": 2,
+        "LOWW": 18,
+        "LPPT": 5,
+        "LROP": 5,
+        "LRSB": 5,
+        "LSGG": 1,
+        "LSZA": 1,
+        "LSZH": 3,
+        "LTAC": 3,
+        "UAAA": 5,
+        "UAAR": 1
+    },
+    "EDDM": {
+        "EDDM": 1,
+        "EDDN": 4,
+        "EDDP": 11,
+        "EDDS": 1,
+        "EDDT": 26,
+        "EDDV": 3,
+        "EDDW": 4,
+        "EDFB": 1,
+        "EDFH": 1,
+        "EDMO": 1,
+        "EDSB": 2,
+        "EDTO": 1,
+        "EDVE": 5,
+        "EFHK": 4,
+        "EGBB": 1,
+        "EGGW": 2,
+        "EGLL": 1,
+        "EGSS": 1,
+        "EHBK": 1,
+        "ENUL": 1,
+        "EPWA": 1,
+        "ESMS": 2,
+        "ETAD": 1,
+        "ETAR": 1,
+        "ETSI": 2,
+        "LBBG": 1,
+        "LEBL": 2,
+        "LEMD": 1,
+        "LEPA": 1,
+        "LFLP": 1,
+        "LFLY": 2,
+        "LFPB": 2,
+        "LFPG": 6,
+        "LFQQ": 1,
+        "LGAV": 5,
+        "LHBP": 1,
+        "LIMJ": 1,
+        "LIPE": 8,
+        "LIRF": 10,
+        "LJLJ": 7,
+        "LOWG": 2,
+        "LOWS": 2,
+        "LOWW": 6,
+        "LPPT": 1,
+        "LROP": 2,
+        "LSGG": 2,
+        "LSZB": 2,
+        "LTAC": 1,
+        "LTBA": 1,
+        "LZIB": 1,
+        "LZTT": 1,
+        "OTHH": 11,
+        "RKSI": 10,
+        "UDYZ": 1,
+        "UMMS": 4,
+        "UUMO": 1
+    },
+    "EDDN": {
+        "EDDN": 2,
+        "EDDT": 1,
+        "EDFS": 1,
+        "EDJA": 1,
+        "EDLN": 1,
+        "EDME": 1,
+        "EDQF": 1,
+        "EDQR": 1,
+        "EDTD": 1,
+        "EDTQ": 1,
+        "EDWQ": 1,
+        "EGBB": 2,
+        "EGGW": 1,
+        "EGPF": 1,
+        "EPPO": 1,
+        "ETAR": 1,
+        "ETIN": 1,
+        "LCLK": 1,
+        "LEAL": 1,
+        "LEMG": 1,
+        "LHBP": 6,
+        "LIML": 2,
+        "LMML": 1,
+        "LRSB": 3,
+        "LSZA": 1,
+        "LTBA": 1,
+        "LYBE": 1,
+        "OMAA": 1,
+        "UUWW": 2
+    },
+    "EDDP": {
+        "EDDP": 3,
+        "EDDS": 2,
+        "EDDV": 1,
+        "EDGS": 1,
+        "EDLE": 1,
+        "EDLW": 1,
+        "EDSB": 6,
+        "EDVE": 5,
+        "EETN": 1,
+        "EFHK": 11,
+        "EGAA": 2,
+        "EGGW": 14,
+        "EGLL": 9,
+        "EGNX": 75,
+        "EGSS": 9,
+        "EHAM": 16,
+        "EINN": 2,
+        "EKBI": 9,
+        "EKCH": 24,
+        "ENGM": 10,
+        "EPGD": 9,
+        "EPKT": 13,
+        "EPWA": 11,
+        "ESSA": 9,
+        "ETND": 1,
+        "EYVI": 6,
+        "KCVG": 21,
+        "KEWR": 1,
+        "KJFK": 1,
+        "KLAX": 5,
+        "LCLK": 1,
+        "LDZA": 2,
+        "LEBL": 12,
+        "LEMD": 22,
+        "LFBD": 2,
+        "LFBO": 3,
+        "LFJL": 1,
+        "LFML": 6,
+        "LFPB": 1,
+        "LFPG": 31,
+        "LFRS": 7,
+        "LGAV": 1,
+        "LHBP": 20,
+        "LIMC": 25,
+        "LIME": 16,
+        "LIPE": 10,
+        "LIPZ": 16,
+        "LIRA": 12,
+        "LJLJ": 8,
+        "LLBG": 5,
+        "LOWL": 9,
+        "LROP": 4,
+        "LSGG": 10,
+        "LSZH": 1,
+        "LSZM": 12,
+        "LTBA": 10,
+        "LZIB": 18,
+        "OBBI": 4,
+        "OMDB": 5,
+        "RKSI": 7,
+        "UAAA": 3,
+        "UKBB": 9,
+        "UNNT": 3,
+        "UUDD": 1,
+        "UUEE": 22,
+        "UUWW": 7,
+        "VHHH": 20,
+        "VIDP": 5,
+        "ZGSZ": 4
+    },
+    "EDDR": {
+        "EDDR": 2,
+        "EDDT": 2
+    },
+    "EDDS": {
+        "EDDS": 17,
+        "EDFB": 2,
+        "EDFO": 1,
+        "EDGB": 1,
+        "EDLN": 3,
+        "EDLS": 2,
+        "EDPB": 1,
+        "EDPG": 1,
+        "EDQG": 1,
+        "EDSB": 5,
+        "EDSZ": 1,
+        "EDVE": 4,
+        "EGKB": 2,
+        "EHTE": 1,
+        "ETND": 1,
+        "ETOU": 1,
+        "LEMG": 1,
+        "LOWL": 2
+    },
+    "EDDT": {
+        "EDDV": 2,
+        "EDHL": 2,
+        "EDLP": 3,
+        "EDLV": 1,
+        "EDSB": 1,
+        "EFHK": 10,
+        "EGLL": 6,
+        "EHAM": 4,
+        "EPWA": 3,
+        "LEZL": 1,
+        "LFPG": 2,
+        "LIRF": 2,
+        "LJLJ": 2,
+        "LSZH": 4,
+        "OERK": 1
+    },
+    "EDDV": {
+        "EDDV": 8,
+        "EDDW": 1,
+        "EDFE": 2,
+        "EDFH": 1,
+        "EDMO": 2,
+        "EDVA": 1,
+        "EDVE": 2,
+        "EDVJ": 1,
+        "EDVM": 1,
+        "EDVN": 2,
+        "EDVS": 1,
+        "EDWO": 1,
+        "EDXI": 1,
+        "EETN": 2,
+        "EGCN": 1,
+        "EGKB": 1,
+        "EGNX": 6,
+        "EKRK": 1,
+        "ENGM": 9,
+        "EPWA": 1,
+        "ESSB": 1,
+        "ETHB": 1,
+        "LEAL": 1,
+        "LFPB": 2,
+        "LFPG": 4,
+        "LIMC": 6,
+        "LJLJ": 2,
+        "LRBS": 1,
+        "LTAC": 1,
+        "UAAA": 4,
+        "UMMS": 4,
+        "UUWW": 1
+    },
+    "EDDW": {
+        "EDDW": 16,
+        "EDLI": 1,
+        "EDLN": 1,
+        "EDLP": 1,
+        "EDLW": 3,
+        "EDMO": 4,
+        "EGLF": 1,
+        "ETNL": 1,
+        "LCLK": 1,
+        "LEMG": 1,
+        "LEPA": 1,
+        "LFBO": 2,
+        "LFPB": 1,
+        "LIRF": 1,
+        "LOWS": 1,
+        "LOWW": 3,
+        "LSZR": 1
+    },
+    "EDEL": {
+        "ETAR": 4
+    },
+    "EDEW": {
+        "EDFE": 1
+    },
+    "EDFB": {
+        "EDVK": 1
+    },
+    "EDFC": {
+        "EDFE": 7,
+        "EDFM": 1
+    },
+    "EDFE": {
+        "EDFE": 43,
+        "EDFM": 1,
+        "EDFV": 4,
+        "EDFZ": 6,
+        "EDGB": 2,
+        "EDGS": 3,
+        "EDHK": 1,
+        "EDHL": 4,
+        "EDKB": 1,
+        "EDLI": 1,
+        "EDMA": 2,
+        "EDMB": 1,
+        "EDMO": 2,
+        "EDRD": 1,
+        "EDRK": 2,
+        "EDRY": 1,
+        "EDVK": 3,
+        "EDWF": 1,
+        "EDWI": 1,
+        "ETOU": 2,
+        "LSZA": 1,
+        "LSZH": 3
+    },
+    "EDFH": {
+        "EDFH": 1,
+        "EDRK": 1,
+        "EGCN": 2,
+        "EGGP": 1,
+        "EGSS": 2,
+        "EPWR": 1,
+        "ETHM": 1,
+        "KDOV": 1,
+        "KIAD": 1,
+        "KORD": 3,
+        "LDZA": 3,
+        "LEZG": 3,
+        "LEZL": 2,
+        "LOWW": 2,
+        "LROP": 1,
+        "OMDW": 1,
+        "SC39": 1,
+        "UAAA": 3,
+        "UUEE": 1
+    },
+    "EDFM": {
+        "EDFM": 3,
+        "EDGA": 1,
+        "EDGM": 2,
+        "EDLN": 1,
+        "EDLV": 1,
+        "EDQA": 1,
+        "EDRY": 1,
+        "EDRZ": 1,
+        "EDSH": 1,
+        "EDTB": 3,
+        "ETAR": 2,
+        "LFGA": 1,
+        "LIPE": 8,
+        "LSZH": 1
+    },
+    "EDFY": {
+        "EDVK": 1
+    },
+    "EDFZ": {
+        "EDLW": 1
+    },
+    "EDGE": {
+        "EDRT": 1,
+        "LSGG": 1
+    },
+    "EDGK": {
+        "EDVK": 1
+    },
+    "EDGS": {
+        "EDGS": 2,
+        "EDKI": 1,
+        "EDLA": 1,
+        "LOWL": 1
+    },
+    "EDHF": {
+        "EDHL": 1,
+        "EDVE": 1
+    },
+    "EDHI": {
+        "EDHI": 9,
+        "EGNR": 2,
+        "LFBO": 9
+    },
+    "EDHK": {
+        "EDHK": 7,
+        "ETNL": 1,
+        "LOWS": 2
+    },
+    "EDHL": {
+        "EDHL": 1,
+        "EKSB": 1
+    },
+    "EDKA": {
+        "EDLN": 1
+    },
+    "EDKB": {
+        "EDLN": 1,
+        "EDTD": 1
+    },
+    "EDKL": {
+        "ETNG": 1
+    },
+    "EDKV": {
+        "EDLN": 3
+    },
+    "EDKW": {
+        "EDLW": 1
+    },
+    "EDLA": {
+        "LSZH": 1
+    },
+    "EDLD": {
+        "EDLN": 1
+    },
+    "EDLE": {
+        "EDLN": 1,
+        "EDLW": 1,
+        "LFGA": 1
+    },
+    "EDLF": {
+        "EDLN": 2
+    },
+    "EDLH": {
+        "EDLW": 1
+    },
+    "EDLJ": {
+        "ETHC": 1
+    },
+    "EDLM": {
+        "EDLW": 1,
+        "ETNG": 1
+    },
+    "EDLN": {
+        "EDLN": 11,
+        "EDLW": 1,
+        "EDMO": 2,
+        "EDPG": 1,
+        "EDRA": 2,
+        "EDRY": 1,
+        "EDSB": 1,
+        "EDTM": 1,
+        "EGKB": 2,
+        "EGMC": 1,
+        "EHGG": 2,
+        "EHRD": 2,
+        "ETHM": 1,
+        "ETNG": 4,
+        "LEPA": 1,
+        "LFQQ": 1,
+        "LIPE": 1,
+        "LSZH": 2
+    },
+    "EDLO": {
+        "EDLW": 1
+    },
+    "EDLP": {
+        "EDLP": 2,
+        "EDLW": 1,
+        "LEPA": 1
+    },
+    "EDLS": {
+        "EHKD": 1,
+        "EHLE": 1
+    },
+    "EDLT": {
+        "EDLW": 1
+    },
+    "EDLU": {
+        "EDLW": 1
+    },
+    "EDLW": {
+        "EDLW": 12,
+        "EDLZ": 1,
+        "EDQM": 1,
+        "EDRZ": 1,
+        "EDTB": 1,
+        "EDVY": 1,
+        "EDXE": 1,
+        "EGCC": 1,
+        "LHBP": 2,
+        "LSZH": 1
+    },
+    "EDMA": {
+        "EDMA": 4,
+        "EDMO": 1,
+        "EDNL": 1,
+        "EDNY": 1,
+        "EDTH": 1,
+        "EDVE": 2,
+        "EPLL": 1,
+        "ETSL": 2,
+        "ETSN": 1
+    },
+    "EDMO": {
+        "EDMO": 1,
+        "EDNX": 1,
+        "EDRT": 1,
+        "EDRZ": 1,
+        "EDTL": 1,
+        "EGSS": 1,
+        "EHAM": 1,
+        "LEPA": 1,
+        "LOWL": 2,
+        "LOWW": 1,
+        "LSZR": 1,
+        "UUWW": 1
+    },
+    "EDNX": {
+        "EDTD": 1
+    },
+    "EDNY": {
+        "EDNY": 3,
+        "EDSP": 1,
+        "EDVY": 1,
+        "LSZH": 1
+    },
+    "EDPA": {
+        "EDTD": 2
+    },
+    "EDPG": {
+        "EDQD": 1,
+        "ESSB": 1
+    },
+    "EDPQ": {
+        "ETAR": 1
+    },
+    "EDPR": {
+        "ETSI": 1
+    },
+    "EDQB": {
+        "ETOU": 3
+    },
+    "EDQG": {
+        "EKRK": 1
+    },
+    "EDQM": {
+        "EDTX": 1,
+        "EHRD": 3
+    },
+    "EDRJ": {
+        "ETAR": 1
+    },
+    "EDRY": {
+        "EGFF": 1,
+        "ELLX": 1,
+        "LSZH": 1
+    },
+    "EDRZ": {
+        "ELLX": 2
+    },
+    "EDSB": {
+        "EHAM": 1
+    },
+    "EDSL": {
+        "EDTD": 1
+    },
+    "EDTD": {
+        "EDTD": 3,
+        "LSPF": 1,
+        "LSZM": 1
+    },
+    "EDTX": {
+        "LIPZ": 2,
+        "LSZH": 1,
+        "LSZR": 1
+    },
+    "EDTY": {
+        "LIPZ": 1
+    },
+    "EDVE": {
+        "EDVE": 3,
+        "ETSI": 1,
+        "LOWW": 1,
+        "LSMD": 1,
+        "LZIB": 1
+    },
+    "EDVK": {
+        "EDVK": 4,
+        "EDWX": 1,
+        "ELLX": 1
+    },
+    "EDWF": {
+        "EHLE": 1
+    },
+    "EDXK": {
+        "EDXW": 1
+    },
+    "EDXN": {
+        "ETAD": 1,
+        "ETMN": 1
+    },
+    "EEEI": {
+        "EPWA": 1,
+        "LFOJ": 2
+    },
+    "EEKE": {
+        "EETN": 1
+    },
+    "EERE": {
+        "EETU": 1
+    },
+    "EETN": {
+        "EETN": 6,
+        "EFHK": 7,
+        "EFTU": 1,
+        "EPGD": 9,
+        "ESGG": 3,
+        "ESSB": 7,
+        "UMMS": 6,
+        "UUDD": 5,
+        "UUEE": 1,
+        "UUWW": 3
+    },
+    "EFFO": {
+        "EFTP": 1
+    },
+    "EFGE": {
+        "EFTU": 1
+    },
+    "EFHA": {
+        "EFTP": 1
+    },
+    "EFHF": {
+        "EFHF": 21,
+        "EFHV": 3,
+        "EFKU": 2,
+        "EFLA": 1,
+        "EFSE": 1,
+        "EFTU": 1,
+        "EFWB": 1
+    },
+    "EFHK": {
+        "EFHK": 10,
+        "EFKU": 6,
+        "EFMA": 8,
+        "EFOU": 14,
+        "EFRO": 1,
+        "EFTP": 6,
+        "EFTU": 3,
+        "EGKB": 1,
+        "EGLL": 26,
+        "EHAM": 8,
+        "EIDW": 2,
+        "EINN": 1,
+        "EKCH": 6,
+        "ENGM": 1,
+        "ESMS": 4,
+        "ESOE": 1,
+        "ESSA": 37,
+        "ESSB": 2,
+        "EYKA": 2,
+        "LFPG": 16,
+        "LSZH": 4,
+        "LTBA": 3,
+        "OTHH": 4,
+        "RCTP": 1,
+        "RJBB": 3,
+        "RJTT": 2,
+        "RKSI": 1,
+        "UAAA": 1,
+        "ULLI": 2,
+        "UMMS": 11,
+        "UUMO": 1,
+        "UUWW": 1,
+        "VHHH": 1
+    },
+    "EFHL": {
+        "EFOU": 1
+    },
+    "EFII": {
+        "EFKU": 1
+    },
+    "EFKU": {
+        "EFKU": 6,
+        "EFTP": 4
+    },
+    "EFMA": {
+        "EFTU": 1
+    },
+    "EFML": {
+        "EFOU": 1
+    },
+    "EFOU": {
+        "EFOU": 10
+    },
+    "EFTP": {
+        "EFTP": 23
+    },
+    "EFTU": {
+        "EFTU": 1,
+        "ESGG": 5
+    },
+    "EG19": {
+        "EGNJ": 1
+    },
+    "EG74": {
+        "EGCC": 1
+    },
+    "EGAA": {
+        "EGBB": 2,
+        "EGCC": 1,
+        "EGCN": 2,
+        "EGNX": 43,
+        "EGSS": 18,
+        "EGVN": 1
+    },
+    "EGAC": {
+        "EGLL": 7,
+        "EGSS": 1
+    },
+    "EGBB": {
+        "EGBB": 4,
+        "EGBJ": 1,
+        "EGBK": 1,
+        "EGCC": 1,
+        "EGNV": 1,
+        "EHAM": 6,
+        "EIDW": 10,
+        "LCLK": 1,
+        "LIMC": 1,
+        "LTBA": 2,
+        "OTBD": 1
+    },
+    "EGBG": {
+        "EGFE": 1
+    },
+    "EGBJ": {
+        "EGBJ": 16,
+        "EGBL": 1,
+        "EGBO": 1,
+        "EGHP": 1,
+        "EGSC": 1,
+        "EGSX": 1,
+        "EINN": 2
+    },
+    "EGBN": {
+        "EGGD": 2,
+        "EGXT": 1,
+        "EGXW": 1
+    },
+    "EGBO": {
+        "EGNR": 1
+    },
+    "EGCC": {
+        "EGCC": 5,
+        "EGGD": 2,
+        "EGGP": 1,
+        "EGGW": 1,
+        "EGHH": 1,
+        "EGJJ": 1,
+        "EGKK": 5,
+        "EGKR": 1,
+        "EGLL": 5,
+        "EGNX": 1,
+        "EGPH": 1,
+        "EGSS": 3,
+        "EHAM": 4,
+        "EIDW": 17,
+        "EINN": 1,
+        "EKBI": 2,
+        "ESSP": 1,
+        "KAPF": 1,
+        "LCLK": 3,
+        "LGAV": 1,
+        "OTHH": 9
+    },
+    "EGCK": {
+        "EGOV": 4
+    },
+    "EGCL": {
+        "EGYM": 1
+    },
+    "EGCN": {
+        "EGGW": 2,
+        "EGKB": 4,
+        "EGPH": 1,
+        "EGSH": 1,
+        "LSGG": 1,
+        "UUEE": 1
+    },
+    "EGDX": {
+        "EGFE": 1,
+        "EGFH": 1,
+        "EGHH": 1
+    },
+    "EGFE": {
+        "EGPH": 1,
+        "EGSS": 1
+    },
+    "EGFF": {
+        "EGLL": 5,
+        "EINN": 1,
+        "UUEE": 1
+    },
+    "EGGD": {
+        "EGGD": 1,
+        "EGHY": 1,
+        "EGJJ": 1,
+        "EGKB": 3,
+        "EGNL": 4,
+        "EGSS": 1,
+        "EIDW": 12,
+        "EKCH": 1,
+        "ELLX": 1,
+        "ESSP": 1,
+        "LEMD": 1,
+        "LPPT": 1
+    },
+    "EGGP": {
+        "EGGP": 9,
+        "EGKB": 1,
+        "EGPE": 2,
+        "EGSS": 5
+    },
+    "EGGW": {
+        "EGGW": 5,
+        "EGHH": 1,
+        "EGKB": 1,
+        "EGKK": 1,
+        "EGLL": 1,
+        "EGNX": 3,
+        "EGPK": 2,
+        "EGSS": 3,
+        "EGSX": 1,
+        "EHAM": 2,
+        "EIDW": 2,
+        "ESSA": 1,
+        "ESSB": 2,
+        "LEMG": 1,
+        "LIMC": 4,
+        "LKPR": 1,
+        "LOWW": 2,
+        "LPPR": 1,
+        "LSGG": 4,
+        "LSZH": 2,
+        "LTBA": 3,
+        "UUEE": 1
+    },
+    "EGHF": {
+        "EGHH": 1
+    },
+    "EGHH": {
+        "EGHH": 10,
+        "EGKA": 1,
+        "EGLF": 1,
+        "EGSH": 1,
+        "EHAM": 2,
+        "LEPA": 1,
+        "LFPB": 1
+    },
+    "EGHI": {
+        "EGJB": 7,
+        "EGJJ": 5,
+        "EGKB": 1,
+        "EGSS": 1,
+        "LSZH": 1
+    },
+    "EGHQ": {
+        "EGTE": 1
+    },
+    "EGJB": {
+        "EGNX": 1,
+        "LFPB": 1,
+        "LZIB": 1
+    },
+    "EGJJ": {
+        "EGNX": 3
+    },
+    "EGKA": {
+        "EGKH": 1,
+        "LFBD": 1
+    },
+    "EGKB": {
+        "EGKB": 2,
+        "EGKR": 1,
+        "EGLF": 4,
+        "EGMC": 2,
+        "EGNH": 1,
+        "EGSH": 1,
+        "EGSS": 3,
+        "EGTC": 1,
+        "EGTK": 3,
+        "EGVN": 2,
+        "EHAM": 4,
+        "EIDW": 1,
+        "EKCH": 1,
+        "ENBO": 1,
+        "ENZV": 2,
+        "EPMO": 1,
+        "EPWA": 1,
+        "ESSA": 1,
+        "ESSB": 1,
+        "EYVI": 1,
+        "KBOS": 1,
+        "KCRG": 1,
+        "LEMD": 1,
+        "LFML": 2,
+        "LFPB": 1,
+        "LFRS": 1,
+        "LGIR": 1,
+        "LIMC": 1,
+        "LIMF": 1,
+        "LKPR": 3,
+        "LKVO": 1,
+        "LMML": 1,
+        "LPFR": 2,
+        "LPPT": 1,
+        "LROP": 1,
+        "LSGG": 2,
+        "LTBA": 1,
+        "UKBB": 1
+    },
+    "EGKK": {
+        "EGKK": 8,
+        "EGLF": 1,
+        "EGLL": 2,
+        "EGMC": 2,
+        "EGPF": 1,
+        "EGSS": 2,
+        "EIDW": 14,
+        "EPWA": 1,
+        "LEBL": 1,
+        "LHBP": 14,
+        "RPLL": 1,
+        "UMMS": 8
+    },
+    "EGKR": {
+        "EGLL": 1,
+        "EGMD": 1
+    },
+    "EGLC": {
+        "EGMC": 2,
+        "EGMF": 1,
+        "EGSC": 1,
+        "EGUY": 1
+    },
+    "EGLF": {
+        "EGLF": 2,
+        "EGNL": 2,
+        "EGPF": 1,
+        "EGSS": 4,
+        "EHAM": 2,
+        "EHBK": 1,
+        "EKBI": 2,
+        "ESMS": 2,
+        "ESSB": 2,
+        "EVRA": 1,
+        "LDSB": 1,
+        "LEBL": 3,
+        "LEMD": 2,
+        "LEMG": 1,
+        "LFLP": 1,
+        "LFMD": 1,
+        "LFPB": 1,
+        "LGAV": 1,
+        "LHBP": 1,
+        "LIRF": 3,
+        "LKPR": 2,
+        "LPFR": 1,
+        "LSGG": 4,
+        "LSZH": 2,
+        "LSZM": 1,
+        "LYBE": 1,
+        "OBBI": 1,
+        "UUWW": 2
+    },
+    "EGLK": {
+        "EGLK": 6,
+        "EGTK": 2
+    },
+    "EGLL": {
+        "EGLL": 4,
+        "EGPD": 2,
+        "EGPF": 3,
+        "EGPH": 5,
+        "EGSS": 1,
+        "EHAM": 14,
+        "EHRD": 6,
+        "EICK": 10,
+        "EIDW": 35,
+        "ESSA": 3,
+        "FABA": 2,
+        "FACT": 1,
+        "FAGM": 2,
+        "FAOR": 8,
+        "KATL": 6,
+        "KBOS": 6,
+        "KCVG": 3,
+        "KDFW": 11,
+        "KEWR": 7,
+        "KIAD": 7,
+        "KJFK": 31,
+        "KLAX": 15,
+        "KMIA": 9,
+        "KOPF": 1,
+        "KORD": 13,
+        "KPHL": 3,
+        "KSFO": 6,
+        "LCLK": 4,
+        "LEBL": 7,
+        "LEMD": 12,
+        "LEMG": 1,
+        "LETO": 1,
+        "LFMD": 1,
+        "LFMN": 1,
+        "LFPG": 20,
+        "LGAV": 4,
+        "LIMC": 7,
+        "LIRF": 37,
+        "LLBG": 13,
+        "LMML": 9,
+        "LPPR": 3,
+        "LPPT": 4,
+        "LSGG": 7,
+        "LSZH": 14,
+        "LTBA": 9,
+        "LXGB": 1,
+        "OBBI": 3,
+        "OERK": 4,
+        "OMAA": 1,
+        "OMDB": 14,
+        "OMSJ": 2,
+        "OTHH": 33,
+        "RJTT": 1,
+        "RKSI": 4,
+        "RPLL": 2,
+        "SAEZ": 1,
+        "TXKF": 1,
+        "UKBB": 2,
+        "UUEE": 5,
+        "UUWW": 2,
+        "VABB": 1,
+        "VGTJ": 3,
+        "VHHH": 25,
+        "VIDP": 5,
+        "VTBS": 4,
+        "WMKK": 2,
+        "WSSS": 3,
+        "YPPH": 1
+    },
+    "EGMC": {
+        "EGMC": 8,
+        "EGNX": 1,
+        "EGSS": 1,
+        "EGSX": 2,
+        "EGTK": 1,
+        "EINN": 1,
+        "ELLX": 1,
+        "LEMD": 19,
+        "LETO": 1,
+        "LIMC": 3,
+        "LKPR": 1,
+        "LPPR": 1
+    },
+    "EGMD": {
+        "EGMD": 9
+    },
+    "EGMJ": {
+        "EGNJ": 1
+    },
+    "EGNE": {
+        "EGNH": 1
+    },
+    "EGNH": {
+        "EGNO": 2,
+        "LEPA": 1
+    },
+    "EGNI": {
+        "EGXW": 1
+    },
+    "EGNJ": {
+        "EGNJ": 4,
+        "EGNV": 1,
+        "EGYO": 2
+    },
+    "EGNL": {
+        "EGNL": 9
+    },
+    "EGNM": {
+        "EGPG": 1,
+        "LROP": 1
+    },
+    "EGNR": {
+        "EGNR": 3,
+        "EGNX": 2,
+        "EGSS": 1,
+        "LFBO": 11,
+        "LFPB": 1,
+        "UUWW": 1
+    },
+    "EGNS": {
+        "EGNX": 4
+    },
+    "EGNT": {
+        "EGSH": 1,
+        "EHAM": 6,
+        "LIMC": 1
+    },
+    "EGNV": {
+        "EGNV": 1,
+        "EGNX": 2,
+        "EGXE": 2
+    },
+    "EGNX": {
+        "EGNX": 5,
+        "EGPD": 9,
+        "EGPH": 37,
+        "EGPK": 1,
+        "EGSS": 1,
+        "EGTE": 4,
+        "EGTU": 2,
+        "EGVN": 1,
+        "EHAM": 3,
+        "EIDW": 9,
+        "EINN": 1,
+        "EKCH": 7,
+        "KCVG": 11,
+        "KJFK": 4,
+        "KPHL": 5,
+        "LEMD": 15,
+        "LFML": 1,
+        "LIMC": 19,
+        "LIME": 1
+    },
+    "EGOV": {
+        "EGOV": 20
+    },
+    "EGPA": {
+        "EGPD": 1
+    },
+    "EGPC": {
+        "EGPD": 1
+    },
+    "EGPD": {
+        "EGPD": 5,
+        "EGPE": 1,
+        "EGPF": 2,
+        "EGPK": 1,
+        "EHAM": 2,
+        "EIDW": 1,
+        "ENBR": 1
+    },
+    "EGPE": {
+        "EGPE": 5,
+        "EGPF": 5,
+        "EGQS": 1,
+        "LFRH": 1
+    },
+    "EGPF": {
+        "EGPF": 3,
+        "EGPK": 2,
+        "EGPN": 1,
+        "EHAM": 6,
+        "EIDW": 6
+    },
+    "EGPH": {
+        "EGPH": 2,
+        "EGSS": 23,
+        "EHAM": 1,
+        "EIDW": 6,
+        "LCLK": 3,
+        "LFPG": 3
+    },
+    "EGPK": {
+        "EGSS": 2,
+        "EGVN": 9,
+        "ELLX": 1,
+        "KIAH": 1,
+        "KLAX": 1,
+        "KORD": 1,
+        "KSEA": 1,
+        "LEMG": 1,
+        "LFPG": 1
+    },
+    "EGQS": {
+        "EGVN": 2
+    },
+    "EGSC": {
+        "EGSC": 1,
+        "EGSH": 2,
+        "EGSR": 1,
+        "EGSU": 1,
+        "EGUY": 2,
+        "EGWE": 2,
+        "EGXH": 1,
+        "EGYM": 2
+    },
+    "EGSH": {
+        "EGSH": 12,
+        "EGSJ": 1,
+        "EGUY": 4
+    },
+    "EGSM": {
+        "EGYM": 1
+    },
+    "EGSP": {
+        "EGUY": 1
+    },
+    "EGSS": {
+        "EGSS": 6,
+        "EHAM": 3,
+        "EHBK": 4,
+        "EHEH": 4,
+        "EICK": 8,
+        "EIDW": 32,
+        "EKRK": 1,
+        "ELLX": 2,
+        "EPRZ": 1,
+        "EPWA": 1,
+        "EYKA": 1,
+        "GBYD": 2,
+        "GMMN": 2,
+        "KIND": 4,
+        "KMSP": 1,
+        "KPHL": 5,
+        "LEBL": 2,
+        "LEMD": 4,
+        "LEMG": 1,
+        "LFMN": 1,
+        "LFPG": 21,
+        "LHBP": 8,
+        "LIMC": 5,
+        "LIML": 1,
+        "LIPE": 2,
+        "LLBG": 2,
+        "LOWW": 2,
+        "LPPR": 2,
+        "LPPT": 15,
+        "LROP": 2,
+        "LSGG": 3,
+        "LTBA": 4,
+        "OERK": 2,
+        "OMDB": 2,
+        "OTBD": 1,
+        "OTBH": 1,
+        "OTHH": 4,
+        "UNNT": 1,
+        "UUDD": 2,
+        "ZGGG": 1
+    },
+    "EGTE": {
+        "EGVN": 1
+    },
+    "EGTK": {
+        "EGTK": 4,
+        "ESSB": 1,
+        "LFBD": 1,
+        "LPFR": 1,
+        "LSGG": 1,
+        "LSZH": 1
+    },
+    "EGUN": {
+        "EGUN": 6,
+        "ETAR": 1,
+        "KADW": 1,
+        "LGSA": 1,
+        "LTAD": 1
+    },
+    "EGUY": {
+        "EGUY": 2,
+        "EGYM": 2
+    },
+    "EGVN": {
+        "EGVN": 41,
+        "EGWU": 1,
+        "ENGM": 2,
+        "EPWA": 1,
+        "EYSA": 1,
+        "GOBD": 2,
+        "LGAV": 1
+    },
+    "EGXC": {
+        "EGXW": 1
+    },
+    "EGXP": {
+        "EGXP": 4
+    },
+    "EGXW": {
+        "EGXW": 3
+    },
+    "EHAL": {
+        "EHGG": 1
+    },
+    "EHAM": {
+        "EHAM": 20,
+        "EHBK": 1,
+        "EHEH": 1,
+        "EHLE": 1,
+        "EHTX": 1,
+        "EIDW": 21,
+        "EKBI": 4,
+        "EKRK": 1,
+        "ENGM": 2,
+        "EPWA": 1,
+        "ESDF": 1,
+        "ESGG": 8,
+        "ESSA": 10,
+        "ESSB": 3,
+        "EVRA": 1,
+        "EYVI": 1,
+        "FACT": 1,
+        "FAGC": 1,
+        "FAOR": 7,
+        "FARA": 1,
+        "GMMN": 1,
+        "KATL": 11,
+        "KDFW": 1,
+        "KDTW": 4,
+        "KEWR": 4,
+        "KIAH": 2,
+        "KJFK": 6,
+        "KLAX": 3,
+        "KMIA": 18,
+        "KORD": 14,
+        "KSFO": 3,
+        "LEIB": 2,
+        "LEMD": 1,
+        "LEZG": 3,
+        "LFAC": 1,
+        "LFPB": 3,
+        "LFPG": 33,
+        "LHBP": 1,
+        "LIMC": 4,
+        "LIPE": 1,
+        "LIRF": 1,
+        "LKPR": 6,
+        "LMML": 4,
+        "LOWL": 1,
+        "LPFR": 1,
+        "LPPT": 14,
+        "LSGG": 8,
+        "LSZH": 11,
+        "LTBA": 4,
+        "OERK": 3,
+        "OMDB": 10,
+        "OMSJ": 3,
+        "OTHH": 18,
+        "PANC": 1,
+        "RCTP": 7,
+        "RJBB": 3,
+        "RKSI": 10,
+        "SBGR": 2,
+        "SKBO": 6,
+        "UMMS": 11,
+        "UUEE": 13,
+        "UUWW": 2,
+        "UWKD": 1,
+        "VABB": 1,
+        "VHHH": 8,
+        "VIDP": 2,
+        "VTBS": 10,
+        "WSSS": 4,
+        "YSSY": 1
+    },
+    "EHBD": {
+        "EHGG": 1,
+        "EHLE": 1,
+        "EHRD": 1
+    },
+    "EHBK": {
+        "EHBK": 1,
+        "EINN": 1,
+        "ESDF": 1,
+        "FAOR": 1,
+        "GOBD": 1,
+        "KATL": 1,
+        "KMIA": 2,
+        "KORD": 2,
+        "LEZG": 2,
+        "LFPB": 2,
+        "LFPG": 2,
+        "LKPD": 3,
+        "LOWW": 2,
+        "LSGG": 1,
+        "LSZM": 1,
+        "LTBA": 4,
+        "OERK": 1,
+        "OTHH": 5,
+        "VHHH": 1
+    },
+    "EHEH": {
+        "EHEH": 1,
+        "ENGM": 1,
+        "EPPO": 1,
+        "LHBP": 15,
+        "LKPR": 3
+    },
+    "EHGG": {
+        "EHGG": 9,
+        "EHLE": 2,
+        "EHLW": 2,
+        "EHRD": 2,
+        "EHSE": 1,
+        "EHTX": 1,
+        "EKRK": 2
+    },
+    "EHGR": {
+        "EHND": 1,
+        "EHRD": 8,
+        "EHSE": 1
+    },
+    "EHHV": {
+        "EHKD": 1,
+        "EHLE": 1
+    },
+    "EHKD": {
+        "EHKD": 13,
+        "EHLE": 1,
+        "EHLW": 1,
+        "EHTX": 6
+    },
+    "EHLE": {
+        "EHLE": 4,
+        "EHTX": 1
+    },
+    "EHMZ": {
+        "EHRD": 2
+    },
+    "EHRD": {
+        "EHRD": 17,
+        "EHSE": 1,
+        "EHTE": 1,
+        "EHVK": 1,
+        "LOAN": 1,
+        "LZIB": 1
+    },
+    "EHTE": {
+        "LIPU": 1
+    },
+    "EHTW": {
+        "EKOD": 2
+    },
+    "EHWO": {
+        "ENGM": 1
+    },
+    "EICK": {
+        "EIME": 2
+    },
+    "EICM": {
+        "EIKN": 1,
+        "EIMN": 1,
+        "EINN": 1
+    },
+    "EIDL": {
+        "EIDW": 5
+    },
+    "EIDW": {
+        "EIDW": 6,
+        "EIHH": 1,
+        "EIKY": 20,
+        "EINN": 9,
+        "KBOS": 5,
+        "KDFW": 1,
+        "KHOU": 1,
+        "KIAD": 2,
+        "KJFK": 6,
+        "KORD": 6,
+        "LEPA": 1,
+        "LEZL": 2,
+        "LFPG": 4,
+        "LHBP": 1,
+        "LLBG": 1,
+        "LPFR": 2,
+        "LPPT": 6,
+        "OMDB": 1,
+        "OTHH": 1,
+        "SBGR": 1
+    },
+    "EIKN": {
+        "RPLL": 1
+    },
+    "EIKY": {
+        "EIME": 2
+    },
+    "EIME": {
+        "EIWF": 1
+    },
+    "EINN": {
+        "EINN": 3,
+        "ENVA": 1,
+        "ESSA": 1,
+        "ETAR": 1,
+        "KWRI": 1,
+        "LFPG": 4,
+        "LGAV": 2,
+        "LLBG": 1,
+        "LTBA": 2,
+        "PANC": 1
+    },
+    "EIWF": {
+        "EIWF": 5
+    },
+    "EKAE": {
+        "EKOD": 1
+    },
+    "EKBI": {
+        "EKBI": 10,
+        "EKEB": 6,
+        "EKOD": 6,
+        "EKRA": 1,
+        "EKRK": 2,
+        "EKRS": 1,
+        "EKVD": 1,
+        "ENGM": 5,
+        "ESMS": 8,
+        "EYKA": 1,
+        "LFML": 1,
+        "LOWL": 1,
+        "LROP": 4,
+        "LTBA": 1,
+        "RJBB": 1
+    },
+    "EKCH": {
+        "EKCH": 2,
+        "EKCR": 1,
+        "EKEB": 1,
+        "EKMB": 1,
+        "EKMN": 1,
+        "EKRD": 1,
+        "EKRK": 1,
+        "EKRN": 4,
+        "EKRS": 1,
+        "EKSB": 1,
+        "EKYT": 16,
+        "ENGM": 25,
+        "ENZV": 9,
+        "EPWA": 2,
+        "ESGG": 9,
+        "ESSA": 20,
+        "ESSB": 1,
+        "EVLA": 1,
+        "EYKA": 1,
+        "KJFK": 1,
+        "KMTN": 1,
+        "LCLK": 1,
+        "LEAL": 1,
+        "LEMG": 1,
+        "LFPG": 10,
+        "LGAV": 1,
+        "LHBP": 1,
+        "LSZH": 2,
+        "OTHH": 4,
+        "UNNT": 1,
+        "WSSS": 1
+    },
+    "EKEB": {
+        "EKEB": 1,
+        "EKMB": 1,
+        "EKRN": 1,
+        "EKSN": 1,
+        "EKSP": 1
+    },
+    "EKFS": {
+        "EKSB": 1
+    },
+    "EKHE": {
+        "EKTS": 1
+    },
+    "EKHK": {
+        "EKRK": 1
+    },
+    "EKHV": {
+        "EKSB": 1
+    },
+    "EKKL": {
+        "EKRK": 1
+    },
+    "EKMB": {
+        "EKRK": 3,
+        "EKRS": 2
+    },
+    "EKNM": {
+        "EKYT": 1
+    },
+    "EKOD": {
+        "EKOD": 2,
+        "EKRK": 2,
+        "EKVD": 2
+    },
+    "EKRD": {
+        "EKRK": 1,
+        "EKSV": 1,
+        "EKYT": 1
+    },
+    "EKRK": {
+        "EKRK": 21,
+        "EKRN": 1,
+        "EKRS": 1,
+        "EKVD": 1,
+        "EKYT": 9,
+        "ESKX": 1,
+        "ESSB": 1
+    },
+    "EKRN": {
+        "EKRN": 1,
+        "EKRS": 1,
+        "EKYT": 1
+    },
+    "EKSB": {
+        "EKSB": 2,
+        "EKVD": 1,
+        "ELLX": 2,
+        "LEMG": 1
+    },
+    "EKSN": {
+        "EKYT": 1
+    },
+    "EKSV": {
+        "EKSV": 7,
+        "EKYT": 1
+    },
+    "EKTS": {
+        "EKYT": 3
+    },
+    "EKYT": {
+        "EKYT": 10
+    },
+    "ELLX": {
+        "ELLX": 7,
+        "K7L8": 1,
+        "KATL": 2,
+        "KDFW": 1,
+        "KIAH": 4,
+        "KJFK": 3,
+        "KLAX": 3,
+        "KLCK": 2,
+        "KMIA": 1,
+        "KORD": 11,
+        "KSEA": 1,
+        "LEBL": 2,
+        "LEMG": 2,
+        "LEZG": 1,
+        "LFJL": 1,
+        "LFLY": 1,
+        "LFMV": 1,
+        "LFPB": 2,
+        "LFQQ": 2,
+        "LHBP": 2,
+        "LIMC": 12,
+        "LOWW": 4,
+        "LROP": 1,
+        "LSGG": 1,
+        "LSZB": 2,
+        "LSZH": 1,
+        "LSZM": 2,
+        "OMDW": 11,
+        "OTHH": 2,
+        "PANC": 1,
+        "RKSI": 1,
+        "SBKP": 3,
+        "UMKK": 1,
+        "UNNT": 11,
+        "VHHH": 6,
+        "VTBS": 3
+    },
+    "ENBO": {
+        "ENGM": 7,
+        "ENVA": 1,
+        "ESSA": 1
+    },
+    "ENBR": {
+        "ENGM": 9,
+        "ENHD": 1,
+        "ENSN": 3,
+        "ENVA": 2,
+        "ENZV": 21,
+        "LEMG": 2
+    },
+    "ENGM": {
+        "ENGM": 1,
+        "ENHA": 1,
+        "ENHD": 35,
+        "ENOL": 2,
+        "ENUL": 17,
+        "ENVA": 90,
+        "ENZV": 80,
+        "ESMK": 1,
+        "ESMS": 5,
+        "ESSA": 25,
+        "ESSD": 1,
+        "EYVI": 2,
+        "LEAL": 1,
+        "LEMG": 3,
+        "LHBP": 1,
+        "LHPA": 1,
+        "LIEE": 1,
+        "LIME": 2,
+        "LKPR": 1,
+        "LOWW": 3,
+        "LSZH": 1,
+        "OTHH": 6,
+        "UKBB": 2,
+        "UMMS": 1,
+        "UUWW": 1
+    },
+    "ENHD": {
+        "ENHD": 1,
+        "ENZV": 11
+    },
+    "ENNM": {
+        "ENVA": 1
+    },
+    "ENSO": {
+        "ENZV": 1,
+        "EPGD": 2,
+        "EPKK": 1
+    },
+    "ENUL": {
+        "ENVA": 3,
+        "ENZV": 12,
+        "EPGD": 2,
+        "EPKK": 1
+    },
+    "ENVA": {
+        "ENVA": 1,
+        "ENZV": 12
+    },
+    "ENZV": {
+        "ENZV": 27,
+        "ESOW": 2,
+        "KIAH": 1
+    },
+    "EPBA": {
+        "EPKT": 1
+    },
+    "EPBC": {
+        "EPKT": 1,
+        "EPPO": 1
+    },
+    "EPBY": {
+        "EPGD": 2
+    },
+    "EPCH": {
+        "EPKT": 1
+    },
+    "EPGD": {
+        "EPGD": 5,
+        "EPSC": 1,
+        "EPWA": 4,
+        "LSZH": 2
+    },
+    "EPJL": {
+        "EPLL": 1
+    },
+    "EPKB": {
+        "ETOU": 1
+    },
+    "EPKK": {
+        "EPKK": 5,
+        "EPKM": 1,
+        "EPKT": 1,
+        "EPNT": 1,
+        "EPPW": 1,
+        "EPRG": 1,
+        "EPRZ": 1,
+        "EPST": 1,
+        "EPWA": 1
+    },
+    "EPKM": {
+        "EPKT": 1
+    },
+    "EPKN": {
+        "EPWR": 1
+    },
+    "EPKO": {
+        "EPPO": 1
+    },
+    "EPKT": {
+        "EPKT": 3,
+        "EPWA": 4,
+        "LZZI": 4
+    },
+    "EPLL": {
+        "EPLL": 7,
+        "EPMO": 1,
+        "EPPO": 1,
+        "EPTO": 2,
+        "EPWA": 1
+    },
+    "EPMO": {
+        "EPWA": 1
+    },
+    "EPNM": {
+        "EPWA": 1
+    },
+    "EPPI": {
+        "EPPO": 5
+    },
+    "EPPK": {
+        "EPPO": 1
+    },
+    "EPPO": {
+        "EPPO": 17,
+        "EPWA": 2,
+        "EPZB": 2,
+        "EPZG": 2
+    },
+    "EPPW": {
+        "ETAR": 2,
+        "ETOU": 2
+    },
+    "EPRZ": {
+        "UKBB": 1
+    },
+    "EPSC": {
+        "EPWA": 2,
+        "EPWR": 1
+    },
+    "EPSO": {
+        "EPWA": 2
+    },
+    "EPWA": {
+        "EPWA": 5,
+        "EPWR": 1,
+        "EYKA": 4,
+        "EYKG": 1,
+        "KOAK": 1,
+        "KORD": 3,
+        "LFLS": 1,
+        "LFPG": 1,
+        "LGAV": 1,
+        "LLBG": 1,
+        "LSGG": 2,
+        "LSZH": 2,
+        "LTBA": 1,
+        "OMAA": 2,
+        "OTHH": 1,
+        "UKBB": 1,
+        "UKKK": 9,
+        "UNNT": 1
+    },
+    "EPWR": {
+        "LKPR": 2
+    },
+    "ESCM": {
+        "ESOW": 2
+    },
+    "ESDF": {
+        "ESDF": 1,
+        "ESGG": 4,
+        "ESMK": 1,
+        "ESSA": 2,
+        "ESTL": 3
+    },
+    "ESGG": {
+        "ESGP": 2,
+        "ESMK": 1,
+        "ESMS": 1,
+        "ESSA": 1,
+        "ESSB": 2,
+        "ESSD": 1,
+        "ESTA": 1,
+        "LPPT": 1
+    },
+    "ESKC": {
+        "ESOW": 1,
+        "ESSD": 1
+    },
+    "ESKN": {
+        "LHBP": 2,
+        "LROP": 2
+    },
+    "ESME": {
+        "ESMK": 1
+    },
+    "ESMH": {
+        "ESMK": 1,
+        "ESMS": 1
+    },
+    "ESMK": {
+        "ESMK": 7,
+        "ESMS": 1
+    },
+    "ESMS": {
+        "ESMS": 5,
+        "ESSA": 3,
+        "ESSB": 3,
+        "ESSV": 1,
+        "LTBA": 1
+    },
+    "ESMX": {
+        "ESTL": 1
+    },
+    "ESND": {
+        "ESSA": 2
+    },
+    "ESNZ": {
+        "ESSA": 3
+    },
+    "ESOW": {
+        "ESOW": 64,
+        "ESQO": 1,
+        "ESSB": 3,
+        "ESSD": 1,
+        "ESSU": 2,
+        "ESVA": 1,
+        "ESVQ": 1,
+        "LKPR": 2
+    },
+    "ESPA": {
+        "ESPA": 1,
+        "ESSA": 7
+    },
+    "ESSA": {
+        "ESSA": 15,
+        "ESSB": 5,
+        "ESSD": 2,
+        "ESSE": 2,
+        "ESSP": 1,
+        "ESSU": 4,
+        "EYVI": 2,
+        "KHEF": 1,
+        "LEBL": 1,
+        "LEMD": 2,
+        "LEMG": 2,
+        "LFPG": 12,
+        "LHBP": 1,
+        "LPBJ": 1,
+        "LSZH": 5,
+        "LTBA": 1,
+        "LZIB": 2,
+        "OTHH": 4,
+        "UKBB": 2,
+        "UMMS": 6,
+        "UNNT": 1,
+        "UUEE": 3,
+        "UUWW": 9,
+        "VABB": 1
+    },
+    "ESSB": {
+        "ESSB": 17,
+        "ESSN": 3,
+        "ESSP": 1,
+        "LEMG": 2,
+        "LSZH": 1,
+        "UKBB": 1
+    },
+    "ESSP": {
+        "LHBP": 2,
+        "LROP": 1
+    },
+    "ESSV": {
+        "ESVB": 1
+    },
+    "ESTA": {
+        "LEBL": 1,
+        "LSZH": 1
+    },
+    "ETAD": {
+        "ETAR": 1,
+        "ETOU": 7
+    },
+    "ETAR": {
+        "ETAR": 18,
+        "ETIC": 2,
+        "KADW": 1,
+        "KBWI": 2,
+        "KDOV": 1,
+        "KNGU": 1,
+        "KNTU": 1,
+        "KWRI": 3,
+        "LEPA": 1,
+        "LERT": 3,
+        "LICC": 2,
+        "LICZ": 1,
+        "LIPA": 1,
+        "OTBH": 3
+    },
+    "ETHM": {
+        "ETNG": 2
+    },
+    "ETHN": {
+        "ETOU": 1
+    },
+    "ETIC": {
+        "ETOU": 1
+    },
+    "ETMN": {
+        "ETMN": 3
+    },
+    "ETNG": {
+        "ETNG": 13
+    },
+    "ETOU": {
+        "ETOU": 14,
+        "EYVI": 1
+    },
+    "ETSI": {
+        "ETSI": 6,
+        "LKKV": 1,
+        "LOWW": 1
+    },
+    "EVRA": {
+        "LEBL": 1,
+        "LFMN": 1,
+        "LKPR": 4,
+        "LOWW": 1,
+        "LSGG": 1,
+        "UKBB": 1,
+        "UUEE": 1,
+        "UUWW": 3
+    },
+    "EYKA": {
+        "LHBP": 1
+    },
+    "EYSA": {
+        "LEZG": 2
+    },
+    "EYVI": {
+        "LKPR": 3,
+        "LOWW": 1,
+        "LROP": 1,
+        "UUEE": 1
+    },
+    "GMME": {
+        "LFPB": 3
+    },
+    "GMMN": {
+        "LEMD": 2,
+        "LFPG": 5,
+        "LIMC": 1,
+        "LIRF": 1
+    },
+    "GMTT": {
+        "LEZL": 4
+    },
+    "GOBD": {
+        "LFPG": 2,
+        "LIRA": 1
+    },
+    "GVAC": {
+        "LOWW": 1
+    },
+    "KATL": {
+        "LFPG": 2
+    },
+    "KBOS": {
+        "LSGG": 1
+    },
+    "KDAL": {
+        "LFPB": 1
+    },
+    "KEWR": {
+        "LFPG": 4,
+        "LSZH": 3
+    },
+    "KIAD": {
+        "LEMD": 2,
+        "LRBS": 2
+    },
+    "KIND": {
+        "LFPG": 4
+    },
+    "KISP": {
+        "LOWW": 1
+    },
+    "KJFK": {
+        "LEZG": 2,
+        "LFPG": 4,
+        "LIRF": 5,
+        "UUEE": 3
+    },
+    "KLAX": {
+        "LEBL": 1,
+        "LFPG": 4,
+        "LIMC": 1
+    },
+    "KNGU": {
+        "LERT": 1
+    },
+    "KOPF": {
+        "LSZH": 1
+    },
+    "KORD": {
+        "LFPG": 6,
+        "LIMC": 3,
+        "LPPT": 1,
+        "UUEE": 2
+    },
+    "KORL": {
+        "LFPB": 1
+    },
+    "KPHL": {
+        "LFPG": 5
+    },
+    "LBBG": {
+        "LSGG": 1
+    },
+    "LCLK": {
+        "LSZH": 1,
+        "UKBB": 1,
+        "UUEE": 1
+    },
+    "LDDU": {
+        "LDSR": 1
+    },
+    "LDLO": {
+        "LDPL": 1
+    },
+    "LDSR": {
+        "LIRF": 1
+    },
+    "LDZA": {
+        "LDZA": 1,
+        "LDZS": 1,
+        "LFOK": 1,
+        "LFPG": 1,
+        "LOWG": 2,
+        "LOWW": 2,
+        "LSGG": 2,
+        "LTBA": 2,
+        "LYBE": 1
+    },
+    "LEAB": {
+        "LETO": 1
+    },
+    "LEAL": {
+        "LEBL": 2
+    },
+    "LEAX": {
+        "LEMG": 2
+    },
+    "LEBL": {
+        "LEBL": 2,
+        "LECU": 1,
+        "LEGE": 1,
+        "LEIB": 12,
+        "LELL": 2,
+        "LEMD": 5,
+        "LEMG": 11,
+        "LEMH": 7,
+        "LEPA": 9,
+        "LETO": 2,
+        "LEVC": 20,
+        "LEZL": 12,
+        "LFPG": 12,
+        "LIRF": 1,
+        "LKPR": 1,
+        "LMML": 2,
+        "LPPR": 1,
+        "LROP": 1,
+        "LSGG": 1,
+        "LTBA": 3,
+        "OMAA": 1,
+        "OTHH": 1,
+        "UMMS": 4,
+        "UNNT": 1,
+        "UUBW": 1,
+        "UUEE": 8,
+        "ZGGG": 1,
+        "ZGSZ": 1
+    },
+    "LECN": {
+        "LEVC": 3
+    },
+    "LECU": {
+        "LEMD": 1,
+        "LEMG": 1
+    },
+    "LEGT": {
+        "LEMD": 1,
+        "LFBO": 3
+    },
+    "LEIB": {
+        "LEIB": 3,
+        "LEPA": 4
+    },
+    "LELH": {
+        "LOWS": 1
+    },
+    "LEMD": {
+        "LEMD": 4,
+        "LEMG": 2,
+        "LEMH": 1,
+        "LEPA": 22,
+        "LEVC": 4,
+        "LEVX": 1,
+        "LEZL": 1,
+        "LFHC": 1,
+        "LFLL": 1,
+        "LFML": 1,
+        "LFPB": 1,
+        "LFPG": 17,
+        "LFRS": 1,
+        "LIMC": 12,
+        "LIRF": 2,
+        "LMML": 1,
+        "LOWW": 1,
+        "LPPR": 4,
+        "LPPT": 2,
+        "LSZH": 2,
+        "LTBA": 7,
+        "OERK": 2,
+        "OMDB": 5,
+        "OTHH": 3,
+        "SAEZ": 2,
+        "SBGR": 1,
+        "SKBO": 7,
+        "UNNT": 1,
+        "UUEE": 9,
+        "VHHH": 1,
+        "ZGSZ": 7
+    },
+    "LEMG": {
+        "LEMG": 8,
+        "LEPA": 3,
+        "LETO": 2,
+        "LEVC": 1,
+        "LFML": 1,
+        "LMML": 1,
+        "LOWL": 2,
+        "LOWW": 2,
+        "LPAZ": 2,
+        "LSGG": 2
+    },
+    "LEMH": {
+        "LEPA": 6
+    },
+    "LEPA": {
+        "LEPA": 4,
+        "LETO": 2,
+        "LFLC": 1,
+        "LSGG": 2,
+        "LSZH": 1
+    },
+    "LERT": {
+        "LETO": 2,
+        "LICC": 1,
+        "LICZ": 1,
+        "OBBI": 1
+    },
+    "LETO": {
+        "LETO": 8,
+        "LEZG": 1,
+        "LFPG": 2,
+        "LICZ": 1,
+        "LIME": 1,
+        "LOWW": 1,
+        "OTHH": 1
+    },
+    "LEVC": {
+        "LEVC": 6,
+        "LEZL": 1,
+        "LIMC": 1,
+        "LIRF": 1,
+        "ZGSZ": 1
+    },
+    "LEZG": {
+        "LEZG": 4,
+        "LICZ": 1,
+        "OTHH": 2,
+        "UUEE": 2
+    },
+    "LEZL": {
+        "LEZL": 10,
+        "LFBD": 1,
+        "LFBO": 3,
+        "LFOJ": 2,
+        "LFPB": 1,
+        "LIRF": 1,
+        "LSGG": 2
+    },
+    "LFAC": {
+        "LFPB": 1
+    },
+    "LFAD": {
+        "LFLS": 1
+    },
+    "LFAQ": {
+        "LFRZ": 1
+    },
+    "LFBA": {
+        "LFPB": 2
+    },
+    "LFBC": {
+        "LFBG": 2,
+        "LFOE": 1,
+        "LFPV": 1,
+        "LFRV": 1
+    },
+    "LFBD": {
+        "LFBD": 8,
+        "LFBE": 2,
+        "LFCD": 1,
+        "LFCH": 1,
+        "LFDF": 1,
+        "LFDI": 1,
+        "LFHJ": 1,
+        "LFML": 8,
+        "LFMO": 3,
+        "LFMY": 1,
+        "LFNR": 1,
+        "LFOJ": 1,
+        "LFPB": 2,
+        "LFPG": 6,
+        "LFPN": 2,
+        "LFPV": 8,
+        "LPPR": 1,
+        "LROP": 1,
+        "UUWW": 3
+    },
+    "LFBE": {
+        "LFBE": 1
+    },
+    "LFBF": {
+        "LFBO": 2
+    },
+    "LFBG": {
+        "LFBG": 24,
+        "LFBJ": 2,
+        "LFBL": 1,
+        "LFBN": 1,
+        "LFBU": 1,
+        "LFBX": 2,
+        "LFDV": 1,
+        "LFMO": 4
+    },
+    "LFBH": {
+        "LFPB": 2
+    },
+    "LFBI": {
+        "LFBO": 1
+    },
+    "LFBN": {
+        "LFOV": 2
+    },
+    "LFBO": {
+        "LFBO": 38,
+        "LFCI": 1,
+        "LFCQ": 1,
+        "LFHC": 1,
+        "LFIR": 1,
+        "LFJH": 3,
+        "LFLL": 2,
+        "LFLS": 1,
+        "LFLY": 2,
+        "LFMK": 1,
+        "LFML": 1,
+        "LFNX": 1,
+        "LFPB": 2,
+        "LFPG": 16,
+        "LFPN": 1,
+        "LFPV": 1,
+        "LFRS": 3,
+        "LFRZ": 2,
+        "LFTW": 1,
+        "LOWS": 1,
+        "LPPT": 1,
+        "LSZH": 1,
+        "LSZM": 1
+    },
+    "LFEZ": {
+        "LFPB": 1
+    },
+    "LFGA": {
+        "LSGG": 1,
+        "LSZG": 1
+    },
+    "LFGB": {
+        "LFPV": 1
+    },
+    "LFHJ": {
+        "LFTW": 2,
+        "LSGG": 2
+    },
+    "LFJL": {
+        "LFLY": 2
+    },
+    "LFKB": {
+        "LFML": 2
+    },
+    "LFKC": {
+        "LFML": 1
+    },
+    "LFKF": {
+        "LFKJ": 1,
+        "LFML": 5,
+        "LFPB": 1,
+        "LFST": 1
+    },
+    "LFKG": {
+        "LFOJ": 1
+    },
+    "LFKJ": {
+        "LFKJ": 1,
+        "LFML": 13
+    },
+    "LFKS": {
+        "LFPV": 1
+    },
+    "LFLC": {
+        "LFPB": 2
+    },
+    "LFLI": {
+        "LFLI": 2
+    },
+    "LFLP": {
+        "LFLS": 1,
+        "LFPB": 1
+    },
+    "LFLS": {
+        "LFPV": 2
+    },
+    "LFLU": {
+        "LFOP": 1,
+        "LFPB": 1,
+        "LSGG": 1
+    },
+    "LFLY": {
+        "LFPB": 1,
+        "LFPV": 3
+    },
+    "LFMD": {
+        "LFPN": 1
+    },
+    "LFMI": {
+        "LFMK": 1,
+        "LFOJ": 1,
+        "LFPV": 1
+    },
+    "LFMK": {
+        "LFTW": 2
+    },
+    "LFML": {
+        "LFML": 11,
+        "LFMO": 1,
+        "LFMQ": 1,
+        "LFPB": 3,
+        "LFPG": 10,
+        "LFQT": 3,
+        "LFSG": 1,
+        "LFTW": 1,
+        "LGAV": 4,
+        "LIMJ": 1,
+        "LIRA": 2,
+        "LLBG": 1,
+        "LMML": 4,
+        "LOWW": 2,
+        "LSZH": 1,
+        "UUEE": 2
+    },
+    "LFMN": {
+        "LFPG": 1,
+        "UKBB": 1
+    },
+    "LFMV": {
+        "LFPB": 1
+    },
+    "LFMY": {
+        "LFPV": 3
+    },
+    "LFNR": {
+        "LFPG": 2,
+        "LFTW": 1,
+        "LIRA": 1,
+        "LPBJ": 1
+    },
+    "LFOB": {
+        "LFPB": 1
+    },
+    "LFOE": {
+        "LFOE": 3,
+        "LFOJ": 2,
+        "LFPG": 4
+    },
+    "LFOJ": {
+        "LFOJ": 11,
+        "LFPV": 2,
+        "LFSK": 1
+    },
+    "LFOK": {
+        "LFPB": 4,
+        "LFPV": 1,
+        "LIRF": 1,
+        "UUEE": 1,
+        "ZGSZ": 1
+    },
+    "LFOZ": {
+        "LFPB": 1
+    },
+    "LFPB": {
+        "LFPB": 5,
+        "LFPC": 1,
+        "LFQT": 1,
+        "LFST": 3,
+        "LIMP": 2,
+        "LIRF": 2,
+        "LROP": 2,
+        "LSGG": 13,
+        "LSZH": 1,
+        "LZIB": 1,
+        "ULLI": 1,
+        "UMMS": 1
+    },
+    "LFPC": {
+        "LFPV": 1
+    },
+    "LFPG": {
+        "LFPG": 3,
+        "LFTW": 1,
+        "LGAV": 1,
+        "LIMC": 10,
+        "LIRF": 25,
+        "LKPR": 2,
+        "LLBG": 3,
+        "LOWW": 7,
+        "LPPT": 2,
+        "LROP": 2,
+        "LSGG": 2,
+        "LSZM": 4,
+        "LTBA": 2,
+        "NTAA": 1,
+        "OBBI": 1,
+        "OERK": 2,
+        "OMAA": 1,
+        "OMDB": 20,
+        "OTHH": 26,
+        "RCTP": 4,
+        "RKSI": 7,
+        "SBGR": 2,
+        "UKBB": 3,
+        "UMMS": 10,
+        "UUEE": 4,
+        "UUWW": 1,
+        "VABB": 1,
+        "VHHH": 11,
+        "ZGSZ": 4
+    },
+    "LFPN": {
+        "LFPN": 5,
+        "LFST": 1,
+        "LFXU": 1
+    },
+    "LFPT": {
+        "LFPT": 1
+    },
+    "LFPV": {
+        "LFPV": 6,
+        "LFQB": 1,
+        "LFRN": 2
+    },
+    "LFQN": {
+        "LFQQ": 1
+    },
+    "LFQQ": {
+        "LFQQ": 1
+    },
+    "LFRD": {
+        "LFTW": 1
+    },
+    "LFRS": {
+        "LFTH": 1
+    },
+    "LFTW": {
+        "LFTW": 4
+    },
+    "LGAV": {
+        "LGIR": 5,
+        "LGRP": 1,
+        "LGSA": 3,
+        "LGSM": 1,
+        "LIRF": 1,
+        "LROP": 1,
+        "LSGG": 1,
+        "LSZH": 3,
+        "LYBE": 1,
+        "LZIB": 1,
+        "UUEE": 1
+    },
+    "LGIR": {
+        "LGRP": 4,
+        "LPPT": 1,
+        "OERK": 1,
+        "OMSJ": 1
+    },
+    "LGKO": {
+        "LGKO": 2,
+        "LGRP": 1,
+        "LGSM": 3
+    },
+    "LGSA": {
+        "OBBI": 1
+    },
+    "LHBP": {
+        "LHSN": 1,
+        "LKPR": 13,
+        "LKVO": 1,
+        "LLBG": 2,
+        "LOWW": 7,
+        "LSZM": 2,
+        "LYBE": 1,
+        "OMDB": 1,
+        "OTHH": 3,
+        "RKSI": 2,
+        "UKBB": 2,
+        "USSS": 1,
+        "UUEE": 1,
+        "UUWW": 2,
+        "VHHH": 2,
+        "VIDP": 1,
+        "ZUCK": 1
+    },
+    "LHDC": {
+        "LOWW": 1
+    },
+    "LHFP": {
+        "LOWW": 1
+    },
+    "LHKE": {
+        "LHSM": 1
+    },
+    "LIBD": {
+        "LIBV": 1,
+        "LICJ": 1,
+        "LIMC": 2,
+        "LIML": 1,
+        "LIPO": 7,
+        "LIPX": 1,
+        "LIRF": 17,
+        "OMDB": 2
+    },
+    "LIBF": {
+        "LICC": 1
+    },
+    "LIBR": {
+        "LIRE": 2
+    },
+    "LICA": {
+        "LIEE": 1,
+        "LIRF": 6
+    },
+    "LICC": {
+        "LIPA": 1,
+        "LIPO": 1,
+        "LIRF": 6
+    },
+    "LICJ": {
+        "LIML": 2,
+        "LIRA": 5,
+        "LIRF": 7,
+        "UKBB": 1
+    },
+    "LICZ": {
+        "LIPA": 1,
+        "LIPO": 3,
+        "LIRF": 10,
+        "OBBI": 2
+    },
+    "LIDE": {
+        "LIPE": 1
+    },
+    "LIDU": {
+        "LIME": 1
+    },
+    "LIEA": {
+        "LIEE": 2
+    },
+    "LIED": {
+        "LIER": 2,
+        "LIMC": 3,
+        "LIPO": 2,
+        "LIRF": 3,
+        "LSZR": 1
+    },
+    "LIEE": {
+        "LIEO": 1,
+        "LIER": 2,
+        "LIMC": 10,
+        "LIMF": 1,
+        "LIPO": 4,
+        "LIRF": 40,
+        "LSZH": 1
+    },
+    "LILB": {
+        "LIME": 1
+    },
+    "LILG": {
+        "LIRA": 1
+    },
+    "LILR": {
+        "LIMP": 1
+    },
+    "LILV": {
+        "LIME": 1
+    },
+    "LIMB": {
+        "LSZA": 2
+    },
+    "LIMC": {
+        "LIMC": 10,
+        "LIME": 2,
+        "LIMF": 1,
+        "LIPY": 2,
+        "LIRA": 1,
+        "LIRF": 59,
+        "LJLJ": 1,
+        "LKPR": 1,
+        "LLBG": 3,
+        "LMML": 1,
+        "LOWL": 1,
+        "LOWW": 6,
+        "LROP": 1,
+        "LSZA": 1,
+        "LSZM": 4,
+        "LTBA": 2,
+        "LZIB": 1,
+        "OERK": 1,
+        "OTHH": 4,
+        "RPLL": 2,
+        "UAAA": 1,
+        "UKBB": 1,
+        "UKKK": 1,
+        "UNNT": 5,
+        "UUEE": 6,
+        "VHHH": 1
+    },
+    "LIME": {
+        "LIME": 3,
+        "LIPE": 9,
+        "LIPL": 3,
+        "LIPZ": 2,
+        "LIRA": 2,
+        "LIRF": 4,
+        "LMML": 1
+    },
+    "LIMF": {
+        "LIMF": 3,
+        "LIRF": 4
+    },
+    "LIMJ": {
+        "LIML": 1,
+        "LIMZ": 1,
+        "LIRA": 2,
+        "LIRF": 10,
+        "LKPR": 2,
+        "LSZH": 1
+    },
+    "LIML": {
+        "LIPE": 1,
+        "LIPO": 2,
+        "LIRA": 3,
+        "LIRE": 1,
+        "LIRF": 6,
+        "LSGG": 1
+    },
+    "LIPA": {
+        "LIPD": 2
+    },
+    "LIPB": {
+        "LIPB": 2
+    },
+    "LIPD": {
+        "LIPQ": 1
+    },
+    "LIPE": {
+        "LIPE": 1,
+        "LIPK": 1,
+        "LIRA": 1,
+        "LIRE": 1,
+        "LIRF": 6,
+        "LJLJ": 1,
+        "LSGC": 2,
+        "LSZH": 1,
+        "UAAA": 2,
+        "UKBB": 1,
+        "UUEE": 2
+    },
+    "LIPH": {
+        "LIPH": 1
+    },
+    "LIPL": {
+        "LIPO": 2
+    },
+    "LIPO": {
+        "LIRA": 2
+    },
+    "LIPQ": {
+        "LIPU": 1
+    },
+    "LIPU": {
+        "LIPU": 1
+    },
+    "LIPZ": {
+        "LIRA": 12,
+        "LIRF": 10,
+        "LKPR": 1
+    },
+    "LIRA": {
+        "LIRA": 16,
+        "LIRF": 1,
+        "LIRU": 2
+    },
+    "LIRE": {
+        "LIRF": 3,
+        "LIRL": 1
+    },
+    "LIRF": {
+        "LIRP": 1,
+        "LIRV": 6,
+        "LKPR": 1,
+        "LMML": 3,
+        "LROP": 1,
+        "LSGG": 6,
+        "LSZH": 1,
+        "LYBE": 1,
+        "OMDB": 1,
+        "OTHH": 2,
+        "RKSI": 1,
+        "SAEZ": 1,
+        "ULLI": 1,
+        "UMMS": 1,
+        "UNNT": 2,
+        "UUEE": 3,
+        "ZGSZ": 1
+    },
+    "LJBL": {
+        "LJLJ": 1
+    },
+    "LJDI": {
+        "LJLJ": 1
+    },
+    "LJLJ": {
+        "LJLJ": 3,
+        "LOWW": 1,
+        "LTBA": 1,
+        "UAAA": 1
+    },
+    "LJPZ": {
+        "LJPZ": 1
+    },
+    "LKBA": {
+        "LKKU": 1,
+        "LKTB": 1
+    },
+    "LKBE": {
+        "LKPR": 1,
+        "LKVO": 1
+    },
+    "LKCM": {
+        "LKTB": 1
+    },
+    "LKCR": {
+        "LKPD": 1
+    },
+    "LKKB": {
+        "LKTB": 1
+    },
+    "LKKU": {
+        "LKKU": 8,
+        "LKKY": 1,
+        "LKMT": 1,
+        "LKPR": 3,
+        "LZHL": 1
+    },
+    "LKKV": {
+        "LKTB": 1
+    },
+    "LKLT": {
+        "LKPR": 1,
+        "LKVO": 1
+    },
+    "LKMB": {
+        "LKVO": 1
+    },
+    "LKMH": {
+        "LKMT": 1
+    },
+    "LKMT": {
+        "LKMT": 6,
+        "LKOT": 1,
+        "LKTA": 1,
+        "LKTB": 2
+    },
+    "LKPA": {
+        "LKPR": 1
+    },
+    "LKPC": {
+        "LKPR": 1,
+        "LKVO": 1
+    },
+    "LKPD": {
+        "LKPD": 40,
+        "UKKK": 2
+    },
+    "LKPR": {
+        "LKPR": 7,
+        "LKTB": 3,
+        "LKUO": 1,
+        "LMML": 1,
+        "LOWS": 1,
+        "LOWW": 4,
+        "LROP": 1,
+        "LSZH": 1,
+        "RKSI": 1,
+        "UKBB": 3,
+        "UMMS": 2,
+        "UUEE": 2,
+        "UUWW": 5,
+        "VTBS": 1
+    },
+    "LKSP": {
+        "LZZI": 1
+    },
+    "LKTB": {
+        "LKTB": 12,
+        "LKTC": 1,
+        "LKVM": 1,
+        "LKZD": 1,
+        "LZIB": 1
+    },
+    "LKVO": {
+        "LKVO": 9,
+        "UUWW": 1
+    },
+    "LLBG": {
+        "LMML": 1,
+        "LOWW": 3,
+        "LSZH": 1,
+        "UKBB": 1,
+        "ULLI": 1
+    },
+    "LMML": {
+        "LMML": 13,
+        "LROP": 1,
+        "OTHH": 2,
+        "UMMS": 1
+    },
+    "LOAN": {
+        "LOWG": 1
+    },
+    "LOAS": {
+        "LZIB": 1
+    },
+    "LOAV": {
+        "LOWW": 1
+    },
+    "LOIJ": {
+        "LOWI": 1
+    },
+    "LOLW": {
+        "LOWS": 1,
+        "LSZR": 1
+    },
+    "LOWG": {
+        "LOWG": 4,
+        "LOWK": 1,
+        "LSZH": 1
+    },
+    "LOWK": {
+        "LOWK": 2,
+        "LSZR": 1
+    },
+    "LOWL": {
+        "LOWL": 5,
+        "LOWW": 3,
+        "LSZH": 1,
+        "LTBA": 1,
+        "LYBE": 4,
+        "UKBB": 1
+    },
+    "LOWW": {
+        "LOWW": 2,
+        "LOXN": 1,
+        "LRSB": 2,
+        "LSGG": 1,
+        "LSZG": 2,
+        "LSZH": 2,
+        "LTAC": 2,
+        "LTBA": 2,
+        "LYBE": 1,
+        "OMDB": 4,
+        "OTHH": 5,
+        "RCTP": 2,
+        "RKSI": 9,
+        "UAAA": 1,
+        "UDYZ": 1,
+        "UKBB": 1,
+        "UMMS": 9,
+        "UUDD": 5,
+        "UUEE": 8,
+        "UUWW": 4,
+        "VHHH": 2
+    },
+    "LPAZ": {
+        "LPPD": 9,
+        "LSZH": 2
+    },
+    "LPBJ": {
+        "LPBJ": 2
+    },
+    "LPCS": {
+        "LPCS": 2,
+        "LPPR": 1,
+        "LPPT": 4
+    },
+    "LPFR": {
+        "LPFR": 4,
+        "LPPR": 1,
+        "LPPT": 1
+    },
+    "LPOV": {
+        "LPPR": 1
+    },
+    "LPPD": {
+        "LPPR": 1,
+        "LPPT": 13
+    },
+    "LPPR": {
+        "LPPR": 9,
+        "LPPT": 19,
+        "LSGG": 2,
+        "LSZH": 6
+    },
+    "LPPT": {
+        "LROP": 2,
+        "LSGG": 2,
+        "LSZH": 4,
+        "LTBA": 1,
+        "SBGR": 1,
+        "UUEE": 1
+    },
+    "LRBS": {
+        "LRBS": 3,
+        "LROP": 1,
+        "LSZH": 3
+    },
+    "LROP": {
+        "LRTM": 1,
+        "LTBA": 3,
+        "LZIB": 5,
+        "LZTT": 1,
+        "OMDB": 2,
+        "UAAA": 4,
+        "UDYZ": 1,
+        "UUEE": 1,
+        "UUWW": 2
+    },
+    "LRSB": {
+        "LRSB": 1
+    },
+    "LSGB": {
+        "LSZG": 2
+    },
+    "LSGC": {
+        "LSZB": 1,
+        "LSZG": 1,
+        "LSZH": 1
+    },
+    "LSGE": {
+        "LSZG": 1
+    },
+    "LSGG": {
+        "LSGG": 10,
+        "LSGL": 1,
+        "LSGY": 1,
+        "LSZA": 3,
+        "LSZB": 3,
+        "LSZC": 1,
+        "LSZG": 2,
+        "LSZH": 3,
+        "LSZM": 5,
+        "LSZR": 1,
+        "LYBE": 1,
+        "LZIB": 1,
+        "OERK": 1,
+        "OMDB": 1,
+        "OMDW": 1,
+        "SBGR": 1,
+        "UKBB": 1,
+        "UMMS": 2,
+        "UUEE": 1
+    },
+    "LSGL": {
+        "LSZB": 1,
+        "LSZG": 1,
+        "LZIB": 1
+    },
+    "LSGT": {
+        "LSZB": 1
+    },
+    "LSGY": {
+        "LSZH": 1
+    },
+    "LSMD": {
+        "LSME": 1,
+        "LSZA": 1
+    },
+    "LSME": {
+        "LSME": 37,
+        "LSMP": 3,
+        "LSPO": 1,
+        "LSZA": 3,
+        "LSZB": 4,
+        "LSZX": 1
+    },
+    "LSMF": {
+        "LSZB": 1,
+        "LSZG": 1,
+        "LSZH": 1
+    },
+    "LSMP": {
+        "LSZA": 1,
+        "LSZB": 1
+    },
+    "LSPL": {
+        "LSZB": 1
+    },
+    "LSPN": {
+        "LSZG": 1
+    },
+    "LSPO": {
+        "LSZB": 1
+    },
+    "LSTB": {
+        "LSZB": 1
+    },
+    "LSTZ": {
+        "LSZB": 1
+    },
+    "LSZA": {
+        "LSZH": 5
+    },
+    "LSZB": {
+        "LSZB": 6,
+        "LSZC": 3,
+        "LSZG": 5,
+        "LSZH": 6,
+        "OMDW": 1
+    },
+    "LSZC": {
+        "LSZH": 1
+    },
+    "LSZG": {
+        "LSZG": 14,
+        "LSZH": 2,
+        "LSZM": 2,
+        "LSZR": 1
+    },
+    "LSZH": {
+        "LSZH": 6,
+        "LSZM": 3,
+        "LSZN": 1,
+        "LSZR": 1,
+        "LTBA": 3,
+        "LYBE": 1,
+        "LZIB": 3,
+        "OMDB": 4,
+        "OTHH": 5,
+        "ULLI": 1,
+        "UUWW": 2,
+        "VHHH": 2,
+        "VOCI": 1,
+        "VTBS": 1,
+        "WSSS": 3
+    },
+    "LSZR": {
+        "LSZR": 2,
+        "LSZV": 1
+    },
+    "LTAC": {
+        "LYBE": 1
+    },
+    "LTBA": {
+        "LYBE": 1,
+        "LZIB": 1,
+        "UKBB": 8,
+        "UUEE": 4
+    },
+    "LYBE": {
+        "LYBE": 1,
+        "UKBB": 1,
+        "ULLI": 1,
+        "UMMS": 1,
+        "UUWW": 2
+    },
+    "LZBD": {
+        "LZKZ": 1
+    },
+    "LZIB": {
+        "LZIB": 4,
+        "LZKZ": 2,
+        "LZSY": 1,
+        "LZTR": 1,
+        "LZTT": 1,
+        "UAAA": 1,
+        "UNNT": 1,
+        "UUEE": 2,
+        "UUWW": 1,
+        "UWWW": 2
+    },
+    "LZKZ": {
+        "LZKZ": 31,
+        "LZMA": 2,
+        "LZRU": 1
+    },
+    "LZNI": {
+        "LZPP": 1
+    },
+    "LZPP": {
+        "LZPP": 1
+    },
+    "LZZI": {
+        "LZZI": 1
+    },
+    "OMDB": {
+        "UUEE": 1,
+        "UUWW": 1
+    },
+    "OMDW": {
+        "UKBB": 1
+    },
+    "OMSJ": {
+        "UUEE": 2
+    },
+    "RKSI": {
+        "UUEE": 7
+    },
+    "UAAA": {
+        "UKBB": 5
+    },
+    "UDYZ": {
+        "UKBB": 1,
+        "UMMS": 4,
+        "UUEE": 1
+    },
+    "UKBB": {
+        "UKBB": 2,
+        "UKKK": 2,
+        "VECC": 1,
+        "WSSS": 1
+    },
+    "UKKK": {
+        "UKLU": 1
+    },
+    "ULLI": {
+        "ULLI": 2,
+        "UMKK": 1,
+        "UNNT": 3,
+        "UUDD": 2,
+        "UUEE": 52,
+        "UUMO": 1,
+        "UUWW": 7,
+        "UUYY": 2,
+        "UWKD": 3,
+        "UWWW": 4
+    },
+    "UMKK": {
+        "UUEE": 1
+    },
+    "UMMS": {
+        "UUEE": 4,
+        "UUWW": 1
+    },
+    "UNNT": {
+        "UUEE": 1,
+        "UUWW": 5
+    },
+    "URWA": {
+        "UUEE": 4,
+        "UUMU": 1,
+        "UUWW": 1
+    },
+    "UTTT": {
+        "UUEE": 1
+    },
+    "UUBW": {
+        "UUEE": 1,
+        "UWKD": 1
+    },
+    "UUDD": {
+        "UWKD": 1,
+        "UWWW": 1
+    },
+    "UUEE": {
+        "UUEE": 22,
+        "UUWW": 3,
+        "UUYY": 2,
+        "UWKD": 2,
+        "UWLL": 2,
+        "UWWW": 2,
+        "VHHH": 8,
+        "ZGSZ": 4
+    },
+    "UUMO": {
+        "UUWW": 1
+    },
+    "UUWW": {
+        "UUWW": 9,
+        "UWWW": 1,
+        "VTBS": 1
+    },
+    "UWKD": {
+        "UWLW": 1
+    }
+}`

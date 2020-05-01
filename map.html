@@ -1,0 +1,257 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        
+        <!-- Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+                integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+                crossorigin=""/>
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+                integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+                crossorigin=""></script>
+        
+        <!-- JQuery -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">  
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+                integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+                crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+                integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                crossorigin="anonymous">></script>
+        
+        <!-- Data -->
+        <script src="data_clean/airports.json"></script>
+        <script src="data_clean/flights.json"></script>
+        <script src="data_clean/flights_jan.json"></script>
+        <script src="data_clean/flights_feb.json"></script>
+        <script src="data_clean/flights_mar.json"></script>
+    </head>
+    
+    <body>
+        <div id="mapid" style="width: 1200px; height: 800px; float:left; margin-right:30px;"></div>
+        <div id="controls" style="float:left;">            
+            <h4>Details</h4>
+            <div>
+                <input type="checkbox" id="airport_cb" name="airport_cb">
+                <label for="airport_cb">Show airports</label>
+            </div>
+            
+            <h4>Maximum thickness of lines</h4>
+            <div>
+                <input type="number" id="weight" name="weight" min="5" max="40" value="20" style="max-width: 100px;">
+                <label for="weight">px</label>
+            </div>
+            
+            <h4>Filter</h4>
+            <div>
+                <p>
+                    <label for="flight_range">Number of flights:</label>
+                    <input type="text" id="flight_range" readonly style="border:0; background:transparent; color:#f6931f; font-weight:bold; max-width:100px;">
+                </p>
+                <div id="flight_range_slider"></div>
+            </div>
+            <!--<div>
+                <label for="minflights">min.</label>
+                <input type="range" id="minflights" name="minflights" min="0" max="50" value="5" step="5">
+            </div>
+            <div>
+                <label for="maxflights">max.</label>
+                <input type="range" id="maxflights" name="maxflights" min="50" max="100" value="90" step="10">
+            </div>-->
+            
+            <h4>Datasets</h4>
+            <div>
+                <input type="radio" id="lastweek" name="dataset" value="lastweek" checked>
+                <label for="lastweek">Last week (24.4. - 1.5.)</label>
+            </div>
+            <div>
+                <input type="radio" id="covid19" name="dataset" value="covid19">
+                <label for="covid19"><a href="https://opensky-network.org/datasets/covid-19/">Covid-19</a></label>
+            </div>
+            <div style="margin-left: 50px;">
+                <div>
+                    <input type="checkbox" id="covid19_jan" name="covid19_jan" disabled>
+                    <label for="covid19_jan">January</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="covid19_feb" name="covid19_feb" disabled>
+                    <label for="covid19_feb">February</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="covid19_mar" name="covid19_mar" disabled>
+                    <label for="covid19_mar">March</label>
+                </div>
+            </div>
+            
+            <!--<h4>Period</h4>
+            <div>
+                <label for="start">From:</label>
+                <input type="date" id="start" name="start" value="2020-01-01" min="2020-01-01" max="2020-03-31">
+            </div>
+            <div>
+                <label for="end">To:</label>
+                <input type="date" id="end" name="end" value="2020-03-31" min="2020-01-01" max="2020-03-31">
+            </div>-->
+        </div>
+        
+        <script>
+            // init slider
+            $("#flight_range_slider").slider({
+                range: true,
+                min: 0,
+                max: 100,
+                values: [5, 80],
+                slide: function(event, ui) {
+                    $("#flight_range").val(ui.values[0] + " - " + ui.values[1]);
+                    refresh_display();
+                }
+            });
+            // init label
+            $("#flight_range").val($("#flight_range_slider").slider("values", 0) + 
+                                " - " + $("#flight_range_slider").slider("values", 1));
+            
+            // init display airports
+            $("#airport_cb").change(function() {
+                if (this.checked) {
+                    airport_layer.addTo(map);
+                } else {
+                    airport_layer.remove();
+                }
+            });
+            
+            // init max weight
+            $("#weight").change(function() {
+                refresh_display();
+            });
+            
+            // init data selection
+            var month_cbs = ['covid19_jan', 'covid19_feb', 'covid19_mar'];
+            for (var i of month_cbs) {
+                $("#" + i).change(function() {
+                    update_flight_data();
+                });
+            }
+            for (var i of ['lastweek', 'covid19']) {
+                $("#" + i).change(function() {
+                    for (var i of month_cbs) {
+                        $("#" + i).prop("disabled", $('#lastweek').is(':checked'));
+                    }
+                    update_flight_data();
+                });
+            }
+                
+            
+            
+            // init map
+            var map = L.map('mapid').setView([50.163, 18.940], 5);
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                maxZoom: 18,
+                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                id: 'mapbox/streets-v11',
+                tileSize: 512,
+                zoomOffset: -1
+            }).addTo(map);
+            
+            var airport_layer = L.layerGroup();
+            var flight_layer = L.layerGroup();
+            
+            var draw_airport = function(a) {
+                if (a['isDrawn'] === undefined) {
+                    a['isDrawn'] = true;
+                    var marker = L.marker([a.LatDecimal, a.LongDecimal]).bindPopup(a.Name);
+                    airport_layer.addLayer(marker);
+                    //L.marker([a.LongDecimal, a.LatDecimal], {icon: L.Icon.Default}).addTo(map).bindPopup(a.Name);
+                }
+            };
+            
+            var airports = JSON.parse(airport_data);
+            var flights_lastweek = JSON.parse(flights_data);
+            var flights_jan = JSON.parse(flights_jan_data);
+            var flights_feb = JSON.parse(flights_feb_data);
+            var flights_mar = JSON.parse(flights_mar_data);
+            var fdata = flights_lastweek;
+            var maxflights = 0;
+            //$.getJSON("./data_clean/airports.json", function(data) {  });
+            
+            // merge data from d2 in d1
+            var merge_data = function(d1, d2) {
+                for (var a2 of Object.keys(d2)) {
+                    for (var b2 of Object.keys(d2[a2])) {
+                        if (d1[a2] !== undefined) {
+                            if (d1[a2][b2] !== undefined) {
+                                d1[a2][b2] += d2[a2][b2];
+                            } else {
+                                d1[a2][b2] = d2[a2][b2];
+                            }
+                        } else {
+                            d1[a2] = {b2: d2[a2][b2]};
+                        }
+                    }
+                }
+                return d1
+            }
+            
+            var update_flight_data = function() {
+                if ($('#lastweek').is(':checked')) {
+                    fdata = flights_lastweek;
+                } else {
+                    fdata = [];
+                    if ($('#covid19_jan').is(':checked')) {
+                        fdata = merge_data(fdata, flights_jan);
+                    } else if ($('#covid19_feb').is(':checked')) {
+                        fdata = merge_data(fdata, flights_feb);
+                    } else if ($('#covid19_mar').is(':checked')) {
+                        fdata = merge_data(fdata, flights_mar);
+                    }
+                }
+            
+                maxflights = 0;
+                for (var a_icao of Object.keys(fdata)) {
+                    var a = airports[a_icao];
+                    if (a !== undefined) {
+                        for (var b_icao of Object.keys(fdata[a_icao])) {
+                            var b = airports[b_icao];
+                            if (b !== undefined && a_icao != b_icao) {
+                                maxflights = Math.max(fdata[a_icao][b_icao], maxflights);
+                            }
+                        }
+                    }
+                }
+                $("#flight_range_slider").slider("option", {max: maxflights});
+                $("#flight_range_slider").slider("values", [0.2*maxflights, maxflights]);
+                refresh_display();
+            };
+            
+            var refresh_display = function() {
+                flight_layer.clearLayers();
+                var maxweight = $("#weight").val();
+                
+                for (var a_icao of Object.keys(airports)) {
+                    var a = airports[a_icao];
+                    if (fdata[a_icao]) {
+                        for (var b_icao of Object.keys(fdata[a_icao])) {
+                            var b = airports[b_icao];
+                            if (b !== undefined && a_icao != b_icao) {
+                                draw_airport(a);
+                                draw_airport(b);
+                                var msg = `<b>${a.Name} - ${b.Name}</b><br />${fdata[a_icao][b_icao]} flights`;
+                                var color = a.ICAO < b.ICAO ? "red" : "blue";
+                                var nflights = fdata[a_icao][b_icao];
+                                if (nflights >= $("#flight_range_slider").slider("values", 0) && nflights <= $("#flight_range_slider").slider("values", 1)) {
+                                    var line = L.polyline([[a.LatDecimal, a.LongDecimal], [b.LatDecimal, b.LongDecimal]], {color: color, weight: nflights/maxflights*maxweight}).bindPopup(msg);
+                                    flight_layer.addLayer(line);
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+            
+            flight_layer.addTo(map);
+            update_flight_data();
+        </script>
+    </body>
+</html>
