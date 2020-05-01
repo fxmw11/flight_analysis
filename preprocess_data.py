@@ -26,7 +26,7 @@ def query_airport(airport_icao):
 
 def dict2file(dict, file_name, var_name):
     data = json.dumps(dict, sort_keys=True, indent=4)
-    data = f"var {var_name} = `{data}`"
+    data = f"var {var_name} = `{data}`" # drop json in a js-variable for easier local testing
     with open(file_name, "w") as file:
         file.write(data)
 
@@ -81,7 +81,7 @@ def parse_airports():
     dict = df_airports.to_dict(orient="index")
     data = json.dumps(dict, sort_keys=True, indent=4)
     data = data.replace("\'", "\\\'").replace("\"", "\\\"")
-    data = f"var airport_data = `{data}`"
+    data = f"var airport_data = `{data}`" # drop json in a js-variable for easier local testing
     with open('data_clean/airports.json', "w") as file:
         file.write(data)
 

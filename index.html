@@ -36,6 +36,10 @@
                 <input type="checkbox" id="airport_cb" name="airport_cb">
                 <label for="airport_cb">Show airports</label>
             </div>
+            <div>
+                <input type="checkbox" id="domestic_cb" name="domestic_cb">
+                <label for="domestic_cb">Highlight domestic flights</label>
+            </div>
             
             <h4>Maximum thickness of lines</h4>
             <div>
@@ -118,6 +122,11 @@
                 } else {
                     airport_layer.remove();
                 }
+            });
+            
+            // init domestic flights
+            $("#domestic_cb").change(function() {
+                refresh_display();
             });
             
             // init max weight
@@ -238,7 +247,10 @@
                                 draw_airport(a);
                                 draw_airport(b);
                                 var msg = `<b>${a.Name} - ${b.Name}</b><br />${fdata[a_icao][b_icao]} flights`;
-                                var color = a.ICAO < b.ICAO ? "red" : "blue";
+                                var color = "red";
+                                if ($('#domestic_cb').is(':checked')) {
+                                    color = a.Country != b.Country ? "red" : "blue";
+                                }
                                 var nflights = fdata[a_icao][b_icao];
                                 if (nflights >= $("#flight_range_slider").slider("values", 0) && nflights <= $("#flight_range_slider").slider("values", 1)) {
                                     var line = L.polyline([[a.LatDecimal, a.LongDecimal], [b.LatDecimal, b.LongDecimal]], {color: color, weight: nflights/maxflights*maxweight}).bindPopup(msg);

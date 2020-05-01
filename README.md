@@ -15,7 +15,7 @@ For now only the **number of flights** between selected airports is visualized. 
 for which position data is contained in the [GlobalAirportDatabase](http://www.partow.net/miscellaneous/airportdatabase/index.html).
 
 Future ideas:
-- [ ] visualize domestic flights
+- [x] visualize domestic flights
 - [ ] visualize short distance flights
 - [ ] visualize the intercity-railways in europe
 - [ ] compare railways and heavily used flight routes (time, distance, ecological footprint, ...)
