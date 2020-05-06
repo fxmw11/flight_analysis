@@ -26,6 +26,7 @@
         <script src="data_clean/flights_jan.json"></script>
         <script src="data_clean/flights_feb.json"></script>
         <script src="data_clean/flights_mar.json"></script>
+        <script src="data_clean/flights_apr.json"></script>
     </head>
     
     <body>
@@ -86,6 +87,10 @@
                     <input type="checkbox" id="covid19_mar" name="covid19_mar" disabled>
                     <label for="covid19_mar">March</label>
                 </div>
+                <div>
+                    <input type="checkbox" id="covid19_apr" name="covid19_apr" disabled>
+                    <label for="covid19_apr">April</label>
+                </div>
             </div>
             
             <!--<h4>Period</h4>
@@ -135,7 +140,7 @@
             });
             
             // init data selection
-            var month_cbs = ['covid19_jan', 'covid19_feb', 'covid19_mar'];
+            var month_cbs = ['covid19_jan', 'covid19_feb', 'covid19_mar', 'covid19_apr'];
             for (var i of month_cbs) {
                 $("#" + i).change(function() {
                     update_flight_data();
@@ -168,11 +173,15 @@
             var flight_layer = L.layerGroup();
             
             var draw_airport = function(a) {
-                if (a['isDrawn'] === undefined) {
-                    a['isDrawn'] = true;
+                if (a['marker'] === undefined) {
                     var marker = L.marker([a.LatDecimal, a.LongDecimal]).bindPopup(a.Name);
                     airport_layer.addLayer(marker);
-                    //L.marker([a.LongDecimal, a.LatDecimal], {icon: L.Icon.Default}).addTo(map).bindPopup(a.Name);
+                    a['marker'] = marker;
+                } else {
+                    var marker = a['marker'];
+                    if (!airport_layer.hasLayer(marker)) {
+                        airport_layer.addLayer(marker);
+                    }
                 }
             };
             
@@ -181,6 +190,7 @@
             var flights_jan = JSON.parse(flights_jan_data);
             var flights_feb = JSON.parse(flights_feb_data);
             var flights_mar = JSON.parse(flights_mar_data);
+            var flights_apr = JSON.parse(flights_apr_data);
             var fdata = flights_lastweek;
             var maxflights = 0;
             //$.getJSON("./data_clean/airports.json", function(data) {  });
@@ -214,6 +224,8 @@
                         fdata = merge_data(fdata, flights_feb);
                     } else if ($('#covid19_mar').is(':checked')) {
                         fdata = merge_data(fdata, flights_mar);
+                    } else if ($('#covid19_apr').is(':checked')) {
+                        fdata = merge_data(fdata, flights_apr);
                     }
                 }
             
@@ -235,6 +247,7 @@
             };
             
             var refresh_display = function() {
+                airport_layer.clearLayers();
                 flight_layer.clearLayers();
                 var maxweight = $("#weight").val();
                 
@@ -244,8 +257,6 @@
                         for (var b_icao of Object.keys(fdata[a_icao])) {
                             var b = airports[b_icao];
                             if (b !== undefined && a_icao != b_icao) {
-                                draw_airport(a);
-                                draw_airport(b);
                                 var msg = `<b>${a.Name} - ${b.Name}</b><br />${fdata[a_icao][b_icao]} flights`;
                                 var color = "red";
                                 if ($('#domestic_cb').is(':checked')) {
@@ -255,6 +266,8 @@
                                 if (nflights >= $("#flight_range_slider").slider("values", 0) && nflights <= $("#flight_range_slider").slider("values", 1)) {
                                     var line = L.polyline([[a.LatDecimal, a.LongDecimal], [b.LatDecimal, b.LongDecimal]], {color: color, weight: nflights/maxflights*maxweight}).bindPopup(msg);
                                     flight_layer.addLayer(line);
+                                    draw_airport(a);
+                                    draw_airport(b);
                                 }
                             }
                         }

@@ -135,7 +135,8 @@ def parse_flight_data(file_src, name):
     dict2file(dict=flights.get_dict(), file_name=f'data_clean/{name}.json', var_name=f"{name}_data")
 
 df_airports = parse_airports()
-#query_arrivals(df_airports)
-#parse_flight_data("data_covid_19/flightlist_20200101_20200131.csv", "flights_jan")
-#parse_flight_data("data_covid_19/flightlist_20200201_20200229.csv", "flights_feb")
-#parse_flight_data("data_covid_19/flightlist_20200301_20200331.csv", "flights_mar")
+query_arrivals(df_airports)
+parse_flight_data("data_covid_19/flightlist_20200101_20200131.csv", "flights_jan")
+parse_flight_data("data_covid_19/flightlist_20200201_20200229.csv", "flights_feb")
+parse_flight_data("data_covid_19/flightlist_20200301_20200331.csv", "flights_mar")
+parse_flight_data("data_covid_19/flightlist_20200401_20200430.csv", "flights_apr")
