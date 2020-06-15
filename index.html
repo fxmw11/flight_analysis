@@ -27,6 +27,7 @@
         <script src="data_clean/flights_feb.json"></script>
         <script src="data_clean/flights_mar.json"></script>
         <script src="data_clean/flights_apr.json"></script>
+        <script src="data_clean/flights_may.json"></script>
     </head>
     
     <body>
@@ -91,6 +92,10 @@
                     <input type="checkbox" id="covid19_apr" name="covid19_apr" disabled>
                     <label for="covid19_apr">April</label>
                 </div>
+                <div>
+                    <input type="checkbox" id="covid19_may" name="covid19_may" disabled>
+                    <label for="covid19_may">May</label>
+                </div>
             </div>
             
             <!--<h4>Period</h4>
@@ -140,7 +145,7 @@
             });
             
             // init data selection
-            var month_cbs = ['covid19_jan', 'covid19_feb', 'covid19_mar', 'covid19_apr'];
+            var month_cbs = ['covid19_jan', 'covid19_feb', 'covid19_mar', 'covid19_apr', 'covid19_may'];
             for (var i of month_cbs) {
                 $("#" + i).change(function() {
                     update_flight_data();
@@ -191,6 +196,7 @@
             var flights_feb = JSON.parse(flights_feb_data);
             var flights_mar = JSON.parse(flights_mar_data);
             var flights_apr = JSON.parse(flights_apr_data);
+            var flights_may = JSON.parse(flights_may_data);
             var fdata = flights_lastweek;
             var maxflights = 0;
             //$.getJSON("./data_clean/airports.json", function(data) {  });
@@ -226,6 +232,8 @@
                         fdata = merge_data(fdata, flights_mar);
                     } else if ($('#covid19_apr').is(':checked')) {
                         fdata = merge_data(fdata, flights_apr);
+                    } else if ($('#covid19_may').is(':checked')) {
+                        fdata = merge_data(fdata, flights_may);
                     }
                 }
             

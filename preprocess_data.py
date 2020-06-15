@@ -69,7 +69,7 @@ def parse_airports():
     df_airports = df_airports.merge(df_positions, on='ICAO', validate="one_to_one")
 
     # filter some invalid airports
-    df_airports = df_airports.query("not IATA.isnull()")
+    df_airports = df_airports.query("not IATA.isnull().values") # https://stackoverflow.com/questions/51878316/pandas-python-series-objects-are-mutable-thus-they-cannot-be-hashed-in-query-me/51878559#51878559
     df_airports = df_airports.query("LatDecimal != 0.0")
     df_airports = df_airports.query("ICAO != 'UHMD'")
     df_airports = df_airports.query("ICAO != 'UWPP'")
@@ -140,3 +140,4 @@ parse_flight_data("data_covid_19/flightlist_20200101_20200131.csv", "flights_jan
 parse_flight_data("data_covid_19/flightlist_20200201_20200229.csv", "flights_feb")
 parse_flight_data("data_covid_19/flightlist_20200301_20200331.csv", "flights_mar")
 parse_flight_data("data_covid_19/flightlist_20200401_20200430.csv", "flights_apr")
+parse_flight_data("data_covid_19/flightlist_20200501_20200531.csv", "flights_may")

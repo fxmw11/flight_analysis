@@ -19,12 +19,15 @@ curl https://opensky-network.org/datasets/covid-19/flightlist_20200101_20200131.
 curl https://opensky-network.org/datasets/covid-19/flightlist_20200201_20200229.csv.gz > flightlist_20200201_20200229.csv.gz
 curl https://opensky-network.org/datasets/covid-19/flightlist_20200301_20200331.csv.gz > flightlist_20200301_20200331.csv.gz
 curl https://opensky-network.org/datasets/covid-19/flightlist_20200401_20200430.csv.gz > flightlist_20200401_20200430.csv.gz
+curl https://opensky-network.org/datasets/covid-19/flightlist_20200501_20200531.csv.gz > flightlist_20200501_20200531.csv.gz
 gunzip flightlist_20200101_20200131.csv.gz
 gunzip flightlist_20200201_20200229.csv.gz
 gunzip flightlist_20200301_20200331.csv.gz
 gunzip flightlist_20200401_20200430.csv.gz
+gunzip flightlist_20200501_20200531.csv.gz
 rm flightlist_20200101_20200131.csv.gz
 rm flightlist_20200201_20200229.csv.gz
 rm flightlist_20200301_20200331.csv.gz
 rm flightlist_20200401_20200430.csv.gz
+rm flightlist_20200501_20200531.csv.gz
 popd
