@@ -17,6 +17,6 @@ for which position data is contained in the [GlobalAirportDatabase](http://www.p
 Future ideas:
 - [x] visualize domestic flights
 - [ ] visualize short distance flights
-- [ ] visualize the intercity-railways in europe
+- [x] visualize the intercity-railways in europe
 - [ ] compare railways and heavily used flight routes (time, distance, ecological footprint, ...)
 - [ ] join airplane data to get estimates of number of passengers travelling/ecological footprint

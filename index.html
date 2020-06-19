@@ -35,6 +35,10 @@
         <div id="controls" >
             <h4>Details</h4>
             <div>
+                <input type="checkbox" id="railway_cb" name="railway_cb">
+                <label for="railway_cb">Show railways (maxspeed)</label>
+            </div>
+            <div>
                 <input type="checkbox" id="airport_cb" name="airport_cb">
                 <label for="airport_cb">Show airports</label>
             </div>
@@ -138,6 +142,15 @@
             $("#domestic_cb").change(function() {
                 refresh_display();
             });
+
+            // init show railway
+            $("#railway_cb").change(function() {
+                if ($('#railway_cb').is(':checked')) {
+                    map.addLayer(openrailwaymap);
+                } else {
+                    map.removeLayer(openrailwaymap);
+                }
+            });
             
             // init max weight
             $("#weight").change(function() {
@@ -164,7 +177,7 @@
             
             // init map
             var map = L.map('mapid').setView([50.163, 18.940], 5);
-            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            var topologicalmap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                 maxZoom: 18,
                 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
                     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -172,6 +185,12 @@
                 id: 'mapbox/streets-v11',
                 tileSize: 512,
                 zoomOffset: -1
+            }).addTo(map);
+            var openrailwaymap = new L.TileLayer('http://{s}.tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png', {
+                attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>, Style: <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a> and OpenStreetMap',
+                minZoom: 2,
+                maxZoom: 19,
+                tileSize: 256
             }).addTo(map);
             
             var airport_layer = L.layerGroup();
