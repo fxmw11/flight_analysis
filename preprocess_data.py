@@ -4,7 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 from aircrafts.aircrafts import parse_aircrafts, merge_mtow
 from airports import parse_airports, query_flightdata_by_airport
-from datamodel import Dict2Level, DictItem, dict2json
+from datamodel import Dict2Level, DictItem, dict2json, dict2csv
 
 
 def query_arrivals(df_airports, df_aircrafts):
@@ -35,6 +35,9 @@ def query_arrivals(df_airports, df_aircrafts):
             flights = pickle.load(f)
 
     flights = merge_mtow(flights, df_aircrafts)
+
+    dict2csv(dict=flights.get_dict(), file_name=f'data_clean/flights.csv', quantity='count')
+    dict2csv(dict=flights.get_dict(), file_name=f'data_clean/flights_mtow.csv', quantity='mtow')
     dict2json(dict=flights.get_dict(), file_name="data_clean/flights.json", var_name="flights_data")
 
 
@@ -61,6 +64,9 @@ def parse_flight_data(file_src, name, df_aircrafts):
             flights = pickle.load(f)
 
     flights = merge_mtow(flights, df_aircrafts)
+
+    dict2csv(dict=flights.get_dict(), file_name=f'data_clean/{name}.csv', quantity='count')
+    dict2csv(dict=flights.get_dict(), file_name=f'data_clean/{name}_mtow.csv', quantity='mtow')
     dict2json(dict=flights.get_dict(), file_name=f'data_clean/{name}.json', var_name=f"{name}_data")
 
 df_airports = parse_airports()

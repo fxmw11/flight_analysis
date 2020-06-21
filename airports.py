@@ -50,7 +50,7 @@ def parse_airports():
     with open('data_clean/airports.csv', "w") as file:
         file.write("id,name,lat,lon\n")
         for row in df_airports.itertuples(index=False):
-            file.write(f"{row.ICAO},{row.Name.strip()},{row.LatDecimal},{row.LongDecimal}\n")
+            file.write(f"{row.ICAO},{row.Name.replace(',', ' -').strip()},{row.LatDecimal},{row.LongDecimal}\n")
 
     # df_airports.to_json("data_clean/airports.json", orient="index", force_ascii=False, indent=4)
     # with open('data_clean/airports.json', 'r', encoding='utf-8') as file:
