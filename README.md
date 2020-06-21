@@ -19,4 +19,4 @@ Future ideas:
 - [ ] visualize short distance flights
 - [x] visualize the intercity-railways in europe
 - [ ] compare railways and heavily used flight routes (time, distance, ecological footprint, ...)
-- [ ] join airplane data to get estimates of number of passengers travelling/ecological footprint
+- [x] join airplane data (weight) to get estimates of number of passengers travelling/ecological footprint

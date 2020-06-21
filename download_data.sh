@@ -7,6 +7,7 @@ rm GlobalAirportDatabase.zip
 curl https://opensky-network.org/datasets/metadata/aircraftDatabase.csv > aircraftDatabase.csv
 curl https://opensky-network.org/datasets/metadata/doc8643AircraftTypes.csv > doc8643AircraftTypes.csv
 curl https://opensky-network.org/datasets/metadata/doc8643Manufacturers.csv > doc8643Manufacturers.csv
+curl https://www.faa.gov/airports/engineering/aircraft_char_database/media/FAA-Aircraft-Char-Database-v2-201810.xlsx > FAA-Aircraft-Char-Database-v2-201810.xlsx
 popd
 
 

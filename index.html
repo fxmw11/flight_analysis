@@ -46,6 +46,10 @@
                 <input type="checkbox" id="domestic_cb" name="domestic_cb">
                 <label for="domestic_cb">Highlight domestic flights</label>
             </div>
+            <div>
+                <input type="checkbox" id="mtow_cb" name="mtow_cb">
+                <label for="mtow_cb">Display acc. MTOW instead of #flights</label>
+            </div>
             
             <h4>Maximum thickness of lines</h4>
             <div>
@@ -54,7 +58,14 @@
             </div>
             
             <h4>Filter</h4>
-            <div>
+            <div id="mtow_slider">
+                <p>
+                    <label for="mtow_range">Accumulated <a href="https://en.wikipedia.org/wiki/Maximum_takeoff_weight">MTOW</a> on route:</label><br />
+                    <input type="text" id="mtow_range" readonly style="border:0; background:transparent; color:#f6931f; font-weight:bold; max-width:200px;">
+                </p>
+                <div id="mtow_range_slider"></div>
+            </div>
+            <div id="flights_slider">
                 <p>
                     <label for="flight_range">Number of flights:</label>
                     <input type="text" id="flight_range" readonly style="border:0; background:transparent; color:#f6931f; font-weight:bold; max-width:100px;">
@@ -115,6 +126,16 @@
         
         <script>
             // init slider
+            $("#mtow_range_slider").slider({
+                range: true,
+                min: 0,
+                max: 100,
+                values: [5, 80],
+                slide: function(event, ui) {
+                    $("#mtow_range").val(Math.round(0.2*ui.values[0]/1000) + " t - " + Math.round(ui.values[1]/1000) + " t");
+                    refresh_display();
+                }
+            });
             $("#flight_range_slider").slider({
                 range: true,
                 min: 0,
@@ -125,9 +146,6 @@
                     refresh_display();
                 }
             });
-            // init label
-            $("#flight_range").val($("#flight_range_slider").slider("values", 0) + 
-                                " - " + $("#flight_range_slider").slider("values", 1));
             
             // init display airports
             $("#airport_cb").change(function() {
@@ -145,11 +163,24 @@
 
             // init show railway
             $("#railway_cb").change(function() {
-                if ($('#railway_cb').is(':checked')) {
-                    map.addLayer(openrailwaymap);
+                if (this.checked) {
+                    openrailwaymap.addTo(map);
                 } else {
-                    map.removeLayer(openrailwaymap);
+                    openrailwaymap.remove();
                 }
+            });
+
+            // init display mtow
+            $("#mtow_slider").hide();
+            $("#mtow_cb").change(function() {
+                if (this.checked) {
+                    $("#mtow_slider").show();
+                    $("#flights_slider").hide();
+                } else {
+                    $("#mtow_slider").hide();
+                    $("#flights_slider").show();
+                }
+                refresh_display();
             });
             
             // init max weight
@@ -191,7 +222,7 @@
                 minZoom: 2,
                 maxZoom: 19,
                 tileSize: 256
-            }).addTo(map);
+            });
             
             var airport_layer = L.layerGroup();
             var flight_layer = L.layerGroup();
@@ -256,20 +287,26 @@
                     }
                 }
             
-                maxflights = 0;
+                max_mtow = 0;
+                max_flights = 0;
                 for (var a_icao of Object.keys(fdata)) {
                     var a = airports[a_icao];
                     if (a !== undefined) {
                         for (var b_icao of Object.keys(fdata[a_icao])) {
                             var b = airports[b_icao];
                             if (b !== undefined && a_icao != b_icao) {
-                                maxflights = Math.max(fdata[a_icao][b_icao], maxflights);
+                                max_mtow = Math.max(fdata[a_icao][b_icao].mtow, max_mtow);
+                                max_flights = Math.max(fdata[a_icao][b_icao].count, max_flights);
                             }
                         }
                     }
                 }
-                $("#flight_range_slider").slider("option", {max: maxflights});
-                $("#flight_range_slider").slider("values", [0.2*maxflights, maxflights]);
+                $("#mtow_range_slider").slider("option", {max: max_mtow});
+                $("#mtow_range_slider").slider("values", [0.2*max_mtow, max_mtow]);
+                $("#mtow_range").val(Math.round(0.2*max_mtow/1000) + " t - " + Math.round(max_mtow/1000) + " t");
+                $("#flight_range_slider").slider("option", {max: max_flights});
+                $("#flight_range_slider").slider("values", [0.2*max_flights, max_flights]);
+                $("#flight_range").val(Math.round(0.2*max_flights) + " - " + max_flights);
                 refresh_display();
             };
             
@@ -284,14 +321,23 @@
                         for (var b_icao of Object.keys(fdata[a_icao])) {
                             var b = airports[b_icao];
                             if (b !== undefined && a_icao != b_icao) {
-                                var msg = `<b>${a.Name} - ${b.Name}</b><br />${fdata[a_icao][b_icao]} flights`;
+                                var msg = `<b>${a.Name} - ${b.Name}</b><br />${fdata[a_icao][b_icao].count} flights</b><br />${Math.round(fdata[a_icao][b_icao].mtow/1000)} t moved between these destinations (accumulated <a href="https://en.wikipedia.org/wiki/Maximum_takeoff_weight">MTOW</a>)`;
                                 var color = "red";
                                 if ($('#domestic_cb').is(':checked')) {
                                     color = a.Country != b.Country ? "red" : "blue";
                                 }
-                                var nflights = fdata[a_icao][b_icao];
-                                if (nflights >= $("#flight_range_slider").slider("values", 0) && nflights <= $("#flight_range_slider").slider("values", 1)) {
-                                    var line = L.polyline([[a.LatDecimal, a.LongDecimal], [b.LatDecimal, b.LongDecimal]], {color: color, weight: nflights/maxflights*maxweight}).bindPopup(msg);
+                                if ($('#mtow_cb').is(':checked')) {
+                                    var value = fdata[a_icao][b_icao].mtow;
+                                    var max_value = max_mtow;
+                                    var sl = $("#mtow_range_slider");
+                                } else {
+                                    var value = fdata[a_icao][b_icao].count;
+                                    var max_value = max_flights;
+                                    var sl = $("#flight_range_slider");
+                                }
+                                var nflights = fdata[a_icao][b_icao].count;
+                                if (value >= sl.slider("values", 0) && value <= sl.slider("values", 1)) {
+                                    var line = L.polyline([[a.LatDecimal, a.LongDecimal], [b.LatDecimal, b.LongDecimal]], {color: color, weight: value/max_value*maxweight}).bindPopup(msg);
                                     flight_layer.addLayer(line);
                                     draw_airport(a);
                                     draw_airport(b);
