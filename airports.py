@@ -29,8 +29,10 @@ def parse_airports():
     df_positions = df_positions[['ICAO', 'LatDecimal', 'LongDecimal']]
     df_airports = df_airports.merge(df_positions, on='ICAO', validate="one_to_one")
 
-    # filter some invalid airports
+    # consider only airports with IATA code (mainly aiports frequently used for traveling)
     df_airports = df_airports.query("not IATA.isnull().values") # https://stackoverflow.com/questions/51878316/pandas-python-series-objects-are-mutable-thus-they-cannot-be-hashed-in-query-me/51878559#51878559
+
+    # filter some invalid airports
     df_airports = df_airports.query("LatDecimal != 0.0")
     df_airports = df_airports.query("ICAO != 'UHMD'")
     df_airports = df_airports.query("ICAO != 'UWPP'")

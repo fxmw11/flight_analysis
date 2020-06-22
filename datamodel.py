@@ -63,22 +63,18 @@ def dict2json(dict, file_name, var_name):
 
 
 def dict2csv(dict, file_name, quantity):
-    df_airports = pd.read_csv("data_clean/airports.csv", sep=",", header=0)
-    existing_ids = list(df_airports.id)
     with open(file_name, "w") as file:
         file.write("origin,dest,count\n")
         for origin, dests in dict.items():
             for dst, data in dests.items():
-                # write flights only if location is given (to avoid warnings by flowmap.blue)
-                if origin in existing_ids and dst in existing_ids:
-                    if quantity == 'count':
-                        val = data.count
-                    elif quantity == 'mtow':
-                        val = data.values['mtow']
-                    else:
-                        print(f"{quantity} is invalid")
-                        return
-                    file.write(f"{origin},{dst},{val}\n")
+                if quantity == 'count':
+                    val = data.count
+                elif quantity == 'mtow':
+                    val = data.values['mtow']
+                else:
+                    print(f"{quantity} is invalid")
+                    return
+                file.write(f"{origin},{dst},{val}\n")
 
 
 def json_dump(obj):

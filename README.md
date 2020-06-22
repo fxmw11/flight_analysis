@@ -14,10 +14,10 @@ python preprocess_data.py
 
 For now only the **number of flights** and the accumulated **maximum takeoff weight (MTOW)** of all flights between selected airports is visualized.
 Selected airports are the *large* and *medium* classified airports at [airportcodes.io](https://airportcodes.io/en/all-airports/?filters[continent]=EU)
-for which position data is contained in the [GlobalAirportDatabase](http://www.partow.net/miscellaneous/airportdatabase/index.html).
+for which have an IATA code assigned (mainly aiports frequently used for traveling) and position data is contained in the [GlobalAirportDatabase](http://www.partow.net/miscellaneous/airportdatabase/index.html).
 MTOW is only considered according to the aircraft's entry in the [Aircraft Characteristics Database](https://www.faa.gov/airports/engineering/aircraft_char_database/) which is set for the majority of all major civil aircrafts (status: 2018).
 For light (hobby) aircrafts MTOW data is usually missing in the database but these would not contribute to the overall traffic significantly anyway.
-Also most military flights are not included in the statistics as they seem not to be included in the OpenSky data (at least in the Covid-19 dataset).
+Also most military flights are not included in the statistics as military airports often have no IATA code.
 
 Future ideas:
 - [x] visualize domestic flights
