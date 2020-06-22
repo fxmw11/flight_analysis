@@ -18,6 +18,7 @@ for which have an IATA code assigned (mainly aiports frequently used for traveli
 MTOW is only considered according to the aircraft's entry in the [Aircraft Characteristics Database](https://www.faa.gov/airports/engineering/aircraft_char_database/) which is set for the majority of all major civil aircrafts (status: 2018).
 For light (hobby) aircrafts MTOW data is usually missing in the database but these would not contribute to the overall traffic significantly anyway.
 Also most military flights are not included in the statistics as military airports often have no IATA code.
+In order to improve merging the data from *OpenSky* and the *Aircraft Characteristics Database* also information about aircrafts from [FlightAirMap](https://real.flightairmap.com/) and [Radarbox](https://www.radarbox.com) is used.
 
 Future ideas:
 - [x] visualize domestic flights

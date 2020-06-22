@@ -1,11 +1,13 @@
 import pandas as pd
 import subprocess
+import requests
 import pickle
 from tqdm import tqdm
 import time
 from datetime import datetime
 import json
 import os
+import re
 from aircrafts.dataframe_preparation import add_alternatives, drop_irrelevant_data
 from datamodel import DictItem, json_dump
 
@@ -90,7 +92,15 @@ def parse_aircrafts(update=False):
     return df_aircrafts
 
 
-def merge_mtow(flight_dict, df_aircrafts):
+def merge_mtow(flight_dict, df_aircrafts, update_map=False):
+    df_aircrafts_tech = load_aircrafts_tech()
+    df_aircrafts_icao_map = load_aircrafts_icao24_map()
+    existing_mtow = list(df_aircrafts.query("MTOW != ''").index)
+    df_aircrafts_icao_map = df_aircrafts_icao_map.query("ModeS not in @existing_mtow")
+
+    all_icao24 = set()
+    no_mapping = set()
+    no_mtow = set()
     for origin, dests in tqdm(flight_dict.get_dict().items(), desc='Merging MTOW data into flights for each airport'):
         for dst, data in dests.items():
             for icao24, n in data.values.items():
@@ -99,14 +109,62 @@ def merge_mtow(flight_dict, df_aircrafts):
                 if icao24 in df_aircrafts.index and df_aircrafts.loc[icao24]['MTOW'] != '':
                     item.values['mtow'] = int(df_aircrafts.loc[icao24]['MTOW'] * 0.453592) # convert from lbs to kg
                 else:
-                    item.values['mtow'] = 0
+                    map = df_aircrafts_icao_map.query("ModeS == @icao24")
+                    if update_map and len(map.index) == 0:
+                        df_aircrafts_icao_map = update_icao24_map(df_aircrafts_icao_map, icao24)
+                        map = df_aircrafts_icao_map.query("ModeS == @icao24")
+                    if len(map.index):
+                        matches = df_aircrafts_tech.query(f"`ICAO Code` == '{map['ICAOTypeCode'].iloc[0]}'")
+                        if len(matches.index):
+                            item.values['mtow'] = matches.sort_values('MTOW').iloc[len(matches)//2]['MTOW']
+                        else:
+                            item.values['mtow'] = 0
+                            no_mtow.add((map['ICAOTypeCode'].iloc[0], icao24))
+                    else:
+                        item.values['mtow'] = 0
+                        no_mapping.add(icao24)
+                all_icao24.add(icao24)
                 data.values[icao24] = item
             mtow = 0
             for icao24, aircraft_data in data.values.items():
                 mtow += aircraft_data.values['mtow'] * aircraft_data.count
             data.values['mtow'] = mtow
 
+    print(f"MTOW not available for {len(no_mtow) + len(no_mapping)}/{len(all_icao24)} aircrafts (from that {len(no_mapping)} ids seem invalid)")
+    if update_map:
+        with open('data/icao24_map.pkl', 'wb') as f:
+            pickle.dump(df_aircrafts_icao_map, f)
+
     return flight_dict
+
+
+def load_aircrafts_icao24_map():
+    if not os.path.exists('data/icao24_map.pkl'):
+        df = pd.read_csv("data/modes.tsv", sep="\t")
+        df = df[['ModeS', 'ICAOTypeCode']]
+        df['ModeS'] = df['ModeS'].str.lower()
+        if os.path.exists('data/icao24_map.csv'):
+            df_ext = pd.read_csv("data/icao24_map.csv", sep=",", comment='#')
+            df = pd.concat([df, df_ext])
+        with open('data/icao24_map.pkl', 'wb') as f:
+            pickle.dump(df, f)
+    else:
+        with open('data/icao24_map.pkl', 'rb') as f:
+            df = pickle.load(f)
+    return df
+
+
+def update_icao24_map(df, icao24):
+    url = f"https://www.radarbox.com/data/mode-s/{icao24.upper()}"
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0'}
+    result = requests.get(url, headers=headers)
+    if result.status_code == 200:
+        html = result.content.decode()
+        matches = re.search('/data/aircraft-models/([0-9A-Z]{4})', html)
+        if matches:
+            print(f"Updating icao24 to type mapping: {icao24} -> {matches.group(1)}")
+            df = df.append({'ModeS': icao24, 'ICAOTypeCode': matches.group(1)}, ignore_index=True)
+    return df
 
 
 def load_aircrafts():
@@ -122,10 +180,18 @@ def load_aircrafts():
 
 def load_aircrafts_tech():
     df = pd.read_excel("data/FAA-Aircraft-Char-Database-v2-201810.xlsx", sheet_name="Aircraft Database")
-    df = df[['Manufacturer', 'Model', 'MTOW']]
-    df.loc[df.query("Manufacturer.str.contains('Ilyushin') and Model.str.contains('IL-96', case=False)", engine='python').index, 'MTOW'] = 551000 # https://en.wikipedia.org/wiki/Ilyushin_Il-96
+    df = df[['Manufacturer', 'Model', 'MTOW', 'ICAO Code']]
+    df.loc[df.query("Manufacturer.str.contains('Airbus') and Model.str.startswith('A320neo')", engine='python').index, 'ICAO Code'] = 'A20N'
+    df.loc[df.query("Manufacturer.str.contains('Airbus') and Model.str.startswith('A321neo')", engine='python').index, 'ICAO Code'] = 'A21N'
+    df.loc[df.query("Manufacturer == 'Boeing' and Model == '777-200LR'").index, 'ICAO Code'] = 'B77L'
+    df.loc[df.query("`ICAO Code` == 'CRJ7'").index, 'MTOW'] = 75000 # https://en.wikipedia.org/wiki/Bombardier_CRJ700_series
+    df.loc[df.query("`ICAO Code` == 'CRJ9'").index, 'MTOW'] = 84500 # https://en.wikipedia.org/wiki/Bombardier_CRJ700_series
+    df.loc[df.query("`ICAO Code` == 'CRJX'").index, 'MTOW'] = 91800 # https://en.wikipedia.org/wiki/Bombardier_CRJ700_series
     df.loc[df.query("Manufacturer.str.contains('Embraer') and Model.str.contains('Legacy 600', case=False)", engine='python').index, 'MTOW'] = 49604 # https://en.wikipedia.org/wiki/Embraer_Legacy_600
     df.loc[df.query("Manufacturer.str.contains('Embraer') and Model.str.contains('Legacy 650', case=False)", engine='python').index, 'MTOW'] = 53572 # https://en.wikipedia.org/wiki/Embraer_Legacy_600
+    df.loc[df.query("Manufacturer.str.contains('Ilyushin') and Model.str.contains('IL-96', case=False)", engine='python').index, 'MTOW'] = 551000 # https://en.wikipedia.org/wiki/Ilyushin_Il-96
+    df.loc[df.query("Model == 'Sukhoi Superjet 100'").index, 'ICAO Code'] = 'SU95' # https://en.wikipedia.org/wiki/Sukhoi_Superjet_100
+    df.loc[df.query("Model == 'Sukhoi Superjet 100'").index, 'MTOW'] = 101150 # https://en.wikipedia.org/wiki/Sukhoi_Superjet_100
     df = df.query("MTOW != 'tbd'")
     #dump_uniques(df['Manufacturer'], 'dump_tech.txt')
     return df
@@ -137,7 +203,7 @@ def get_irrelevant_manu():
     df.loc[df['MTOW'] == 'tbd', 'MTOW'] = 0
     manu_mtow = df.groupby(by=['Manufacturer'])['MTOW'].sum()
     irrelevant_manu = manu_mtow[manu_mtow == 0]
-    return irrelevant_manu.index
+    return list(irrelevant_manu.index)
 
 
 def query_all_combinations(df, columns, values):

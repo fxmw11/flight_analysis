@@ -39,10 +39,10 @@ var flights_may_data = `{
             },
             "4cc537": {
                 "count": 14,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 24,
-            "mtow": 1158920
+            "mtow": 3597720
         },
         "ESSA": {
             "4cc267": {
@@ -59,10 +59,10 @@ var flights_may_data = `{
             },
             "4cc537": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 13,
-            "mtow": 1158920
+            "mtow": 1681520
         },
         "LSZH": {
             "4cc0dc": {
@@ -173,7 +173,7 @@ var flights_may_data = `{
             },
             "3c71a1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "a4b508": {
                 "count": 1,
@@ -188,7 +188,7 @@ var flights_may_data = `{
                 "mtow": 396893
             },
             "count": 13,
-            "mtow": 3885009
+            "mtow": 4418528
         },
         "EFHK": {
             "461e15": {
@@ -225,10 +225,10 @@ var flights_may_data = `{
             },
             "461f54": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 617300
             },
             "count": 30,
-            "mtow": 1408372
+            "mtow": 2642972
         },
         "EGLL": {
             "3c70aa": {
@@ -257,7 +257,7 @@ var flights_may_data = `{
         "EHAM": {
             "425700": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 875000
             },
             "4852f4": {
                 "count": 2,
@@ -324,7 +324,7 @@ var flights_may_data = `{
                 "mtow": 396893
             },
             "count": 42,
-            "mtow": 2228979
+            "mtow": 3103979
         },
         "LEMD": {
             "3c70b4": {
@@ -337,7 +337,7 @@ var flights_may_data = `{
             },
             "400518": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "40066c": {
                 "count": 1,
@@ -353,26 +353,26 @@ var flights_may_data = `{
             },
             "407345": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "407435": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "407493": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 255500
             },
             "4074e5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "407505": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "count": 14,
-            "mtow": 695352
+            "mtow": 2739352
         },
         "LFBO": {
             "344544": {
@@ -533,10 +533,10 @@ var flights_may_data = `{
         "UKBB": {
             "508436": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         },
         "UUEE": {
             "424403": {
@@ -551,10 +551,10 @@ var flights_may_data = `{
         "EHAM": {
             "448444": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 609578
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 609578
         }
     },
     "EBLG": {
@@ -565,7 +565,7 @@ var flights_may_data = `{
             },
             "04015c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "4cc3d9": {
                 "count": 2,
@@ -580,7 +580,7 @@ var flights_may_data = `{
                 "mtow": 286896
             },
             "count": 7,
-            "mtow": 2173838
+            "mtow": 2939838
         },
         "EDDK": {
             "a77dd8": {
@@ -597,22 +597,22 @@ var flights_may_data = `{
         "EFHK": {
             "40762c": {
                 "count": 13,
-                "mtow": 0
+                "mtow": 174200
             },
             "40769e": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 15,
-            "mtow": 0
+            "mtow": 2613000
         },
         "EFTU": {
             "40762c": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 4,
-            "mtow": 0
+            "mtow": 696800
         },
         "EGSS": {
             "ac972c": {
@@ -641,7 +641,7 @@ var flights_may_data = `{
         "EHAM": {
             "448445": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 609578
             },
             "780bb6": {
                 "count": 1,
@@ -660,7 +660,7 @@ var flights_may_data = `{
                 "mtow": 273289
             },
             "count": 9,
-            "mtow": 1470769
+            "mtow": 3909081
         },
         "EHBK": {
             "06a1e8": {
@@ -693,10 +693,10 @@ var flights_may_data = `{
         "ESGG": {
             "40762c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         },
         "GCLP": {
             "346318": {
@@ -709,19 +709,19 @@ var flights_may_data = `{
         "LEMD": {
             "440107": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "440118": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 150000
             },
             "440193": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "4403f4": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "440575": {
                 "count": 3,
@@ -741,7 +741,7 @@ var flights_may_data = `{
             },
             "4409ad": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 150000
             },
             "44d1cf": {
                 "count": 3,
@@ -752,7 +752,7 @@ var flights_may_data = `{
                 "mtow": 68038
             },
             "count": 19,
-            "mtow": 748418
+            "mtow": 1996818
         },
         "LEMG": {
             "4cc515": {
@@ -781,18 +781,18 @@ var flights_may_data = `{
         "LFML": {
             "440107": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "440196": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174200
             },
             "44d1d1": {
                 "count": 1,
                 "mtow": 68038
             },
             "count": 10,
-            "mtow": 68038
+            "mtow": 1611638
         },
         "LFPG": {
             "06a2e2": {
@@ -897,27 +897,27 @@ var flights_may_data = `{
             },
             "06a1ed": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "738075": {
                 "count": 1,
                 "mtow": 286896
             },
             "count": 3,
-            "mtow": 586266
+            "mtow": 1352266
         },
         "LPPR": {
             "4400cd": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 150000
             },
             "440102": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "4403f4": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 150000
             },
             "440575": {
                 "count": 2,
@@ -937,34 +937,34 @@ var flights_may_data = `{
             },
             "4409ad": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "44d1d1": {
                 "count": 1,
                 "mtow": 68038
             },
             "count": 18,
-            "mtow": 544304
+            "mtow": 2044304
         },
         "LPPT": {
             "4400cd": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "4cc0dc": {
                 "count": 1,
                 "mtow": 68038
             },
             "count": 2,
-            "mtow": 68038
+            "mtow": 218038
         },
         "LROP": {
             "440196": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         },
         "LSZH": {
             "4cc0dc": {
@@ -981,18 +981,18 @@ var flights_may_data = `{
             },
             "43be83": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "count": 2,
-            "mtow": 68038
+            "mtow": 843038
         },
         "UUWW": {
             "4cacd8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 533519
         },
         "UWKD": {
             "4240e7": {
@@ -1031,10 +1031,10 @@ var flights_may_data = `{
         "EDDT": {
             "440c96": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 171961
         },
         "EIDW": {
             "4ca226": {
@@ -1103,7 +1103,7 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 114199
             },
             "510119": {
                 "count": 2,
@@ -1118,7 +1118,7 @@ var flights_may_data = `{
                 "mtow": 0
             },
             "count": 34,
-            "mtow": 1050946
+            "mtow": 1507742
         },
         "UUEE": {
             "424336": {
@@ -1189,14 +1189,14 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 116,
-            "mtow": 5915601
+            "mtow": 6786426
         },
         "EDDK": {
             "42427d": {
@@ -1205,14 +1205,14 @@ var flights_may_data = `{
             },
             "7380ca": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "a762cc": {
                 "count": 1,
                 "mtow": 396893
             },
             "count": 3,
-            "mtow": 464931
+            "mtow": 1024931
         },
         "EDDL": {
             "3c49e2": {
@@ -1249,10 +1249,10 @@ var flights_may_data = `{
             },
             "3c6429": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 10,
-            "mtow": 1245009
+            "mtow": 1451141
         },
         "EDDM": {
             "3c5464": {
@@ -1301,11 +1301,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 13,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 7,
@@ -1313,19 +1313,19 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 5,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d0": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 5,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d6": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "ab87c8": {
                 "count": 1,
@@ -1353,7 +1353,7 @@ var flights_may_data = `{
             },
             "ac0d21": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac1846": {
                 "count": 1,
@@ -1369,7 +1369,7 @@ var flights_may_data = `{
             },
             "ac3fc5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac45d5": {
                 "count": 1,
@@ -1388,7 +1388,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 117,
-            "mtow": 10091238
+            "mtow": 17719013
         },
         "EDDN": {
             "3c6463": {
@@ -1569,11 +1569,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 16,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 4,
@@ -1581,7 +1581,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 11,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 1,
@@ -1589,7 +1589,7 @@ var flights_may_data = `{
             },
             "3c65d1": {
                 "count": 7,
-                "mtow": 0
+                "mtow": 174165
             },
             "451e8d": {
                 "count": 1,
@@ -1600,7 +1600,7 @@ var flights_may_data = `{
                 "mtow": 78000
             },
             "count": 148,
-            "mtow": 6996753
+            "mtow": 14660013
         },
         "EDDV": {
             "3c4aa8": {
@@ -1653,22 +1653,22 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65ce": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 30,
-            "mtow": 1716000
+            "mtow": 3109320
         },
         "EFHK": {
             "3c5461": {
@@ -1705,7 +1705,7 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "461e14": {
                 "count": 8,
@@ -1748,15 +1748,15 @@ var flights_may_data = `{
                 "mtow": 50299
             },
             "count": 117,
-            "mtow": 5784385
+            "mtow": 6132715
         },
         "EGGW": {
             "4d2150": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 51000
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 51000
         },
         "EGLL": {
             "3c5423": {
@@ -1805,7 +1805,7 @@ var flights_may_data = `{
             },
             "3c64a2": {
                 "count": 14,
-                "mtow": 0
+                "mtow": 206132
             },
             "3c64a3": {
                 "count": 8,
@@ -1845,11 +1845,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 12,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 8,
@@ -1857,7 +1857,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 8,
@@ -1865,11 +1865,11 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 7,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "406948": {
                 "count": 2,
@@ -1881,14 +1881,14 @@ var flights_may_data = `{
             },
             "738101": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 502500
             },
             "89631d": {
                 "count": 1,
                 "mtow": 299370
             },
             "count": 162,
-            "mtow": 13682402
+            "mtow": 22469865
         },
         "EGNX": {
             "3c4582": {
@@ -1921,7 +1921,7 @@ var flights_may_data = `{
             },
             "4d2150": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 51000
             },
             "71bc13": {
                 "count": 1,
@@ -1969,7 +1969,7 @@ var flights_may_data = `{
             },
             "781941": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "a69c03": {
                 "count": 1,
@@ -2008,7 +2008,7 @@ var flights_may_data = `{
                 "mtow": 273289
             },
             "count": 33,
-            "mtow": 9891065
+            "mtow": 10708065
         },
         "EHAM": {
             "3c5461": {
@@ -2045,11 +2045,11 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "485206": {
                 "count": 2,
@@ -2129,7 +2129,7 @@ var flights_may_data = `{
             },
             "7380c3": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "738285": {
                 "count": 1,
@@ -2157,7 +2157,7 @@ var flights_may_data = `{
             },
             "781940": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "88818e": {
                 "count": 1,
@@ -2188,7 +2188,7 @@ var flights_may_data = `{
                 "mtow": 158757
             },
             "count": 221,
-            "mtow": 15991517
+            "mtow": 18014177
         },
         "EHBK": {
             "04008c": {
@@ -2201,14 +2201,14 @@ var flights_may_data = `{
             },
             "710100": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 766000
             },
             "710101": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "count": 5,
-            "mtow": 598740
+            "mtow": 2896740
         },
         "EKCH": {
             "3c5461": {
@@ -2261,7 +2261,7 @@ var flights_may_data = `{
             },
             "3c65cb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 4,
@@ -2269,10 +2269,10 @@ var flights_may_data = `{
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 122,
-            "mtow": 6437896
+            "mtow": 7134556
         },
         "ENGM": {
             "06a1ea": {
@@ -2285,7 +2285,7 @@ var flights_may_data = `{
             },
             "06a2c8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 987000
             },
             "06a2c9": {
                 "count": 3,
@@ -2297,11 +2297,11 @@ var flights_may_data = `{
             },
             "06a2df": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "06a2e1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "3c65c2": {
                 "count": 4,
@@ -2337,11 +2337,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 5,
@@ -2349,7 +2349,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 1,
@@ -2357,10 +2357,10 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 52,
-            "mtow": 4977189
+            "mtow": 8889509
         },
         "ENZV": {
             "3c4584": {
@@ -2385,10 +2385,10 @@ var flights_may_data = `{
         "EPWA": {
             "48a5e7": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 29000
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 58000
         },
         "ESGG": {
             "3c5461": {
@@ -2413,7 +2413,7 @@ var flights_may_data = `{
         "ESSA": {
             "345682": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "3c5461": {
                 "count": 6,
@@ -2481,11 +2481,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 2,
@@ -2493,7 +2493,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 2,
@@ -2501,18 +2501,18 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "71c005": {
                 "count": 1,
                 "mtow": 299370
             },
             "count": 126,
-            "mtow": 6385904
+            "mtow": 11198364
         },
         "GCLP": {
             "3c49e8": {
@@ -2621,11 +2621,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 2,
@@ -2633,7 +2633,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 1,
@@ -2641,14 +2641,14 @@ var flights_may_data = `{
             },
             "3c65d1": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174165
             },
             "7380c0": {
                 "count": 1,
                 "mtow": 254011
             },
             "count": 31,
-            "mtow": 1895008
+            "mtow": 3462493
         },
         "LEMD": {
             "3c65c1": {
@@ -2681,7 +2681,7 @@ var flights_may_data = `{
             },
             "3c65cb": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 8,
@@ -2689,7 +2689,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 4,
@@ -2697,14 +2697,14 @@ var flights_may_data = `{
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "8880f8": {
                 "count": 1,
                 "mtow": 254011
             },
             "count": 58,
-            "mtow": 3697999
+            "mtow": 5962144
         },
         "LEMG": {
             "3c64a3": {
@@ -2721,10 +2721,10 @@ var flights_may_data = `{
             },
             "3c6469": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 18,
-            "mtow": 624000
+            "mtow": 2343610
         },
         "LETO": {
             "3c65c6": {
@@ -2733,10 +2733,10 @@ var flights_may_data = `{
             },
             "3c65cb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 3,
-            "mtow": 78000
+            "mtow": 426330
         },
         "LEZG": {
             "06a07f": {
@@ -2777,7 +2777,7 @@ var flights_may_data = `{
         "LFPG": {
             "06a1ed": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "300557": {
                 "count": 6,
@@ -2849,11 +2849,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 16,
@@ -2861,7 +2861,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 6,
@@ -2869,11 +2869,11 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "a69c03": {
                 "count": 1,
@@ -2917,7 +2917,7 @@ var flights_may_data = `{
             },
             "ac0d21": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac50fa": {
                 "count": 1,
@@ -2928,7 +2928,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 148,
-            "mtow": 11519953
+            "mtow": 17928573
         },
         "LFRN": {
             "3c5424": {
@@ -2993,7 +2993,7 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 2,
@@ -3001,11 +3001,11 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "42431b": {
                 "count": 1,
@@ -3041,7 +3041,7 @@ var flights_may_data = `{
             },
             "ac0d21": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac50fa": {
                 "count": 1,
@@ -3052,7 +3052,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 139,
-            "mtow": 10054830
+            "mtow": 12214150
         },
         "LIPZ": {
             "4d2072": {
@@ -3065,7 +3065,7 @@ var flights_may_data = `{
         "LIRF": {
             "3c64a2": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "3c64a3": {
                 "count": 2,
@@ -3109,11 +3109,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 6,
@@ -3121,7 +3121,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 10,
@@ -3129,11 +3129,11 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "424563": {
                 "count": 1,
@@ -3160,15 +3160,15 @@ var flights_may_data = `{
                 "mtow": 37199
             },
             "count": 119,
-            "mtow": 7178117
+            "mtow": 9680361
         },
         "LKMT": {
             "4d21dc": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174165
         },
         "LKPR": {
             "49d3ad": {
@@ -3193,18 +3193,18 @@ var flights_may_data = `{
             },
             "4d21a2": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "4d21db": {
                 "count": 7,
-                "mtow": 0
+                "mtow": 174165
             },
             "4d21dc": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 28,
-            "mtow": 390000
+            "mtow": 4395795
         },
         "LOWW": {
             "3c5462": {
@@ -3249,11 +3249,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 4,
@@ -3261,7 +3261,7 @@ var flights_may_data = `{
             },
             "3c65ce": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 8,
@@ -3269,11 +3269,11 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ca987": {
                 "count": 2,
@@ -3340,7 +3340,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 150,
-            "mtow": 17055413
+            "mtow": 22977023
         },
         "LPPR": {
             "3c65c1": {
@@ -3361,15 +3361,15 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 11,
-            "mtow": 547998
+            "mtow": 1244658
         },
         "LPPT": {
             "3c64a2": {
                 "count": 12,
-                "mtow": 0
+                "mtow": 206132
             },
             "3c64a3": {
                 "count": 18,
@@ -3397,11 +3397,11 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cd": {
                 "count": 4,
@@ -3409,22 +3409,22 @@ var flights_may_data = `{
             },
             "3c65d1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4cc0dc": {
                 "count": 1,
                 "mtow": 68038
             },
             "count": 62,
-            "mtow": 3938006
+            "mtow": 7282415
         },
         "LROP": {
             "4d222f": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 114199
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 114199
         },
         "LSGG": {
             "3c5461": {
@@ -3525,15 +3525,15 @@ var flights_may_data = `{
             },
             "3c65ca": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cb": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65ce": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65cf": {
                 "count": 2,
@@ -3541,18 +3541,18 @@ var flights_may_data = `{
             },
             "3c65d0": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d1": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "3c65d6": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 124,
-            "mtow": 7097182
+            "mtow": 13018792
         },
         "LYBE": {
             "4c01e2": {
@@ -3577,18 +3577,18 @@ var flights_may_data = `{
             },
             "50840d": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "50841c": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 154500
             },
             "508436": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 10,
-            "mtow": 237045
+            "mtow": 1377645
         },
         "UMMS": {
             "51007f": {
@@ -3613,7 +3613,7 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 114199
             },
             "5100fc": {
                 "count": 1,
@@ -3624,7 +3624,7 @@ var flights_may_data = `{
                 "mtow": 50790
             },
             "count": 27,
-            "mtow": 1563320
+            "mtow": 2020116
         },
         "UUEE": {
             "4240b6": {
@@ -3641,7 +3641,7 @@ var flights_may_data = `{
             },
             "42425b": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "4242a2": {
                 "count": 2,
@@ -3669,7 +3669,7 @@ var flights_may_data = `{
             },
             "42432c": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "424335": {
                 "count": 2,
@@ -3685,11 +3685,11 @@ var flights_may_data = `{
             },
             "4243a4": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 775000
             },
             "4243b0": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 632500
             },
             "4243bd": {
                 "count": 4,
@@ -3721,15 +3721,15 @@ var flights_may_data = `{
             },
             "424441": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "424476": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424480": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "424563": {
                 "count": 3,
@@ -3816,7 +3816,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 124,
-            "mtow": 36338270
+            "mtow": 45480534
         },
         "UUWW": {
             "42427d": {
@@ -3825,7 +3825,7 @@ var flights_may_data = `{
             },
             "424484": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "4ca6db": {
                 "count": 1,
@@ -3833,22 +3833,22 @@ var flights_may_data = `{
             },
             "4ca9f1": {
                 "count": 5,
-                "mtow": 0
+                "mtow": 533519
             },
             "4caa43": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 533519
             },
             "4cacb3": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 533519
             },
             "4cacd8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 14,
-            "mtow": 310037
+            "mtow": 6352946
         }
     },
     "EDDH": {
@@ -4067,10 +4067,10 @@ var flights_may_data = `{
         "LRSB": {
             "3c0acb": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 3,
-            "mtow": 0
+            "mtow": 618396
         },
         "LSZH": {
             "3c0699": {
@@ -4079,22 +4079,22 @@ var flights_may_data = `{
             },
             "4b17de": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17e4": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 134000
             },
             "count": 5,
-            "mtow": 24299
+            "mtow": 560299
         },
         "UKBB": {
             "5083c9": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         }
     },
     "EDDK": {
@@ -4125,14 +4125,14 @@ var flights_may_data = `{
             },
             "ac3fc5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac45d5": {
                 "count": 1,
                 "mtow": 299370
             },
             "count": 12,
-            "mtow": 1510102
+            "mtow": 2276102
         },
         "EDDN": {
             "3c5efa": {
@@ -4477,7 +4477,7 @@ var flights_may_data = `{
             },
             "45ce57": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 412000
             },
             "a32890": {
                 "count": 3,
@@ -4629,7 +4629,7 @@ var flights_may_data = `{
             },
             "ac0d21": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac10d8": {
                 "count": 2,
@@ -4661,7 +4661,7 @@ var flights_may_data = `{
             },
             "ac3fc5": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac45d5": {
                 "count": 1,
@@ -4676,7 +4676,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 110,
-            "mtow": 22321218
+            "mtow": 27857218
         },
         "LFRN": {
             "45ce56": {
@@ -5255,11 +5255,11 @@ var flights_may_data = `{
         "LRSB": {
             "3c0a58": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "3c0a5a": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "3c56ea": {
                 "count": 7,
@@ -5270,7 +5270,7 @@ var flights_may_data = `{
                 "mtow": 76499
             },
             "count": 10,
-            "mtow": 622499
+            "mtow": 970899
         },
         "LRTM": {
             "3c5ee4": {
@@ -5303,10 +5303,10 @@ var flights_may_data = `{
         "LYBE": {
             "3c0a59": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         }
     },
     "EDDM": {
@@ -5533,7 +5533,7 @@ var flights_may_data = `{
             },
             "ac0d21": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac1846": {
                 "count": 1,
@@ -5556,7 +5556,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 21,
-            "mtow": 3673690
+            "mtow": 4439690
         },
         "LIRF": {
             "4ca8f0": {
@@ -5617,7 +5617,7 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 114199
             },
             "510119": {
                 "count": 3,
@@ -5636,7 +5636,7 @@ var flights_may_data = `{
                 "mtow": 0
             },
             "count": 21,
-            "mtow": 576263
+            "mtow": 804661
         },
         "UUEE": {
             "424257": {
@@ -5679,14 +5679,14 @@ var flights_may_data = `{
         "LRSB": {
             "3c0acb": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 206132
             },
             "3c56ea": {
                 "count": 2,
                 "mtow": 78000
             },
             "count": 3,
-            "mtow": 156000
+            "mtow": 362132
         }
     },
     "EDDP": {
@@ -5773,7 +5773,7 @@ var flights_may_data = `{
             },
             "3c71a1": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 533519
             },
             "400666": {
                 "count": 1,
@@ -5796,7 +5796,7 @@ var flights_may_data = `{
                 "mtow": 115892
             },
             "count": 59,
-            "mtow": 15994069
+            "mtow": 17061107
         },
         "EHAM": {
             "3c1baf": {
@@ -5833,7 +5833,7 @@ var flights_may_data = `{
             },
             "452051": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "4bb463": {
                 "count": 1,
@@ -5853,14 +5853,14 @@ var flights_may_data = `{
             },
             "4caca7": {
                 "count": 20,
-                "mtow": 0
+                "mtow": 533519
             },
             "a99293": {
                 "count": 1,
                 "mtow": 396893
             },
             "count": 35,
-            "mtow": 2664608
+            "mtow": 13484988
         },
         "LDZA": {
             "345292": {
@@ -5893,7 +5893,7 @@ var flights_may_data = `{
             },
             "3c1bab": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 375887
             },
             "3c5423": {
                 "count": 2,
@@ -5936,7 +5936,7 @@ var flights_may_data = `{
                 "mtow": 115892
             },
             "count": 17,
-            "mtow": 2448271
+            "mtow": 3200045
         },
         "LEZL": {
             "3c5429": {
@@ -5957,10 +5957,10 @@ var flights_may_data = `{
             },
             "407505": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "count": 4,
-            "mtow": 347676
+            "mtow": 603176
         },
         "LFPG": {
             "4bb463": {
@@ -6203,27 +6203,27 @@ var flights_may_data = `{
             },
             "407463": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "407464": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407535": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407537": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4075fd": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cc": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cd": {
                 "count": 2,
@@ -6231,14 +6231,14 @@ var flights_may_data = `{
             },
             "4076e2": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "40792f": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 38,
-            "mtow": 767992
+            "mtow": 5708546
         },
         "EHAM": {
             "484f7c": {
@@ -6275,10 +6275,10 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 14,
-            "mtow": 719994
+            "mtow": 1407838
         },
         "LSZH": {
             "4b161b": {
@@ -6287,26 +6287,26 @@ var flights_may_data = `{
             },
             "4b17de": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1803": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1806": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1812": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 18,
-            "mtow": 156000
+            "mtow": 2660990
         }
     },
     "EDFH": {
@@ -6325,14 +6325,14 @@ var flights_may_data = `{
             },
             "424482": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424483": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "count": 5,
-            "mtow": 317514
+            "mtow": 2642514
         }
     },
     "EDHI": {
@@ -6405,46 +6405,46 @@ var flights_may_data = `{
             },
             "508420": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 67,
-            "mtow": 1621734
+            "mtow": 1795934
         },
         "EHAM": {
             "502cd7": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "502ce4": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 149000
             },
             "502ce7": {
                 "count": 7,
-                "mtow": 0
+                "mtow": 149000
             },
             "502d0b": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "count": 14,
-            "mtow": 0
+            "mtow": 2086000
         },
         "ENGM": {
             "502cd7": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 149000
             },
             "502ce8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 149000
             },
             "502d0b": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "count": 4,
-            "mtow": 0
+            "mtow": 596000
         },
         "UMMS": {
             "51006c": {
@@ -6643,14 +6643,14 @@ var flights_may_data = `{
         "EFTU": {
             "40762c": {
                 "count": 13,
-                "mtow": 0
+                "mtow": 174200
             },
             "40769e": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 15,
-            "mtow": 0
+            "mtow": 2613000
         },
         "EGLL": {
             "461f2e": {
@@ -6675,10 +6675,10 @@ var flights_may_data = `{
             },
             "461fa7": {
                 "count": 24,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 122,
-            "mtow": 7496902
+            "mtow": 12444070
         },
         "EHAM": {
             "461e14": {
@@ -6791,10 +6791,10 @@ var flights_may_data = `{
         "LEAL": {
             "461fa7": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 412264
         },
         "LEMG": {
             "461f50": {
@@ -6899,14 +6899,14 @@ var flights_may_data = `{
             },
             "5083cd": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174200
             },
             "508420": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 9,
-            "mtow": 158030
+            "mtow": 1377430
         },
         "UMMS": {
             "51004e": {
@@ -6939,40 +6939,40 @@ var flights_may_data = `{
             },
             "510114": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "51012c": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "51012e": {
                 "count": 4,
                 "mtow": 0
             },
             "count": 36,
-            "mtow": 1518110
+            "mtow": 2214910
         }
     },
     "EFMA": {
         "EFTU": {
             "4ab153": {
                 "count": 29,
-                "mtow": 0
+                "mtow": 29000
             },
             "count": 29,
-            "mtow": 0
+            "mtow": 841000
         },
         "ESSA": {
             "4aaf09": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 29000
             },
             "4ab153": {
                 "count": 36,
-                "mtow": 0
+                "mtow": 29000
             },
             "count": 38,
-            "mtow": 0
+            "mtow": 1102000
         }
     },
     "EFTP": {
@@ -6989,10 +6989,10 @@ var flights_may_data = `{
         "ESGG": {
             "40762c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         }
     },
     "EGAC": {
@@ -7141,22 +7141,22 @@ var flights_may_data = `{
             },
             "4cace0": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 18,
-            "mtow": 1343255
+            "mtow": 1517455
         },
         "UUEE": {
             "42433e": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424482": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "count": 3,
-            "mtow": 0
+            "mtow": 2325000
         }
     },
     "EGCC": {
@@ -7321,14 +7321,14 @@ var flights_may_data = `{
         "EHAM": {
             "44023f": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "4bb467": {
                 "count": 1,
                 "mtow": 170499
             },
             "count": 2,
-            "mtow": 170499
+            "mtow": 342460
         },
         "LHBP": {
             "471ea6": {
@@ -7365,32 +7365,32 @@ var flights_may_data = `{
         "LPPT": {
             "40750d": {
                 "count": 7,
-                "mtow": 0
+                "mtow": 171961
             },
             "40750e": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 11,
-            "mtow": 0
+            "mtow": 1891571
         }
     },
     "EGKK": {
         "EIDW": {
             "508420": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         },
         "LFPG": {
             "50841c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 154500
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 154500
         },
         "UMMS": {
             "510077": {
@@ -7427,14 +7427,14 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 114199
             },
             "5100fc": {
                 "count": 6,
                 "mtow": 50790
             },
             "count": 36,
-            "mtow": 1957474
+            "mtow": 2414270
         }
     },
     "EGLF": {
@@ -7503,22 +7503,22 @@ var flights_may_data = `{
             },
             "407536": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407537": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "40792e": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "40792f": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 27,
-            "mtow": 1593227
+            "mtow": 3683207
         },
         "EGPH": {
             "400879": {
@@ -7543,46 +7543,46 @@ var flights_may_data = `{
             },
             "407463": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407464": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "407535": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407536": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "407537": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cc": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076e2": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "4076e3": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "40792e": {
                 "count": 5,
-                "mtow": 0
+                "mtow": 174165
             },
             "40792f": {
                 "count": 5,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 44,
-            "mtow": 1147485
+            "mtow": 6326138
         },
         "EHAM": {
             "3c5423": {
@@ -7627,31 +7627,31 @@ var flights_may_data = `{
             },
             "407463": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "407464": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407534": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407535": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407536": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407537": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4075fd": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cd": {
                 "count": 2,
@@ -7659,15 +7659,15 @@ var flights_may_data = `{
             },
             "4076e2": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "4076e3": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 206132
             },
             "40792f": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "484164": {
                 "count": 2,
@@ -7746,7 +7746,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 120,
-            "mtow": 10900573
+            "mtow": 15794830
         },
         "EICK": {
             "4ca15d": {
@@ -7779,23 +7779,23 @@ var flights_may_data = `{
             },
             "4ca9ba": {
                 "count": 20,
-                "mtow": 0
+                "mtow": 206132
             },
             "4ca9bb": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 206132
             },
             "4ca9bc": {
                 "count": 29,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 62,
-            "mtow": 410011
+            "mtow": 12571799
         },
         "ESSA": {
             "4ac9e8": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9ea": {
                 "count": 6,
@@ -7807,54 +7807,54 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9f9": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 30,
-            "mtow": 1257990
+            "mtow": 3696300
         },
         "LEBL": {
             "407463": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407464": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407534": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407535": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407536": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076e2": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "4076e3": {
                 "count": 9,
-                "mtow": 0
+                "mtow": 206132
             },
             "40792e": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "40792f": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 37,
-            "mtow": 0
+            "mtow": 6795742
         },
         "LEMD": {
             "342059": {
@@ -7863,10 +7863,10 @@ var flights_may_data = `{
             },
             "346303": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 15,
-            "mtow": 1121988
+            "mtow": 1644483
         },
         "LETO": {
             "342059": {
@@ -7883,14 +7883,14 @@ var flights_may_data = `{
         "LFMN": {
             "407535": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cc": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 348330
         },
         "LFPG": {
             "060030": {
@@ -7931,7 +7931,7 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "400879": {
                 "count": 2,
@@ -7959,23 +7959,23 @@ var flights_may_data = `{
             },
             "407464": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407535": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407536": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4075fd": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cc": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cd": {
                 "count": 2,
@@ -7983,22 +7983,22 @@ var flights_may_data = `{
             },
             "40792e": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "7380c8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "738101": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 502500
             },
             "738102": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 502500
             },
             "count": 73,
-            "mtow": 4118984
+            "mtow": 9973716
         },
         "LIMC": {
             "738074": {
@@ -8011,10 +8011,10 @@ var flights_may_data = `{
             },
             "7380c9": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "count": 3,
-            "mtow": 573792
+            "mtow": 1133792
         },
         "LIRF": {
             "30006a": {
@@ -8123,58 +8123,58 @@ var flights_may_data = `{
         "LPPT": {
             "407462": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407463": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "407464": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "407534": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407535": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "407536": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4075fd": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076e2": {
                 "count": 12,
-                "mtow": 0
+                "mtow": 206132
             },
             "4076e3": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 206132
             },
             "40792e": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 38,
-            "mtow": 0
+            "mtow": 7129742
         },
         "LSGG": {
             "4b17e6": {
                 "count": 22,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1809": {
                 "count": 14,
-                "mtow": 0
+                "mtow": 149000
             },
             "count": 36,
-            "mtow": 0
+            "mtow": 5034000
         },
         "LSZH": {
             "4007f9": {
@@ -8199,11 +8199,11 @@ var flights_may_data = `{
             },
             "4074e3": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 502500
             },
             "4074e4": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 502500
             },
             "4b1616": {
                 "count": 2,
@@ -8211,19 +8211,19 @@ var flights_may_data = `{
             },
             "4b17de": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1803": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1806": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1812": {
                 "count": 20,
-                "mtow": 0
+                "mtow": 174165
             },
             "4b1881": {
                 "count": 2,
@@ -8238,23 +8238,23 @@ var flights_may_data = `{
                 "mtow": 276499
             },
             "count": 53,
-            "mtow": 3618360
+            "mtow": 10665160
         },
         "LXGB": {
             "407536": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "407537": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "4076cd": {
                 "count": 1,
                 "mtow": 78000
             },
             "count": 3,
-            "mtow": 78000
+            "mtow": 426330
         },
         "ULLI": {
             "42457c": {
@@ -8279,7 +8279,7 @@ var flights_may_data = `{
             },
             "4243a4": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 775000
             },
             "4243df": {
                 "count": 4,
@@ -8295,11 +8295,11 @@ var flights_may_data = `{
             },
             "424441": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "424476": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 775000
             },
             "424573": {
                 "count": 2,
@@ -8322,19 +8322,19 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 49,
-            "mtow": 10975556
+            "mtow": 20908056
         },
         "UUWW": {
             "4ca9f1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "4caa43": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 3,
-            "mtow": 0
+            "mtow": 1600557
         }
     },
     "EGNR": {
@@ -8377,30 +8377,30 @@ var flights_may_data = `{
             },
             "407345": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "407435": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "407493": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 255500
             },
             "4074e5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "4074f4": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "407505": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 255500
             },
             "count": 14,
-            "mtow": 695352
+            "mtow": 2739352
         },
         "LFPG": {
             "a3ee0b": {
@@ -8699,10 +8699,10 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 13,
-            "mtow": 817996
+            "mtow": 1161918
         }
     },
     "EGSS": {
@@ -8857,14 +8857,14 @@ var flights_may_data = `{
             },
             "ac3fc5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac5fd6": {
                 "count": 1,
                 "mtow": 299370
             },
             "count": 44,
-            "mtow": 9906193
+            "mtow": 10672193
         },
         "LGIR": {
             "40676b": {
@@ -8977,10 +8977,10 @@ var flights_may_data = `{
             },
             "4cafb5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 31,
-            "mtow": 2370450
+            "mtow": 2544650
         }
     },
     "EGUN": {
@@ -9149,10 +9149,10 @@ var flights_may_data = `{
             },
             "4cafd2": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 115,
-            "mtow": 7049822
+            "mtow": 7224022
         },
         "EKBI": {
             "45a94b": {
@@ -9377,7 +9377,7 @@ var flights_may_data = `{
         "ESSA": {
             "345682": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "48455d": {
                 "count": 14,
@@ -9448,7 +9448,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 76,
-            "mtow": 9571633
+            "mtow": 10204133
         },
         "ETAR": {
             "a561fd": {
@@ -9505,7 +9505,7 @@ var flights_may_data = `{
         "LEMD": {
             "345682": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "48455d": {
                 "count": 3,
@@ -9564,7 +9564,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 28,
-            "mtow": 2421766
+            "mtow": 3054266
         },
         "LEMG": {
             "484f2e": {
@@ -9657,7 +9657,7 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 171961
             },
             "42431a": {
                 "count": 1,
@@ -9764,7 +9764,7 @@ var flights_may_data = `{
                 "mtow": 115892
             },
             "count": 152,
-            "mtow": 13233658
+            "mtow": 14265424
         },
         "LHBP": {
             "484acb": {
@@ -9789,10 +9789,10 @@ var flights_may_data = `{
             },
             "5051c7": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 875000
             },
             "count": 13,
-            "mtow": 643148
+            "mtow": 1518148
         },
         "LIMC": {
             "48455d": {
@@ -9945,18 +9945,18 @@ var flights_may_data = `{
             },
             "4d21db": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4d21dc": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "50101e": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "count": 16,
-            "mtow": 936000
+            "mtow": 1608495
         },
         "LOWW": {
             "484555": {
@@ -10197,26 +10197,26 @@ var flights_may_data = `{
             },
             "4b17de": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17e4": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1803": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1812": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 80,
-            "mtow": 2172184
+            "mtow": 5260514
         },
         "LYBE": {
             "4c01e8": {
@@ -10229,18 +10229,18 @@ var flights_may_data = `{
         "UKBB": {
             "407560": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 206132
             },
             "5083c9": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174200
             },
             "5083cd": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 9,
-            "mtow": 0
+            "mtow": 1599732
         },
         "UMMS": {
             "510077": {
@@ -10329,11 +10329,11 @@ var flights_may_data = `{
             },
             "424441": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 632500
             },
             "424476": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 775000
             },
             "424563": {
                 "count": 1,
@@ -10388,7 +10388,7 @@ var flights_may_data = `{
                 "mtow": 447695
             },
             "count": 60,
-            "mtow": 18274380
+            "mtow": 22639380
         },
         "UUWW": {
             "4ca6db": {
@@ -10397,24 +10397,24 @@ var flights_may_data = `{
             },
             "4cacb3": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 533519
             },
             "4cacd8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 5,
-            "mtow": 241999
+            "mtow": 2376075
         }
     },
     "EHBK": {
         "EPWA": {
             "06a2e1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 766000
         },
         "LEBL": {
             "06a140": {
@@ -10431,10 +10431,10 @@ var flights_may_data = `{
             },
             "06a1e7": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "count": 2,
-            "mtow": 299370
+            "mtow": 1065370
         },
         "LEZG": {
             "06a07f": {
@@ -10451,10 +10451,10 @@ var flights_may_data = `{
             },
             "06a2e1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "count": 4,
-            "mtow": 898110
+            "mtow": 1664110
         },
         "LFPG": {
             "06a0dd": {
@@ -10467,14 +10467,14 @@ var flights_may_data = `{
             },
             "06a1ed": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "06a2e0": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "count": 4,
-            "mtow": 598740
+            "mtow": 2130740
         },
         "LMML": {
             "06a1e6": {
@@ -10629,7 +10629,7 @@ var flights_may_data = `{
             },
             "4ac9e9": {
                 "count": 17,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9ea": {
                 "count": 4,
@@ -10641,23 +10641,23 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 14,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9f9": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 71,
-            "mtow": 2566218
+            "mtow": 9010323
         },
         "ESSA": {
             "4ac9e8": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9e9": {
                 "count": 23,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9ea": {
                 "count": 8,
@@ -10669,18 +10669,18 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 35,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9f9": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "502c8f": {
                 "count": 1,
                 "mtow": 78000
             },
             "count": 92,
-            "mtow": 1412991
+            "mtow": 14301201
         },
         "LFPG": {
             "392ae9": {
@@ -10741,18 +10741,18 @@ var flights_may_data = `{
             },
             "06a1eb": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "06a2e0": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 766000
             },
             "06a2e2": {
                 "count": 1,
                 "mtow": 299370
             },
             "count": 7,
-            "mtow": 898110
+            "mtow": 3962110
         },
         "LFPG": {
             "06a141": {
@@ -10793,14 +10793,14 @@ var flights_may_data = `{
             },
             "4d012f": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 875000
             },
             "4d0140": {
                 "count": 1,
                 "mtow": 396893
             },
             "count": 9,
-            "mtow": 2981459
+            "mtow": 4731459
         },
         "LPFR": {
             "4d00f3": {
@@ -10909,7 +10909,7 @@ var flights_may_data = `{
             },
             "47a743": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174200
             },
             "47bda2": {
                 "count": 2,
@@ -10921,18 +10921,18 @@ var flights_may_data = `{
             },
             "4aca12": {
                 "count": 11,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca14": {
                 "count": 12,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca48": {
                 "count": 5,
                 "mtow": 79015
             },
             "count": 124,
-            "mtow": 7386942
+            "mtow": 12090342
         },
         "ENVA": {
             "47808a": {
@@ -10997,14 +10997,14 @@ var flights_may_data = `{
             },
             "47a389": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 35200
             },
             "47bda2": {
                 "count": 2,
                 "mtow": 79015
             },
             "count": 75,
-            "mtow": 4245470
+            "mtow": 4280670
         }
     },
     "ENBR": {
@@ -11087,22 +11087,22 @@ var flights_may_data = `{
             },
             "47a743": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca12": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca14": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca48": {
                 "count": 1,
                 "mtow": 79015
             },
             "count": 28,
-            "mtow": 1495567
+            "mtow": 2540767
         },
         "ENML": {
             "4780a0": {
@@ -11231,10 +11231,10 @@ var flights_may_data = `{
             },
             "4aca12": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 50,
-            "mtow": 2047254
+            "mtow": 2221454
         }
     },
     "ENCN": {
@@ -11265,14 +11265,14 @@ var flights_may_data = `{
             },
             "4aca14": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca48": {
                 "count": 1,
                 "mtow": 79015
             },
             "count": 11,
-            "mtow": 736534
+            "mtow": 910734
         }
     },
     "ENGM": {
@@ -11347,7 +11347,7 @@ var flights_may_data = `{
             },
             "47a743": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174200
             },
             "47bda2": {
                 "count": 1,
@@ -11359,18 +11359,18 @@ var flights_may_data = `{
             },
             "4aca12": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca14": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca48": {
                 "count": 6,
                 "mtow": 79015
             },
             "count": 121,
-            "mtow": 8253786
+            "mtow": 10169986
         },
         "ENKB": {
             "47834a": {
@@ -11399,10 +11399,10 @@ var flights_may_data = `{
             },
             "47a743": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 5,
-            "mtow": 219173
+            "mtow": 567573
         },
         "ENVA": {
             "47808f": {
@@ -11483,7 +11483,7 @@ var flights_may_data = `{
             },
             "47a743": {
                 "count": 19,
-                "mtow": 0
+                "mtow": 174200
             },
             "47bda2": {
                 "count": 5,
@@ -11495,18 +11495,18 @@ var flights_may_data = `{
             },
             "4aca12": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca14": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca48": {
                 "count": 8,
                 "mtow": 79015
             },
             "count": 257,
-            "mtow": 16948239
+            "mtow": 22696839
         },
         "ENZV": {
             "4780bf": {
@@ -11603,7 +11603,7 @@ var flights_may_data = `{
             },
             "47a743": {
                 "count": 25,
-                "mtow": 0
+                "mtow": 174200
             },
             "47bda2": {
                 "count": 7,
@@ -11615,18 +11615,18 @@ var flights_may_data = `{
             },
             "4aca12": {
                 "count": 26,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca14": {
                 "count": 19,
-                "mtow": 0
+                "mtow": 174200
             },
             "4aca48": {
                 "count": 29,
                 "mtow": 79015
             },
             "count": 286,
-            "mtow": 16357630
+            "mtow": 28551630
         },
         "ESSA": {
             "040030": {
@@ -11647,19 +11647,19 @@ var flights_may_data = `{
             },
             "040142": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "04014d": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 617300
             },
             "4ac9e8": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9e9": {
                 "count": 23,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9ea": {
                 "count": 7,
@@ -11671,11 +11671,11 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 30,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9f9": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "502c8f": {
                 "count": 1,
@@ -11683,10 +11683,10 @@ var flights_may_data = `{
             },
             "50840d": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 97,
-            "mtow": 2919530
+            "mtow": 16288415
         },
         "LEAL": {
             "4784e9": {
@@ -11827,10 +11827,10 @@ var flights_may_data = `{
         "UKBB": {
             "50841c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 154500
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 154500
         },
         "UUEE": {
             "4245a6": {
@@ -11997,11 +11997,11 @@ var flights_may_data = `{
         "ESSA": {
             "4ac9e8": {
                 "count": 25,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9e9": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9ea": {
                 "count": 6,
@@ -12009,14 +12009,14 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 7,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9f9": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 44,
-            "mtow": 468000
+            "mtow": 7086270
         },
         "LHBP": {
             "471f48": {
@@ -12035,17 +12035,17 @@ var flights_may_data = `{
         "ESSA": {
             "4ab555": {
                 "count": 25,
-                "mtow": 0
+                "mtow": 12500
             },
             "count": 25,
-            "mtow": 0
+            "mtow": 312500
         }
     },
     "ESPA": {
         "ESSA": {
             "4ac9e8": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9ea": {
                 "count": 1,
@@ -12057,29 +12057,29 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 7,
-            "mtow": 235998
+            "mtow": 932658
         }
     },
     "ESSA": {
         "LEAL": {
             "4ac9e9": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9f9": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 348330
         },
         "LEMG": {
             "4ac9e8": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "4ac9eb": {
                 "count": 2,
@@ -12087,10 +12087,10 @@ var flights_may_data = `{
             },
             "4ac9f5": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 6,
-            "mtow": 157998
+            "mtow": 854658
         },
         "LFPG": {
             "392aec": {
@@ -12143,18 +12143,18 @@ var flights_may_data = `{
             },
             "4b17de": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17e4": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1812": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 20,
-            "mtow": 280497
+            "mtow": 2598662
         },
         "LZIB": {
             "505cb8": {
@@ -12167,10 +12167,10 @@ var flights_may_data = `{
         "UKBB": {
             "50840d": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         },
         "UMMS": {
             "51004e": {
@@ -12203,7 +12203,7 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 114199
             },
             "5100fc": {
                 "count": 4,
@@ -12215,10 +12215,10 @@ var flights_may_data = `{
             },
             "51012d": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 36,
-            "mtow": 1755410
+            "mtow": 2332208
         }
     },
     "ETOU": {
@@ -12233,20 +12233,20 @@ var flights_may_data = `{
         "UUEE": {
             "424480": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 775000
         }
     },
     "GCLP": {
         "LEMD": {
             "342189": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 412264
         }
     },
     "GCRR": {
@@ -12263,10 +12263,10 @@ var flights_may_data = `{
         "LEMD": {
             "342189": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 206132
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 206132
         }
     },
     "LBSF": {
@@ -12335,26 +12335,26 @@ var flights_may_data = `{
             },
             "345646": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "346047": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "346185": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "34620c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "346352": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 9,
-            "mtow": 312000
+            "mtow": 1178417
         }
     },
     "LEBL": {
@@ -12373,10 +12373,10 @@ var flights_may_data = `{
             },
             "346303": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 5,
-            "mtow": 229497
+            "mtow": 577827
         },
         "LEMG": {
             "344157": {
@@ -12421,10 +12421,10 @@ var flights_may_data = `{
             },
             "346303": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 4,
-            "mtow": 229497
+            "mtow": 403662
         },
         "LFPG": {
             "06a07f": {
@@ -12457,15 +12457,15 @@ var flights_may_data = `{
             },
             "345643": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "346185": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "346352": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "3950c7": {
                 "count": 2,
@@ -12493,7 +12493,7 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "ac7364": {
                 "count": 1,
@@ -12520,23 +12520,23 @@ var flights_may_data = `{
                 "mtow": 115892
             },
             "count": 51,
-            "mtow": 4258736
+            "mtow": 5643240
         },
         "LSZH": {
             "4b17e4": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17e5": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1802": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "count": 6,
-            "mtow": 0
+            "mtow": 834000
         },
         "UMMS": {
             "51004e": {
@@ -12567,7 +12567,7 @@ var flights_may_data = `{
             },
             "342189": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 206132
             },
             "34224e": {
                 "count": 1,
@@ -12578,7 +12578,7 @@ var flights_may_data = `{
                 "mtow": 79015
             },
             "count": 5,
-            "mtow": 359512
+            "mtow": 565644
         },
         "LEPA": {
             "344297": {
@@ -12601,7 +12601,7 @@ var flights_may_data = `{
             },
             "342189": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 206132
             },
             "344216": {
                 "count": 14,
@@ -12625,18 +12625,18 @@ var flights_may_data = `{
             },
             "346082": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174200
             },
             "346083": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "346310": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "count": 69,
-            "mtow": 5016601
+            "mtow": 6891797
         },
         "LEZG": {
             "06a0dd": {
@@ -12649,7 +12649,7 @@ var flights_may_data = `{
         "LFPG": {
             "040171": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 617300
             },
             "34264a": {
                 "count": 2,
@@ -12665,15 +12665,15 @@ var flights_may_data = `{
             },
             "345547": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 875000
             },
             "346303": {
                 "count": 10,
-                "mtow": 0
+                "mtow": 174165
             },
             "346384": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "392ae9": {
                 "count": 4,
@@ -12708,7 +12708,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 51,
-            "mtow": 3385845
+            "mtow": 7179795
         },
         "LIMC": {
             "06a140": {
@@ -12741,19 +12741,19 @@ var flights_may_data = `{
         "LYBE": {
             "345682": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 632500
         },
         "UUEE": {
             "42425b": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "4243a4": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424401": {
                 "count": 4,
@@ -12764,7 +12764,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 9,
-            "mtow": 1796220
+            "mtow": 4121220
         }
     },
     "LEMG": {
@@ -12795,14 +12795,14 @@ var flights_may_data = `{
         "LSZH": {
             "4b17fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1812": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 4,
-            "mtow": 0
+            "mtow": 646330
         },
         "UUEE": {
             "4248f6": {
@@ -12827,7 +12827,7 @@ var flights_may_data = `{
         "LETO": {
             "342189": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "344216": {
                 "count": 3,
@@ -12847,10 +12847,10 @@ var flights_may_data = `{
             },
             "346082": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 13,
-            "mtow": 711135
+            "mtow": 1471799
         }
     },
     "LETO": {
@@ -12869,14 +12869,14 @@ var flights_may_data = `{
             },
             "346303": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "394c03": {
                 "count": 2,
                 "mtow": 93499
             },
             "count": 9,
-            "mtow": 569493
+            "mtow": 917823
         }
     },
     "LEZG": {
@@ -12891,10 +12891,10 @@ var flights_may_data = `{
             },
             "06a1ed": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "count": 3,
-            "mtow": 598740
+            "mtow": 1364740
         }
     },
     "LEZL": {
@@ -13025,10 +13025,10 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 101,
-            "mtow": 8775917
+            "mtow": 9463761
         },
         "LFRE": {
             "394a65": {
@@ -13099,10 +13099,10 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 95,
-            "mtow": 8437422
+            "mtow": 8781344
         }
     },
     "LFMN": {
@@ -13171,10 +13171,10 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 4,
-            "mtow": 171499
+            "mtow": 515421
         },
         "LFRN": {
             "45ce49": {
@@ -13191,10 +13191,10 @@ var flights_may_data = `{
             },
             "45ce57": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 412000
             },
             "count": 13,
-            "mtow": 1510457
+            "mtow": 3158457
         },
         "LIMC": {
             "040133": {
@@ -13203,11 +13203,11 @@ var flights_may_data = `{
             },
             "06a1e7": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "06a2e1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "738071": {
                 "count": 1,
@@ -13235,7 +13235,7 @@ var flights_may_data = `{
             },
             "ac0d21": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 766000
             },
             "ac50fa": {
                 "count": 1,
@@ -13246,7 +13246,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 13,
-            "mtow": 2433181
+            "mtow": 4731181
         },
         "LIRF": {
             "3000cc": {
@@ -13387,30 +13387,30 @@ var flights_may_data = `{
             },
             "50841c": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 154500
             },
             "count": 29,
-            "mtow": 905148
+            "mtow": 1059648
         },
         "LMML": {
             "4d21dc": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 348330
         },
         "LOWW": {
             "040143": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 560000
             },
             "040173": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 617300
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 1177300
         },
         "LPPT": {
             "392ae9": {
@@ -13455,10 +13455,10 @@ var flights_may_data = `{
             },
             "3991ea": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 171961
             },
             "count": 51,
-            "mtow": 4215874
+            "mtow": 4903718
         },
         "LROP": {
             "4a0662": {
@@ -13467,14 +13467,14 @@ var flights_may_data = `{
             },
             "4a0663": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 149914
             },
             "4a08ec": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 4,
-            "mtow": 135998
+            "mtow": 460112
         },
         "LSGG": {
             "040131": {
@@ -13531,18 +13531,18 @@ var flights_may_data = `{
             },
             "5083f8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 412000
             },
             "50841c": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 154500
             },
             "508436": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 8,
-            "mtow": 158030
+            "mtow": 1381930
         },
         "UMMS": {
             "51006c": {
@@ -13567,7 +13567,7 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 114199
             },
             "5100fc": {
                 "count": 6,
@@ -13578,7 +13578,7 @@ var flights_may_data = `{
                 "mtow": 38789
             },
             "count": 62,
-            "mtow": 1385260
+            "mtow": 2298852
         },
         "UUEE": {
             "42429a": {
@@ -13591,11 +13591,11 @@ var flights_may_data = `{
             },
             "424360": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 206132
             },
             "4243a2": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 632500
             },
             "4243de": {
                 "count": 4,
@@ -13611,14 +13611,14 @@ var flights_may_data = `{
             },
             "424476": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424940": {
                 "count": 2,
                 "mtow": 93499
             },
             "count": 18,
-            "mtow": 3422697
+            "mtow": 6017461
         },
         "UUWW": {
             "4ca6db": {
@@ -13627,14 +13627,14 @@ var flights_may_data = `{
             },
             "4caa43": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "4cacd8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 3,
-            "mtow": 241999
+            "mtow": 1309037
         }
     },
     "LGIR": {
@@ -13675,10 +13675,10 @@ var flights_may_data = `{
         "UUWW": {
             "4cacd8": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 533519
         }
     },
     "LIBD": {
@@ -14533,10 +14533,10 @@ var flights_may_data = `{
             },
             "4d21b6": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 412000
             },
             "count": 94,
-            "mtow": 11663502
+            "mtow": 12899502
         },
         "UMMS": {
             "51006d": {
@@ -14577,24 +14577,24 @@ var flights_may_data = `{
             },
             "424476": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424573": {
                 "count": 4,
                 "mtow": 299370
             },
             "count": 14,
-            "mtow": 3592440
+            "mtow": 5142440
         }
     },
     "LIME": {
         "LIPE": {
             "4d2268": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174200
         },
         "LJLJ": {
             "344649": {
@@ -14817,14 +14817,14 @@ var flights_may_data = `{
         "UUEE": {
             "4243a4": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "424575": {
                 "count": 2,
                 "mtow": 299370
             },
             "count": 4,
-            "mtow": 598740
+            "mtow": 2148740
         }
     },
     "LIPZ": {
@@ -15051,10 +15051,10 @@ var flights_may_data = `{
         "LMML": {
             "4d21dc": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 174165
         }
     },
     "LKPR": {
@@ -15073,7 +15073,7 @@ var flights_may_data = `{
             },
             "5100fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 114199
             },
             "510119": {
                 "count": 4,
@@ -15088,7 +15088,7 @@ var flights_may_data = `{
                 "mtow": 50790
             },
             "count": 24,
-            "mtow": 1088966
+            "mtow": 1317364
         }
     },
     "LOWL": {
@@ -15125,11 +15125,11 @@ var flights_may_data = `{
         "LPPT": {
             "4400cd": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 150000
             },
             "4403f4": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 150000
             },
             "4407cc": {
                 "count": 3,
@@ -15141,7 +15141,7 @@ var flights_may_data = `{
             },
             "4409ad": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 150000
             },
             "45ce47": {
                 "count": 1,
@@ -15172,19 +15172,19 @@ var flights_may_data = `{
                 "mtow": 179168
             },
             "count": 28,
-            "mtow": 3497176
+            "mtow": 4397176
         },
         "LSGG": {
             "4b17e6": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1809": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "count": 10,
-            "mtow": 0
+            "mtow": 1370000
         },
         "LSZH": {
             "4b1699": {
@@ -15193,64 +15193,64 @@ var flights_may_data = `{
             },
             "4b17e4": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1803": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1806": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1812": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 25,
-            "mtow": 841491
+            "mtow": 3411811
         }
     },
     "LPPT": {
         "LSGG": {
             "4b17e6": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1809": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "count": 8,
-            "mtow": 0
+            "mtow": 1132000
         },
         "LSZH": {
             "4b17e4": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17fb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1802": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1803": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1806": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 149000
             },
             "4b1812": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 174165
             },
             "count": 21,
-            "mtow": 0
+            "mtow": 3315320
         },
         "UUEE": {
             "4243bd": {
@@ -15269,21 +15269,21 @@ var flights_may_data = `{
         "UUWW": {
             "4ca9f1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 533519
             },
             "count": 1,
-            "mtow": 0
+            "mtow": 533519
         }
     },
     "LSGG": {
         "LSZH": {
             "4b17e1": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b17e3": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 134000
             },
             "4b1881": {
                 "count": 1,
@@ -15294,17 +15294,17 @@ var flights_may_data = `{
                 "mtow": 241999
             },
             "count": 4,
-            "mtow": 483998
+            "mtow": 751998
         }
     },
     "LSZH": {
         "UUEE": {
             "42425b": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 775000
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 1550000
         }
     },
     "LYBE": {
@@ -15333,7 +15333,7 @@ var flights_may_data = `{
             },
             "4243b4": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 174200
             },
             "4243dd": {
                 "count": 1,
@@ -15345,7 +15345,7 @@ var flights_may_data = `{
             },
             "424480": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 775000
             },
             "42457c": {
                 "count": 1,
@@ -15356,7 +15356,7 @@ var flights_may_data = `{
                 "mtow": 299370
             },
             "count": 15,
-            "mtow": 2175006
+            "mtow": 3646806
         },
         "UUWW": {
             "42425e": {
@@ -15393,33 +15393,33 @@ var flights_may_data = `{
             },
             "4243af": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 154500
             },
             "424486": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 154500
             },
             "count": 8,
-            "mtow": 123376
+            "mtow": 1050376
         },
         "UWWW": {
             "4243af": {
                 "count": 8,
-                "mtow": 0
+                "mtow": 154500
             },
             "424486": {
                 "count": 5,
-                "mtow": 0
+                "mtow": 154500
             },
             "count": 13,
-            "mtow": 0
+            "mtow": 2008500
         }
     },
     "UMKK": {
         "UUEE": {
             "424261": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "4242bb": {
                 "count": 1,
@@ -15427,33 +15427,33 @@ var flights_may_data = `{
             },
             "424396": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "4243a6": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "424595": {
                 "count": 1,
                 "mtow": 78000
             },
             "count": 7,
-            "mtow": 148079
+            "mtow": 1007884
         }
     },
     "URWA": {
         "UUEE": {
             "155bc4": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c1c": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "424261": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "4242bb": {
                 "count": 2,
@@ -15485,7 +15485,7 @@ var flights_may_data = `{
             },
             "4243a6": {
                 "count": 4,
-                "mtow": 0
+                "mtow": 171961
             },
             "4249b4": {
                 "count": 2,
@@ -15496,7 +15496,7 @@ var flights_may_data = `{
                 "mtow": 78000
             },
             "count": 31,
-            "mtow": 1653156
+            "mtow": 3089522
         }
     },
     "UUEE": {
@@ -15511,27 +15511,27 @@ var flights_may_data = `{
         "UUYY": {
             "155bb9": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "155be7": {
                 "count": 6,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c0b": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c0c": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c10": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "424261": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "424349": {
                 "count": 2,
@@ -15539,7 +15539,7 @@ var flights_may_data = `{
             },
             "4243a6": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "42498b": {
                 "count": 1,
@@ -15550,24 +15550,24 @@ var flights_may_data = `{
                 "mtow": 78000
             },
             "count": 22,
-            "mtow": 390000
+            "mtow": 2321983
         },
         "UWKD": {
             "155be0": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 101150
             },
             "155be2": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c26": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 101150
             },
             "424261": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "424296": {
                 "count": 1,
@@ -15599,15 +15599,15 @@ var flights_may_data = `{
             },
             "42437c": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "4243a6": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "424443": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "424945": {
                 "count": 1,
@@ -15618,28 +15618,28 @@ var flights_may_data = `{
                 "mtow": 78000
             },
             "count": 19,
-            "mtow": 725077
+            "mtow": 2232254
         },
         "UWUU": {
             "155bdb": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "count": 2,
-            "mtow": 0
+            "mtow": 202300
         },
         "UWWW": {
             "155c0d": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c1a": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 101150
             },
             "155c26": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 101150
             },
             "42423d": {
                 "count": 2,
@@ -15663,19 +15663,19 @@ var flights_may_data = `{
             },
             "424367": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "42437c": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 171961
             },
             "42437e": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "4243a6": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "4243fb": {
                 "count": 2,
@@ -15683,23 +15683,23 @@ var flights_may_data = `{
             },
             "42442b": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "42442c": {
                 "count": 3,
-                "mtow": 0
+                "mtow": 174200
             },
             "42442d": {
                 "count": 2,
-                "mtow": 0
+                "mtow": 174200
             },
             "424430": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 174200
             },
             "424442": {
                 "count": 1,
-                "mtow": 0
+                "mtow": 171961
             },
             "42458f": {
                 "count": 2,
@@ -15714,7 +15714,7 @@ var flights_may_data = `{
                 "mtow": 78000
             },
             "count": 35,
-            "mtow": 1408060
+            "mtow": 4068304
         }
     },
     "UUWW": {
